@@ -1,11 +1,10 @@
-
 const newsContent = [
-    {
-        id: 1,
-        title: "バラエティ動画『おしゃれ番長 エリリ・エリ コーデバトル』公開！",
-        date: "2026.01.30",
-        tag: "動画更新",
-        body: `<img src="./img/news/NEWS-01-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="おしゃれ番長">
+  {
+    id: 1,
+    title: "バラエティ動画『おしゃれ番長 エリリ・エリ コーデバトル』公開！",
+    date: "2026.01.30",
+    tag: "動画更新",
+    body: `<img src="./img/news/NEWS-01-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="おしゃれ番長">
 
         <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
             『おしゃれ番長 エリリ・エリ コーデバトル』公開！
@@ -72,14 +71,14 @@ const newsContent = [
             <a href="https://x.com/wassyoihohohoi" target="_blank" class="text-primary underline">
                 https://x.com/wassyoihohohoi
             </a>
-        </p>`
-    },
-    {
-        id: 2,
-        title: "歌ってみた動画『ようこそジャパリパークへ』公開！",
-        date: "2026.02.14",
-        tag: "動画更新",
-        body: `<img src="./img/news/NEWS-02-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="ようこそジャパリパークへ">
+        </p>`,
+  },
+  {
+    id: 2,
+    title: "歌ってみた動画『ようこそジャパリパークへ』公開！",
+    date: "2026.02.14",
+    tag: "動画更新",
+    body: `<img src="./img/news/NEWS-02-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="ようこそジャパリパークへ">
 
         <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
             『ようこそジャパリパークへ』歌ってみた公開！
@@ -137,14 +136,14 @@ const newsContent = [
                 <li>マネジメント：ずんだゆき　<a href="https://x.com/zund_Yuki" target="_blank" class="text-primary underline">https://x.com/zund_Yuki</a></li>
                 <li>プロジェクト管理：あいづたか　<a href="https://x.com/TakaAizu" target="_blank" class="text-primary underline">https://x.com/TakaAizu</a></li>
             </ul>
-        </div>`
-    },
-    {
-        id: 3,
-        title: "ボイス『震える君を抱きしめて』販売開始！",
-        date: "2026.03.14",
-        tag: "活動報告",
-        body: `<img src="./img/news/NEWS-03-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="震える君を抱きしめて">
+        </div>`,
+  },
+  {
+    id: 3,
+    title: "ボイス『震える君を抱きしめて』販売開始！",
+    date: "2026.03.14",
+    tag: "活動報告",
+    body: `<img src="./img/news/NEWS-03-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="震える君を抱きしめて">
 
         <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
             シチュエーションボイス『震える君を抱きしめて』販売開始
@@ -223,14 +222,14 @@ const newsContent = [
                 <li>Metror様：MELOW Eye texture1＆2</li>
                 <li>Tonarino様：Unisex Short cut</li>
             </ul>
-        </div>`
-    },
-    {
-        id: 4,
-        title: "EnjoyGameUnion!! 公式Webサイトをオープンしました！",
-        date: "2026.03.25",
-        tag: "お知らせ",
-        body: `<img src="./img/news/NEWS-04-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="EGU公式サイト">
+        </div>`,
+  },
+  {
+    id: 4,
+    title: "EnjoyGameUnion!! 公式Webサイトをオープンしました！",
+    date: "2026.03.25",
+    tag: "お知らせ",
+    body: `<img src="./img/news/NEWS-04-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="EGU公式サイト">
 
         <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
             EnjoyGameUnion!! 公式サイト公開のお知らせ
@@ -252,14 +251,14 @@ const newsContent = [
                 EnjoyGameUnion!!は、「楽しくゲームをすること」をモットーに活動するコミュニティです。<br>
                 今後も様々な企画やコンテンツを展開してまいります。
             </p>
-        </div>`
-    },
-    {
-        id: 5,
-        title: "ボイス『メスガキの耳かきで屈服』販売開始！",
-        date: "2026.04.01",
-        tag: "活動報告",
-        body: `<img src="./img/news/NEWS-05-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="メスガキに耳かきをされるシチュボ">
+        </div>`,
+  },
+  {
+    id: 5,
+    title: "ボイス『メスガキの耳かきで屈服』販売開始！",
+    date: "2026.04.01",
+    tag: "活動報告",
+    body: `<img src="./img/news/NEWS-05-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="メスガキに耳かきをされるシチュボ">
 
         <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
             シチュエーションボイス『メスガキの耳かきで屈服』販売開始
@@ -323,78 +322,77 @@ const newsContent = [
                 <li>pipiza様：Twinkle Tails</li>
                 <li>ねここや@かんな久様：【VR-ASMRツールセット 9種類】</li>
             </ul>
-        </div>`
-    },
-    
-    /* ===投稿テンプレ=== */
-    // {
-    //     id: ,
-    //     title: "タイトル",
-    //     date: "YYYY.MM.DD",
-    //     tag: "お知らせ・活動報告・動画更新",
-    //     body: `<img src="./img/news/update.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="アイキャッチ">
-    //         <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">新体制について</h3>
-    //         <p class="mb-6">
-    //             新メンバーの詳細は、本日20:00からの生放送にて発表いたします。ぜひリアルタイムでご覧ください。
-    //         </p>
-    //         <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
-    //             <p class="text-sm font-bold text-slate-500 mb-2 uppercase tracking-widest">Update Info</p>
-    //             <ul class="list-disc list-inside space-y-2 text-slate-600">
-    //                 <li>新メンバー1名加入</li>
-    //                 <li>公式サイトのメンバーページ更新</li>
-    //                 <li>春期限定イベントの開催決定</li>
-    //             </ul>
-    //         </div>'
-    //  },
+        </div>`,
+  },
 
-    /* ===以下内容テンプレ=== */
-    // 追加する場合はbodyに追加してもらえばOK
+  /* ===投稿テンプレ=== */
+  // {
+  //     id: ,
+  //     title: "タイトル",
+  //     date: "YYYY.MM.DD",
+  //     tag: "お知らせ・活動報告・動画更新",
+  //     body: `<img src="./img/news/update.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="アイキャッチ">
+  //         <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">新体制について</h3>
+  //         <p class="mb-6">
+  //             新メンバーの詳細は、本日20:00からの生放送にて発表いたします。ぜひリアルタイムでご覧ください。
+  //         </p>
+  //         <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+  //             <p class="text-sm font-bold text-slate-500 mb-2 uppercase tracking-widest">Update Info</p>
+  //             <ul class="list-disc list-inside space-y-2 text-slate-600">
+  //                 <li>新メンバー1名加入</li>
+  //                 <li>公式サイトのメンバーページ更新</li>
+  //                 <li>春期限定イベントの開催決定</li>
+  //             </ul>
+  //         </div>'
+  //  },
 
-    /* ===タイトル=== */
-    // <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">タイトル</h3>
+  /* ===以下内容テンプレ=== */
+  // 追加する場合はbodyに追加してもらえばOK
 
-    /* ===YouTube=== */
-    // <div class="aspect-video w-full mb-8">
-    //     <iframe 
-    //         class="w-full h-full rounded-3xl shadow-2xl" 
-    //         src="https://www.youtube.com/embed/VIDEO_ID&rel=0" 
-    //         title="YouTube video player" 
-    //         frameborder="0" 
-    //         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    //         allowfullscreen>
-    //     </iframe>
-    // </div>
+  /* ===タイトル=== */
+  // <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">タイトル</h3>
 
-    /* ===BOOTHボタン=== */
-    // <div class="flex justify-center my-8">
-    //     <a href="https://booth.pm/ja/items/ID" target="_blank" 
-    //         class="group flex items-center gap-3 bg-[#fc4d50] text-white font-black py-4 px-10 rounded-2xl shadow-xl shadow-red-100 hover:bg-[#ff5a5d] hover:-translate-y-1 transition-all duration-300">
-    //         <i class="fa-solid fa-cart-shopping text-xl"></i>
-    //         <span>BOOTHでチェックする</span>
-    //         <i class="fa-solid fa-arrow-up-right-from-square text-xs opacity-50 group-hover:opacity-100 transition-opacity"></i>
-    //     </a>
-    // </div>
+  /* ===YouTube=== */
+  // <div class="aspect-video w-full mb-8">
+  //     <iframe
+  //         class="w-full h-full rounded-3xl shadow-2xl"
+  //         src="https://www.youtube.com/embed/VIDEO_ID&rel=0"
+  //         title="YouTube video player"
+  //         frameborder="0"
+  //         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  //         allowfullscreen>
+  //     </iframe>
+  // </div>
 
-    
-    /* ===テーブル=== */
-    // <h3 class="text-2xl font-black mb-6">テーブル</h3>
-    // <div class="overflow-hidden border border-slate-100 rounded-2xl mb-8">
-    //     <table class="w-full text-left border-collapse">
-    //         <tr class="bg-slate-50">
-    //             <th class="p-4 border-b border-slate-100 font-bold text-slate-600 w-1/3">開催日時</th>
-    //             <td class="p-4 border-b border-slate-100">2026年4月25日 21:00〜</td>
-    //         </tr>
-    //         <tr>
-    //             <th class="p-4 border-b border-slate-100 font-bold text-slate-600">種目</th>
-    //             <td class="p-4 border-b border-slate-100">VRChat内 特設ゲームワールド</td>
-    //         </tr>
-    //         <tr class="bg-slate-50">
-    //             <th class="p-4 font-bold text-slate-600">参加資格</th>
-    //             <td class="p-4">Union公式Discordへの参加</td>
-    //         </tr>
-    //     </table>
-    // </div>
-    // <p class="text-slate-500 text-sm italic">
-    //     ※エントリーは定員に達し次第終了となります。
-    // </p>
+  /* ===BOOTHボタン=== */
+  // <div class="flex justify-center my-8">
+  //     <a href="https://booth.pm/ja/items/ID" target="_blank"
+  //         class="group flex items-center gap-3 bg-[#fc4d50] text-white font-black py-4 px-10 rounded-2xl shadow-xl shadow-red-100 hover:bg-[#ff5a5d] hover:-translate-y-1 transition-all duration-300">
+  //         <i class="fa-solid fa-cart-shopping text-xl"></i>
+  //         <span>BOOTHでチェックする</span>
+  //         <i class="fa-solid fa-arrow-up-right-from-square text-xs opacity-50 group-hover:opacity-100 transition-opacity"></i>
+  //     </a>
+  // </div>
+
+  /* ===テーブル=== */
+  // <h3 class="text-2xl font-black mb-6">テーブル</h3>
+  // <div class="overflow-hidden border border-slate-100 rounded-2xl mb-8">
+  //     <table class="w-full text-left border-collapse">
+  //         <tr class="bg-slate-50">
+  //             <th class="p-4 border-b border-slate-100 font-bold text-slate-600 w-1/3">開催日時</th>
+  //             <td class="p-4 border-b border-slate-100">2026年4月25日 21:00〜</td>
+  //         </tr>
+  //         <tr>
+  //             <th class="p-4 border-b border-slate-100 font-bold text-slate-600">種目</th>
+  //             <td class="p-4 border-b border-slate-100">VRChat内 特設ゲームワールド</td>
+  //         </tr>
+  //         <tr class="bg-slate-50">
+  //             <th class="p-4 font-bold text-slate-600">参加資格</th>
+  //             <td class="p-4">Union公式Discordへの参加</td>
+  //         </tr>
+  //     </table>
+  // </div>
+  // <p class="text-slate-500 text-sm italic">
+  //     ※エントリーは定員に達し次第終了となります。
+  // </p>
 ];
