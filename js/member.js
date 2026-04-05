@@ -1,0 +1,452 @@
+const membersData = [
+  {
+    id: 1,
+    name: "トッサノ",
+    vrc: "トッサノ",
+    tag: ["主催"],
+    color: "#111111",
+    desc1: "EGUのなんかリーダーをしているらしいクラゲ<br>楽しいことをしたい！という気分でEGUで立ち上げたらなんかすごいことになった、皆凄いね<br>MV作るのが趣味で、ほっとくと一生作業をし続ける",
+    desc2: "リーダーをしているらしい<br>MVとか動画とか作成したい<br>ラジオ、ゲーム配信",
+    images: [
+      "./img/members/01-トッサノ-01.webp", 
+      "./img/members/01-トッサノ-02.webp", 
+      "./img/members/01-トッサノ-03.webp"
+    ],
+    x: "tossanovrc",
+    youtube: "tossanogyotaku",
+  },
+  {
+    id: 2,
+    name: "ずんだゆき",
+    vrc: "ずんだゆき",
+    tag: ["運営・裏方"],
+    color: "#5ED464",
+    desc1: 'VRChatを中心に活動している裏方・技術サポート担当です。<br>イベント運営や配信まわりを得意としていて、これまでに「EGU杯（EnjoyGameUnion）」などの大会配信や企画進行に関わってきました。ストリートファイター6やVALORANTといったタイトルの大会運営・配信サポートを担当しています。<br>「楽しくゲームすること」を大切にしながら、参加者も視聴者も安心して楽しめる環境づくりを裏側から支えるのが自分の役割です。<br>VRChatを活用したイベント企画や配信まわりのご相談も歓迎していますので、気軽にお声がけください。',
+    desc2: "なし",
+    images: [
+      "./img/members/02-ずんだゆき-01.webp", 
+      "./img/members/02-ずんだゆき-02.webp", 
+      "./img/members/02-ずんだゆき-03.webp"
+    ],
+    x: "zund_Yuki",
+    youtube: "",
+  },
+  {
+    id: 3,
+    name: "Sava",
+    vrc: "Sava_403",
+    tag: ["運営・裏方"],
+    color: "#7148B0",
+    desc1: "歌が好きな裏方・運営のお兄さん（？）<br><br>技術力とかはからっきしなので、コミュニティマネジメントや大会運営などを担当しつつ、<br><br>メンバーの皆がそれぞれの個性を出しながら輝ける場所を作ろうと日々奮闘している。<br><br>イメージカラーは紫色。<br><br>ゲストで呼ばれた配信では参加者として場をわちゃわちゃさせたり、<br>自チャンネルではたまに歌ってみた動画を上げたりする。<br><br>得意技は飲酒時に繰り出される俊敏な首の動き。",
+    desc2: "裏方、運営<br>ゲーム配信<br>ゲストパーソナリティ",
+    images: [
+      "./img/members/03-sava-01.webp", 
+      "./img/members/03-sava-02.webp", 
+      "./img/members/03-sava-03.webp"
+    ],
+    x: "Sava_403",
+    youtube: "Sava_403",
+  },
+  {
+    id: 4,
+    name: "Dr.Anri",
+    vrc: "Dr_Anri",
+    tag: ["メンバー"],
+    color: "#FF6FFF",
+    desc1: "",
+    desc2: "",
+    images: [
+      ""
+    ],
+    x: "Es96L4ap",
+    youtube: "",
+  },
+  {
+    id: 5,
+    name: "まじぇんて",
+    vrc: "majennte",
+    tag: ["メンバー"],
+    color: "#C77300",
+    desc1: "酒だ、酒をくれ、酒さえあれば何でもできる",
+    desc2: "ゲーム配信、ましゅまろ相談室",
+    images: [
+      "./img/members/05-まじぇんて-01.webp", 
+      "./img/members/05-まじぇんて-02.webp", 
+      "./img/members/05-まじぇんて-03.webp"
+    ],
+    x: "majennte_vrc",
+    youtube: "",
+  },
+  {
+    id: 6,
+    name: "UTAN",
+    vrc: "UTAN_DX",
+    tag: ["メンバー"],
+    color: "#fc2915",
+    desc1: "楽しい事や面白い事が大好きなジト目愛好家。<br>EGUには、ぬるっと現れ、そしてぬるっと去る。<br>猫みたいな感じ🐱ぎゃおん<br><br>好き：自分が関わってない\"面白い事\"を煽る事<br>嫌い：鼻くそ食べるやつ",
+    desc2: "歌ってみた / ゲーム配信",
+    images: [
+      ""
+    ],
+    x: "",
+    youtube: "",
+  },
+  {
+    id: 7,
+    name: "エリリ・エリ",
+    vrc: "エリリ・エリ",
+    tag: ["メンバー"],
+    color: "#ffef0c",
+    desc1: "EGUの清楚ワンコ担当、エリリ・エリです。<br>VRChatでは主にキャスト業を行ったり、Nagisaに行ったり、動画制作をしたりしています。<br>EGUではゲーム配信時に画面担当などをしています。<br>無暗に褒めると胃痛で苦しみだすので要注意！<br>FPSをすると人を撃つ快感で悶え始めます。<br>同性の推しに対してはコミュ障が発動して隣に立てなくなります。<br>──実はEGU内のシチュボブーム火付け役（？）でもある…？",
+    desc2: "歌ってみた/ゲーム配信/おしゃれ番長エリリ・エリ　コーデバトル",
+    images: [
+      "./img/members/07-エリリエリ-01.webp", 
+      "./img/members/07-エリリエリ-02.webp", 
+      "./img/members/07-エリリエリ-03.webp"
+    ],
+    x: "nameSnow66",
+    youtube: "",
+  },
+  {
+    id: 8,
+    name: "garavella",
+    vrc: "garavella",
+    tag: ["メンバー"],
+    color: "#900ffa",
+    desc1: "",
+    desc2: "",
+    images: [
+      ""
+    ],
+    x: "garavella1010",
+    youtube: "",
+  },
+  {
+    id: 9,
+    name: "白夏ハル",
+    vrc: "Shiranatsu_haru",
+    tag: ["メンバー"],
+    color: "#ff9dff",
+    desc1: "やっほ〜！EGUのかわいい担当(？)白夏ハルだよ〜<br>好きなことはみんなでゲームしたり、お話したりすること！あとオムライス！<br>最近は歌やダンスにチャレンジしてみたり？<br>イメージカラーはピンク！<br>よろしくね〜！！",
+    desc2: "ゲーム配信",
+    images: [
+      "./img/members/09-ハル-01.webp", 
+      "./img/members/09-ハル-02.webp", 
+      "./img/members/09-ハル-03.webp"
+    ],
+    x: "shiranatsu_haru",
+    youtube: "",
+  },
+  {
+    id: 10,
+    name: "NAOZEN",
+    vrc: "NAOZEN s8",
+    tag: ["メンバー"],
+    color: "#ff7b00",
+    desc1: "",
+    desc2: "",
+    images: [
+      ""
+    ],
+    x: "NAOZEN1110",
+    youtube: "",
+  },
+  {
+    id: 11,
+    name: "ぐらすず",
+    vrc: "ぐらすず",
+    tag: ["メンバー"],
+    color: "#00CD2F",
+    desc1: "吸ってるのはキャスターなホワイト。好きなカップ麺はどんでべぇな天ぷらそば。ゲームやってる時の声がでかい。緑が好き　",
+    desc2: "ゲーム配信",
+    images: [
+      "./img/members/11-ぐらすず-01.webp", 
+      "./img/members/11-ぐらすず-02.webp", 
+      "./img/members/11-ぐらすず-03.webp"
+    ],
+    x: "gura_ow2",
+    youtube: "",
+  },
+  {
+    id: 12,
+    name: "もっく",
+    vrc: "もっくたろう。",
+    tag: ["メンバー"],
+    color: "#f51e0f",
+    desc1: "天上天下唯我独尊、目指せ俺だけがちやほやされる世界<br>トッサノに主人公というレッテルを張られた半端者<br><br>様々な素材を作ることで恩を売っている。<br>歌みたに力を入れたいと思っている。",
+    desc2: "歌みた、ゲーム配信",
+    images: [
+      "./img/members/12-もっく-01.webp", 
+      "./img/members/12-もっく-02.webp", 
+      "./img/members/12-もっく-03.webp"
+    ],
+    x: "eiheihei_dk",
+    youtube: "",
+  },
+  {
+    id: 13,
+    name: "しんやぞ",
+    vrc: "しんやぞ",
+    tag: ["メンバー"],
+    color: "#ffd643",
+    desc1: "おもろいことがとにかく好きなロポりこん<br>VRCでは寝落ちの神でありどこでも寝られる<br>EGUではわちゃわちゃうるさくしてるぞ！<br>生粋のFPSゲーマーだけどゲーム全般なんでも大好き！<br>座右の銘は生きてりゃ大抵のことはなんとかなる",
+    desc2: "ゲーム配信",
+    images: [
+      "./img/members/13-しんやぞ-01.webp", 
+      "./img/members/13-しんやぞ-02.webp", 
+      "./img/members/13-しんやぞ-03.webp"
+    ],
+    x: "Zz_sinsin_Zz",
+    youtube: "",
+  },
+  {
+    id: 14,
+    name: "saboint",
+    vrc: "saboint99",
+    tag: ["メンバー"],
+    color: "#ee8a2c",
+    desc1: "EGU内の最強ドラゴン。オス。小さい。足が遅い。力が弱い。火ふけない。翼がないから飛べない。角と尻尾がデカい。<br>好きなものはお酒。嫌いなものは柔軟剤。<br>ゲームが得意。人の名前を覚えるのが苦手。",
+    desc2: "ゲームしてるだけ",
+    images: [
+      "./img/members/14-さぼいんと-01.webp", 
+      "./img/members/14-さぼいんと-02.webp", 
+      "./img/members/14-さぼいんと-03.webp"
+    ],
+    x: "morrimorriGhh",
+    youtube: "",
+  },
+  {
+    id: 15,
+    name: "suraimi",
+    vrc: "metal suraimi",
+    tag: ["メンバー"],
+    color: "#2B8EFF",
+    desc1: "",
+    desc2: "",
+    images: [
+      ""
+    ],
+    x: "siawase_suraimi",
+    youtube: "",
+  },
+  {
+    id: 16,
+    name: "とと",
+    vrc: "とと（toto）",
+    tag: ["メンバー"],
+    color: "#ffb8f0",
+    desc1: "マイペースに日々を生きたいキプフェル<br>フレンドに会いに行ったことがきっかけで加入した<br><br>EGUに入ってゲームに触れた初心者枠！<br>センスは壊滅的だけど、いつか得意なゲームが見つかるはず<br>いつも納期に追われているのでEGU企画は単発やゲスト参加が多め <br><br>好きなものは動物とお酒<br>トレードマークは真っ赤ないちご！",
+    desc2: "歌みた、ゲーム、EGUあにまるず",
+    images: [
+      "./img/members/16-とと-01.webp", 
+      "./img/members/16-とと-02.webp", 
+      "./img/members/16-とと-03.webp"
+    ],
+    x: "Tototo_Tatin",
+    youtube: "",
+  },
+  {
+    id: 17,
+    name: "ちぇるびん",
+    vrc: "ちぇるびん",
+    tag: ["メンバー"],
+    color: "#7c11a7",
+    desc1: "<br>お姉さんが好きです。EGUで1番新人なのでみんなの靴（＾ω＾）ﾍﾟﾛﾍﾟﾛさせてもらってます。<br>最近改変に興味を持ち始めたので、これを機になにかやってみたいという気持ちはありつつ<br>まだまだ観客側としてEGUのみんなの活動を眺めていたい一般マヌカです。あとお姉さんが好きです。",
+    desc2: "ゲーム配信",
+    images: [
+      "./img/members/17-ちぇるびん-01.webp", 
+      "./img/members/17-ちぇるびん-02.webp", 
+      "./img/members/17-ちぇるびん-03.webp"
+    ],
+    x: "chelb1n",
+    youtube: "",
+  },
+  {
+    id: 18,
+    name: "こまつちま",
+    vrc: "komatsu_",
+    tag: ["メンバー"],
+    color: "#D9F2FF",
+    desc1: "EGUのゲラ担当こまつです。絵を描くのが好きでたまに個人チャンネルで配信もしています。VRCではチルワールドでのんびり作業しながら雑談するのが好き。オススメのチルワ随時募集中です。<br>ゲームはFPS、MMO、サバイバル系等なんでもやります。<br>イメージカラーは青。<br>ママではありません。",
+    desc2: "歌ってみた/ゲーム配信/シュチュエーションボイス",
+    images: [
+      "./img/members/18-こまつちま-01.webp", 
+      "./img/members/18-こまつちま-02.webp", 
+      "./img/members/18-こまつちま-03.webp"
+    ],
+    x: "komatsu_chiii",
+    youtube: "komatsu-chiii",
+  },
+  {
+    id: 19,
+    name: "永夏",
+    vrc: "Tooka_",
+    tag: ["メンバー"],
+    color: "#4e1ff8",
+    desc1: "メカクレはいいぞ。<br>配信素材作りや動画編集の傍ら、たまーに配信活動に顔を出しています。<br>大喜利と謎解き、麻雀と日本酒が好き。<br>ゆるーく適当に生きていきたい。<br>イメージカラーは青紫。",
+    desc2: "裏方、歌ってみた、ゲーム配信",
+    images: [
+      "./img/members/19-とおか-01.webp", 
+      "./img/members/19-とおか-02.webp", 
+      "./img/members/19-とおか-03.webp"
+    ],
+    x: "t1o0k",
+    youtube: "t1o0k-a",
+  },
+  {
+    id: 20,
+    name: "巡璃",
+    vrc: "rneguri",
+    tag: ["メンバー"],
+    color: "#d1d1d1",
+    desc1: "EGUの幽霊部員<br>e-sports系とかSteaｍゲーをいつもやってます。<br>Vtuberとかアニメ大好き！",
+    desc2: "",
+    images: [
+      "./img/members/20-ずんだゆき-01.webp", 
+      "./img/members/20-ずんだゆき-02.webp", 
+      "./img/members/20-ずんだゆき-03.webp"
+    ],
+    x: "rneguri",
+    youtube: "",
+  },
+  {
+    id: 21,
+    name: "Chelsea",
+    vrc: "ChelseaPOP",
+    tag: ["メンバー"],
+    color: "#eb5a96",
+    desc1: "",
+    desc2: "",
+    images: [
+      ""
+    ],
+    x: "ManyaruYazawa",
+    youtube: "",
+  },
+  {
+    id: 22,
+    name: "RIN",
+    vrc: "RI------------N",
+    tag: ["メンバー"],
+    color: "#f1ccb7",
+    desc1: "",
+    desc2: "",
+    images: [
+      ""
+    ],
+    x: "",
+    youtube: "",
+  },
+  {
+    id: 23,
+    name: "ふなナッツ",
+    vrc: "ふなナッツ",
+    tag: ["メンバー"],
+    color: "#bb895a",
+    desc1: "",
+    desc2: "",
+    images: [
+      ""
+    ],
+    x: "_funa_27",
+    youtube: "",
+  },
+  {
+    id: 24,
+    name: "スフレ・クルル",
+    vrc: "すふれぇ",
+    tag: ["メンバー"],
+    color: "#cacaca",
+    desc1: "EGUの輝く無言勢、クルル・スフレ！<br>持ち前の動きで繰り出す多彩な感情表現で、<br>コミュニティに彩りと華やかさを振りまくよー！<br><br>チャームポイントは銀と黒を基調とした髪と、深紅の瞳！<br><br>ゲームが昔から大好きで、触れてきたゲームの数はEGU内でも一番？かも！<br>コミュニティに彩りと華やかさを振りまくよー！<br>チャームポイントは銀と黒を基調とした髪と、深紅の瞳！<br><br></br>ゲームが昔から大好きで、触れてきたゲームの数はEGU内でも一番？かも！<br><br></br>皆に構って貰えることが大好き！<br></br>仲良くしてね！",
+    desc2: "",
+    images: [
+      ""
+    ],
+    x: "sufure378481",
+    youtube: "",
+  },
+  {
+    id: 25,
+    name: "るた",
+    vrc: "るた／ruta",
+    tag: ["メンバー"],
+    color: "#e99481",
+    desc1: "",
+    desc2: "",
+    images: [
+      ""
+    ],
+    x: "ruta_xa",
+    youtube: "",
+  },
+  {
+    id: 26,
+    name: "KAITO",
+    vrc: "KAITO-030",
+    tag: ["メンバー"],
+    color: "#205ada",
+    desc1: "",
+    desc2: "",
+    images: [
+      ""
+    ],
+    x: "",
+    youtube: "",
+  },
+  {
+    id: 27,
+    name: "61",
+    vrc: "61__",
+    tag: ["メンバー"],
+    color: "#b80909",
+    desc1: "",
+    desc2: "",
+    images: [
+      ""
+    ],
+    x: "",
+    youtube: "",
+  },
+  {
+    id: 28,
+    name: "しの",
+    vrc: "sino_214",
+    tag: ["メンバー"],
+    color: "#424242",
+    desc1: "",
+    desc2: "",
+    images: [
+      ""
+    ],
+    x: "yukino_exe",
+    youtube: "",
+  },
+  {
+    id: 29,
+    name: "mikanoisii",
+    vrc: "mikanoisii",
+    tag: ["メンバー"],
+    color: "#8f67b6",
+    desc1: "",
+    desc2: "",
+    images: [
+      ""
+    ],
+    x: "mikanoisii72360",
+    youtube: "",
+  },
+  // {
+  //   id: ,
+  //   name: "活動名",
+  //   vrc: "VRC名",
+  //   tag: ["運営・裏方", "メンバー"],
+  //   color: "#000000",
+  //   desc1: "自己紹介",
+  //   desc2: "EGUでの活動",
+  //   images: [
+  //     "画像1", "画像2", "画像3", 
+  //   ],
+  //   x: "XのID(ないときは空白)",
+  //   youtube: "youtubeチャンネルのID(ないときは空白)",
+  // },
+];
