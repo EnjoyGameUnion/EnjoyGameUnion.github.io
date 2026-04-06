@@ -329,6 +329,71 @@ const newsContent = [
             </p>
         </div>`,
   },
+  {
+    id: 6,
+    title: "【EGUゲーム部】『誰の頭が一番《Ultimate》かって話』公開！",
+    date: "2026.04.07",
+    tag: "Live配信",
+    thumb: "./img/news/NEWS-06-01.webp",
+    body: `<img src="./img/news/NEWS-06-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="EGU ライブ配信 Ultimate Chicken Hose">
+
+        <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
+            EGUゲーム部 Ultimate Chicken Hoseをプレイします！
+        </h3>
+        
+        <p class="mb-6 text-slate-600 leading-loose">
+            EnjoyGameUnion所属メンバー、EGUゲーム部によるゲーム配信を実施！<br>
+            個性豊かなメンバーによるわちゃわちゃした配信をぜひお楽しみください。
+        </p>
+        
+        <!-- YouTube埋め込み -->
+        <div class="aspect-video w-full mb-8">
+            <iframe 
+                class="w-full h-full rounded-3xl shadow-2xl" 
+                src="https://www.youtube.com/embed/XqBU2FS48Zg?rel=0" 
+                title="EGU ゲーム配信" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe>
+        </div>
+        
+        <h3 class="text-xl font-bold mb-4">◆出演者</h3>
+        <ul class="mb-8 text-slate-600 leading-loose list-disc list-inside">
+            <li>ぐらすず　<a href="https://x.com/gura_ow2" target="_blank" class="text-primary underline">https://x.com/gura_ow2</a><br>アルティメイトな馬枠</li>
+            <li>すもももももっく　<a href="https://x.com/eiheihei_dk" target="_blank" class="text-primary underline">https://x.com/eiheihei_dk</a><br>イケメンイケボな鳥枠</li>
+            <li>エリリ・エリ　<a href="https://x.com/nameSnow66" target="_blank" class="text-primary underline">https://x.com/nameSnow66</a><br>あわてんぼうな羊枠</li>
+            <li>まじぇんて　<a href="https://x.com/majennte_vrc" target="_blank" class="text-primary underline">https://x.com/majennte_vrc</a><br>勝手に暴れまわる狸枠</li>
+        </ul>
+        
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 mb-8">
+            <p class="text-sm font-bold text-slate-500 mb-4 uppercase tracking-widest">Related Content</p>
+            <ul class="space-y-3 text-slate-600">
+                <li>
+                    ★Sava&こまつちま歌ってみた動画「革命デュアリズム」公開中！<br>
+                    <a href="https://www.youtube.com/watch?v=4qaMwhXaW2c" target="_blank" class="text-primary underline">
+                        https://www.youtube.com/watch?v=4qaMwhXaW2c
+                    </a>
+                </li>
+                <li>
+                    ★ずんだゆき シチュエーションボイス販売中！<br>
+                    <a href="https://egu.booth.pm/items/8058227" target="_blank" class="text-primary underline">
+                        震える君を抱きしめて
+                    </a>
+                </li>
+                <li>
+                    ★こまつちま シチュエーションボイス販売中！<br>
+                    <a href="https://egu.booth.pm/items/8151321" target="_blank" class="text-primary underline">
+                        メスガキの耳かきで屈服させられる
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        <p class="mb-8 text-slate-600 leading-loose">
+            この配信はVRC内のグループ「Enjoy Game Union（EGU）」所属メンバーがお届けするゲーム配信です。
+        </p>`,
+  },
 //   {
 //     id: 6,
 //     title: "Live配信『誰の頭が一番《Ultimate》かって話』【EGUゲーム部】開始",
