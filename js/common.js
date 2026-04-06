@@ -229,6 +229,9 @@ function setNews(showAll) {
       case "動画更新":
         contentHTML += `<span class="bg-pink-100 text-pink-600 text-xs font-bold px-3 py-1 rounded-full">${content.tag}</span>`;
         break;
+      case "Live配信":
+        contentHTML += `<span class="bg-green-100 text-green-600 text-xs font-bold px-3 py-1 rounded-full">${content.tag}</span>`;
+        break;
       default:
         contentHTML += `<span class="text-xs font-bold px-3 py-1 rounded-full">${content.tag}</span>`;
     }
