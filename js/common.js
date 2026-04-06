@@ -209,13 +209,21 @@ function setNews(showAll) {
     if (showAll) {
       contentHTML += `
       <li class="hover:bg-gray-50 transition-colors">
-        <div class="flex flex-col md:flex-row md:items-center p-6 gap-4" onclick="AllToDetail(${content.id})">
+      <div class="flex flex-col md:flex-row md:items-center p-6 gap-4" onclick="AllToDetail(${content.id})">
+        <!-- サムネ -->
+          <div class="w-full md:w-40 aspect-video shrink-0 overflow-hidden rounded-xl">
+            <img src="${content.thumb}" class="w-full h-full object-cover group-hover:scale-105 transition-transform">
+          </div>
           <div class="flex items-center gap-4 md:w-48 shrink-0">
             <span class="text-gray-400 font-en font-medium">${content.date}</span>`;
     } else {
       contentHTML += `
       <li class="hover:bg-gray-50 transition-colors">
         <div class="flex flex-col md:flex-row md:items-center p-6 gap-4" onclick="MainToDetail(${content.id})">
+        <!-- サムネ -->
+          <div class="w-full md:w-40 aspect-video shrink-0 overflow-hidden rounded-xl">
+            <img src="${content.thumb}" class="w-full h-full object-cover group-hover:scale-105 transition-transform">
+          </div>
           <div class="flex items-center gap-4 md:w-48 shrink-0">
             <span class="text-gray-400 font-en font-medium">${content.date}</span>`;
     }

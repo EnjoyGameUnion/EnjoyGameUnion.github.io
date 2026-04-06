@@ -4,7 +4,7 @@ const newsContent = [
     title: "バラエティ動画『おしゃれ番長 エリリ・エリ コーデバトル』公開！",
     date: "2026.01.30",
     tag: "動画更新",
-    thumbnail: "",
+    thumb: "./img/news/NEWS-01-01.webp",
     body: `<img src="./img/news/NEWS-01-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="おしゃれ番長">
 
         <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
@@ -79,6 +79,7 @@ const newsContent = [
     title: "歌ってみた動画『ようこそジャパリパークへ』公開！",
     date: "2026.02.14",
     tag: "動画更新",
+    thumb: "./img/news/NEWS-02-01.webp",
     body: `<img src="./img/news/NEWS-02-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="ようこそジャパリパークへ">
 
         <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
@@ -144,6 +145,7 @@ const newsContent = [
     title: "ボイス『震える君を抱きしめて』販売開始！",
     date: "2026.03.14",
     tag: "活動報告",
+    thumb: "./img/news/NEWS-03-01.webp",
     body: `<img src="./img/news/NEWS-03-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="震える君を抱きしめて">
 
         <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
@@ -230,7 +232,8 @@ const newsContent = [
     title: "ボイス『メスガキの耳かきで屈服』販売開始！",
     date: "2026.04.01",
     tag: "活動報告",
-    body: `<img src="./img/news/NEWS-05-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="メスガキに耳かきをされるシチュボ">
+    thumb: "./img/news/NEWS-04-01.webp",
+    body: `<img src="./img/news/NEWS-04-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="メスガキに耳かきをされるシチュボ">
 
         <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
             シチュエーションボイス『メスガキの耳かきで屈服』販売開始
@@ -301,7 +304,8 @@ const newsContent = [
     title: "EnjoyGameUnion!! 公式Webサイトをオープンしました！",
     date: "2026.04.06",
     tag: "お知らせ",
-    body: `<img src="./img/news/NEWS-04-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="EGU公式サイト">
+    thumb: "./img/news/NEWS-05-01.webp",
+    body: `<img src="./img/news/NEWS-05-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="EGU公式サイト">
 
         <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
             EnjoyGameUnion!! 公式サイト公開のお知らせ
@@ -325,35 +329,36 @@ const newsContent = [
             </p>
         </div>`,
   },
-  {
-    id: 6,
-    title: "EnjoyGameUnion!! 公式Webサイトをオープンしました！",
-    date: "2026.04.06",
-    tag: "Live配信",
-    body: `<img src="./img/news/NEWS-04-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="EGU公式サイト">
+//   {
+//     id: 6,
+//     title: "Live配信『誰の頭が一番《Ultimate》かって話』【EGUゲーム部】開始",
+//     date: "2026.04.07",
+//     tag: "Live配信",
+//     thumb: "./img/news/NEWS-01-01.webp",
+//     body: `<img src="./img/news/NEWS-04-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="EGU公式サイト">
 
-        <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
-            EnjoyGameUnion!! 公式サイト公開のお知らせ
-        </h3>
+//         <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
+//             EnjoyGameUnion!! 公式サイト公開のお知らせ
+//         </h3>
 
-        <p class="mb-6 text-slate-600 leading-loose">
-            この度、EnjoyGameUnion!!の公式Webサイトをオープンいたしました。<br>
-            本サイトでは、動画投稿や活動報告、お知らせなどを中心に、EGUの様々な取り組みを発信していきます。
-        </p>
+//         <p class="mb-6 text-slate-600 leading-loose">
+//             この度、EnjoyGameUnion!!の公式Webサイトをオープンいたしました。<br>
+//             本サイトでは、動画投稿や活動報告、お知らせなどを中心に、EGUの様々な取り組みを発信していきます。
+//         </p>
 
-        <p class="mb-8 text-slate-600 leading-loose">
-            今後はコンテンツの拡充や情報更新を随時行ってまいりますので、ぜひ定期的にご覧いただけますと幸いです。<br>
-            これからもEnjoyGameUnion!!をよろしくお願いいたします。
-        </p>
+//         <p class="mb-8 text-slate-600 leading-loose">
+//             今後はコンテンツの拡充や情報更新を随時行ってまいりますので、ぜひ定期的にご覧いただけますと幸いです。<br>
+//             これからもEnjoyGameUnion!!をよろしくお願いいたします。
+//         </p>
 
-        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
-            <p class="text-sm font-bold text-slate-500 mb-2 uppercase tracking-widest">About</p>
-            <p class="text-slate-600 leading-loose">
-                EnjoyGameUnion!!は、「楽しくゲームをすること」をモットーに活動するコミュニティです。<br>
-                今後も様々な企画やコンテンツを展開してまいります。
-            </p>
-        </div>`,
-  },
+//         <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+//             <p class="text-sm font-bold text-slate-500 mb-2 uppercase tracking-widest">About</p>
+//             <p class="text-slate-600 leading-loose">
+//                 EnjoyGameUnion!!は、「楽しくゲームをすること」をモットーに活動するコミュニティです。<br>
+//                 今後も様々な企画やコンテンツを展開してまいります。
+//             </p>
+//         </div>`,
+//   },
 
   /* ===投稿テンプレ=== */
   // {
@@ -361,6 +366,7 @@ const newsContent = [
   //     title: "タイトル",
   //     date: "YYYY.MM.DD",
   //     tag: "お知らせ・活動報告・動画更新",
+  //     thumb: "サムネ画像",
   //     body: `<img src="./img/news/update.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="アイキャッチ">
   //         <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">新体制について</h3>
   //         <p class="mb-6">
