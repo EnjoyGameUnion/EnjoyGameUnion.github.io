@@ -4,6 +4,7 @@ const newsContent = [
     title: "バラエティ動画『おしゃれ番長 エリリ・エリ コーデバトル』公開！",
     date: "2026.01.30",
     tag: "動画更新",
+    thumbnail: "",
     body: `<img src="./img/news/NEWS-01-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="おしゃれ番長">
 
         <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
@@ -19,7 +20,7 @@ const newsContent = [
         <div class="aspect-video w-full mb-8">
             <iframe 
                 class="w-full h-full rounded-3xl shadow-2xl" 
-                src="https://www.youtube.com/embed/HITavvIhxUI&rel=0"
+                src="https://www.youtube.com/embed/HITavvIhxUI?rel=0"
                 title="【前編】おしゃれ番長 エリリ・エリ コーデバトル" 
                 frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -93,7 +94,7 @@ const newsContent = [
         <div class="aspect-video w-full mb-8">
             <iframe 
                 class="w-full h-full rounded-3xl shadow-2xl" 
-                src="https://www.youtube.com/embed/gLAd9EQtDpc&rel=0" 
+                src="https://www.youtube.com/embed/gLAd9EQtDpc?rel=0" 
                 title="【歌ってみた】ようこそジャパリパークへ / EGUあにまるず【UTAN×エリリ・エリ×Tooka×とと】" 
                 frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -300,6 +301,35 @@ const newsContent = [
     title: "EnjoyGameUnion!! 公式Webサイトをオープンしました！",
     date: "2026.04.06",
     tag: "お知らせ",
+    body: `<img src="./img/news/NEWS-04-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="EGU公式サイト">
+
+        <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
+            EnjoyGameUnion!! 公式サイト公開のお知らせ
+        </h3>
+
+        <p class="mb-6 text-slate-600 leading-loose">
+            この度、EnjoyGameUnion!!の公式Webサイトをオープンいたしました。<br>
+            本サイトでは、動画投稿や活動報告、お知らせなどを中心に、EGUの様々な取り組みを発信していきます。
+        </p>
+
+        <p class="mb-8 text-slate-600 leading-loose">
+            今後はコンテンツの拡充や情報更新を随時行ってまいりますので、ぜひ定期的にご覧いただけますと幸いです。<br>
+            これからもEnjoyGameUnion!!をよろしくお願いいたします。
+        </p>
+
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+            <p class="text-sm font-bold text-slate-500 mb-2 uppercase tracking-widest">About</p>
+            <p class="text-slate-600 leading-loose">
+                EnjoyGameUnion!!は、「楽しくゲームをすること」をモットーに活動するコミュニティです。<br>
+                今後も様々な企画やコンテンツを展開してまいります。
+            </p>
+        </div>`,
+  },
+  {
+    id: 6,
+    title: "EnjoyGameUnion!! 公式Webサイトをオープンしました！",
+    date: "2026.04.06",
+    tag: "Live配信",
     body: `<img src="./img/news/NEWS-04-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="EGU公式サイト">
 
         <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
