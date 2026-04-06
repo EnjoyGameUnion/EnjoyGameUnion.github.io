@@ -250,10 +250,9 @@ function setNews(showAll) {
             <h4 class="text-gray-800 font-bold text-lg flex-1 group-hover:text-primary transition-colors">
             ${content.title}
             </h4>
-            <i
-              class="fa-solid fa-arrow-right text-gray-300 hidden md:block group-hover:text-primary transition-colors transform group-hover:translate-x-1"></i>
+            <i class="fa-solid fa-arrow-right text-gray-300 hidden md:block group-hover:text-primary transition-colors transform group-hover:translate-x-1"></i>
             </a>
-          </div
+          </div>
         </div>
       </li>
       `;
