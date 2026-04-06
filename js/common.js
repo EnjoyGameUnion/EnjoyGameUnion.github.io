@@ -209,23 +209,25 @@ function setNews(showAll) {
     if (showAll) {
       contentHTML += `
       <li class="hover:bg-gray-50 transition-colors">
-      <div class="flex flex-col md:flex-row md:items-center p-6 gap-4" onclick="AllToDetail(${content.id})">
+      <div class="flex flex-col md:flex-row md:items-start p-6 gap-4 cursor-pointer" onclick="AllToDetail(${content.id})">
         <!-- サムネ -->
           <div class="w-full md:w-40 aspect-video shrink-0 overflow-hidden rounded-xl">
             <img src="${content.thumb}" class="w-full h-full object-cover group-hover:scale-105 transition-transform">
           </div>
-          <div class="flex items-center gap-4 md:w-48 shrink-0">
-            <span class="text-gray-400 font-en font-medium">${content.date}</span>`;
+          <div class="flex-1 flex flex-col h-full">
+            <div class="flex items-center gap-4 mt-1 mb-2 md:w-48 shrink-0 ">
+              <span class="text-gray-400 font-en font-medium">${content.date}</span>`;
     } else {
       contentHTML += `
-      <li class="hover:bg-gray-50 transition-colors">
-        <div class="flex flex-col md:flex-row md:items-center p-6 gap-4" onclick="MainToDetail(${content.id})">
+      <li class="group hover:bg-gray-50 transition-colors">
+        <div class="flex flex-col md:flex-row md:items-start p-6 gap-4 cursor-pointer" onclick="MainToDetail(${content.id})">
         <!-- サムネ -->
           <div class="w-full md:w-40 aspect-video shrink-0 overflow-hidden rounded-xl">
             <img src="${content.thumb}" class="w-full h-full object-cover group-hover:scale-105 transition-transform">
           </div>
-          <div class="flex items-center gap-4 md:w-48 shrink-0">
-            <span class="text-gray-400 font-en font-medium">${content.date}</span>`;
+          <div class="flex-1 flex flex-col h-full">
+            <div class="flex items-center gap-4 mt-1 mb-2 md:w-48 shrink-0">
+              <span class="text-gray-400 font-en font-medium">${content.date}</span>`;
     }
     switch (content.tag) {
       case "お知らせ":
@@ -244,12 +246,15 @@ function setNews(showAll) {
         contentHTML += `<span class="text-xs font-bold px-3 py-1 rounded-full">${content.tag}</span>`;
     }
     contentHTML += `</div>
-          <h4 class="text-gray-800 font-bold text-lg flex-1 group-hover:text-primary transition-colors">
-          ${content.title}
-          </h4>
-          <i
-            class="fa-solid fa-arrow-right text-gray-300 hidden md:block group-hover:text-primary transition-colors transform group-hover:translate-x-1"></i>
-        </a>
+          <div class="flex items-center justify-between flex-1">
+            <h4 class="text-gray-800 font-bold text-lg flex-1 group-hover:text-primary transition-colors">
+            ${content.title}
+            </h4>
+            <i
+              class="fa-solid fa-arrow-right text-gray-300 hidden md:block group-hover:text-primary transition-colors transform group-hover:translate-x-1"></i>
+            </a>
+          </div
+        </div>
       </li>
       `;
     newsContainer.insertAdjacentHTML("beforeend", contentHTML);
