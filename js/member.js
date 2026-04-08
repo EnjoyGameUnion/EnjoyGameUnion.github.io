@@ -145,7 +145,7 @@ const membersData = [
   },
   {
     id: 10,
-    name: "なおぜん",
+    name: "NAOZEN",
     vrc: "NAOZEN s8",
     tag: ["メンバー"],
     color: "#ff7b00",
@@ -298,7 +298,7 @@ const membersData = [
     tag: ["メンバー"],
     color: "#d1d1d1",
     desc1:
-      "EGUの幽霊部員<br>e-sports系とかSteaｍゲーをいつもやってます。<br>Vtuberとかアニメ大好き！",
+      "EGUの幽霊部員<br>e-sports系とかSteamゲーをいつもやってます。<br>Vtuberとかアニメ大好き！",
     desc2: "-",
     images: [
       "./img/members/20-めぐり-01.webp",
