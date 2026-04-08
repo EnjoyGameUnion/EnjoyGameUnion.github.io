@@ -299,7 +299,7 @@ const membersData = [
     color: "#d1d1d1",
     desc1:
       "EGUの幽霊部員<br>e-sports系とかSteamゲーをいつもやってます。<br>Vtuberとかアニメ大好き！",
-    desc2: "",
+    desc2: "-",
     images: [
       "./img/members/20-めぐり-01.webp",
       "./img/members/20-めぐり-02.webp",
