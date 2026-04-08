@@ -298,13 +298,8 @@ const membersData = [
     tag: ["メンバー"],
     color: "#d1d1d1",
     desc1:
-<<<<<<< HEAD
       "EGUの幽霊部員<br>e-sports系とかSteamゲーをいつもやってます。<br>Vtuberとかアニメ大好き！",
     desc2: "",
-=======
-      "EGUの幽霊部員<br>e-sports系とかSteaｍゲーをいつもやってます。<br>Vtuberとかアニメ大好き！",
-    desc2: "-",
->>>>>>> d5e2e98ff9d92012dc0d3daff3c6075fcef4bb01
     images: [
       "./img/members/20-めぐり-01.webp",
       "./img/members/20-めぐり-02.webp",
