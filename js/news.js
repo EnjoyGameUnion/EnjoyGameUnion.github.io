@@ -394,6 +394,93 @@ const newsContent = [
             この配信はVRC内のグループ「Enjoy Game Union（EGU）」所属メンバーがお届けするゲーム配信です。
         </p>`,
   },
+  {
+    id: 7,
+    title: "【フレ＋隅っこラジオ】ゲスト：ずんだゆき 公開！",
+    date: "2026.04.10",
+    tag: "Live配信",
+    thumb: "./img/news/NEWS-07-01.webp",
+    body: `<img src="./img/news/NEWS-07-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="フレ＋隅っこラジオずんだゆき">
+  
+          <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
+              【フレ＋隅っこラジオ】ゲスト：ずんだゆきを公開しました。
+          </h3>
+  
+          <p class="mb-6 text-slate-600 leading-loose">
+              トッサノ、アンリによるフレ＋隅っこラジオのLive配信を行いました。<br>
+              ずんだゆきからどんな秘密が飛び出すのか！？<br>
+              ぜひアーカイブでお楽しみください。
+          </p>
+  
+          <!-- YouTube埋め込み -->
+          <div class="aspect-video w-full mb-8">
+              <iframe 
+                  class="w-full h-full rounded-3xl shadow-2xl" 
+                  src="https://www.youtube.com/embed/vPBCsqsgzyw?rel=0"
+                  title="Live配信アーカイブ" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  allowfullscreen>
+              </iframe>
+          </div>
+  
+          <h3 class="text-xl font-bold mb-4">◆メインパーソナリティー</h3>
+            <ul class="mb-8 text-slate-600 leading-loose list-disc list-inside">
+                <li>トッサノ　<a href="https://x.com/tossanovrc" target="_blank" class="text-primary underline">https://x.com/tossanovrc</a><br>EGUという謎グループの主催、エイプリルフールに動画を上げて疲れた</li>
+                <li>Dr.Anri　<a href="https://x.com/Es96L4ap" target="_blank" class="text-primary underline">https://x.com/Es96L4ap</a><br>EGU所属の自称一般人、アイドルになるらしい、乞うご期待</li>
+            </ul>
+
+          <h3 class="text-xl font-bold mb-4">◆ゲスト</h3>
+            <ul class="mb-8 text-slate-600 leading-loose list-disc list-inside">
+                <li>ずんだゆき　<a href="https://x.com/zund_Yuki" target="_blank" class="text-primary underline">https://x.com/zund_Yuki</a><br>EGUメンバーの優しいお兄さん担当、いつ寝てるんだろうってぐらいぶいちゃでも仕事しかしてない</li>
+            </ul>
+        
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 mb-8">
+            <p class="text-sm font-bold text-slate-500 mb-4 uppercase tracking-widest">Related Content</p>
+            <ul class="space-y-3 text-slate-600">
+                <li>
+                    ★EnjoyGameUnion!!公式HP<br>
+                    <a href="https://enjoygameunion.github.io" target="_blank" class="text-primary underline">
+                        https://enjoygameunion.github.io
+                    </a>
+                </li>
+                <li>
+                    ★ずんだゆき シチュエーションボイス販売中！<br>
+                    <a href="https://egu.booth.pm/items/8058227" target="_blank" class="text-primary underline">
+                        震える君を抱きしめて
+                    </a>
+                </li>
+                <li>
+                    ★こまつちま シチュエーションボイス販売中！<br>
+                    <a href="https://egu.booth.pm/items/8151321" target="_blank" class="text-primary underline">
+                        メスガキの耳かきで屈服させられる
+                    </a>
+                </li>
+                <li>
+                    ★まじぇんて酒飲み相談室その2【ゲスト：こまつちま】<br>
+                    <a href="https://youtube.com/live/P9nF0JQ3K7w" target="_blank" class="text-primary underline">
+                        まじぇんて酒飲み相談室その2
+                    </a>
+                </li>
+                <li>
+                    ★EGUゲーム部<br>
+                    <a href="https://www.youtube.com/playlist?list=PLsYg7sr7EZhMXmscI7dvX-0KCFi5agQf_" target="_blank" class="text-primary underline">
+                        EGUゲーム部
+                    </a>
+                </li>
+                <li>
+                    ★ラウラ・セッテ🌿4月1日に舞い降りた天使系アイドル!!<br>
+                    <a href="https://x.com/aruaLirpa/status/2042508542540943828?s=20" target="_blank" class="text-primary underline">
+                        ラウラ凸待ち配信！
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        <p class="mb-8 text-slate-600 leading-loose">
+            この配信はVRC内のグループ「Enjoy Game Union（EGU）」所属メンバーがお届けするラジオ配信です。
+        </p>`
+  }
 //   {
 //     id: 6,
 //     title: "Live配信『誰の頭が一番《Ultimate》かって話』【EGUゲーム部】開始",
