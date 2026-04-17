@@ -480,6 +480,87 @@ const newsContent = [
         <p class="mb-8 text-slate-600 leading-loose">
             この配信はVRC内のグループ「Enjoy Game Union（EGU）」所属メンバーがお届けするラジオ配信です。
         </p>`
+  },
+  {
+    id: 8,
+    title: "【まじぇんて酒飲み相談室】第2回 ゲスト：こまつちま",
+    date: "2026.04.15",
+    tag: "Live配信",
+    thumb: "./img/news/NEWS-08-01.webp",
+    body: `<img src="./img/news/NEWS-08-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="まじぇんて酒飲み相談室 第2回">
+
+        <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
+            【第2回】まじぇんて酒飲み相談室
+        </h3>
+
+        <p class="mb-2 text-slate-600 leading-loose">
+            📅 2026年04月15日（水）21:00〜
+        </p>
+
+        <p class="mb-6 text-slate-600 leading-loose">
+            お酒片手に何でも相談に乗る（かもしれない）配信、第2回！<br>
+            今回はゲストにこまつちまを迎え、縦横無尽にぶった切るトークをお届けします！
+        </p>
+
+        <div class="bg-amber-50 border border-amber-200 rounded-2xl p-5 mb-8">
+            <p class="text-sm font-bold text-amber-700 mb-3 uppercase tracking-widest">⚠ ご視聴の前に</p>
+            <ul class="text-slate-600 leading-loose space-y-1 text-sm">
+                <li>※飲酒してるので発言に責任が取れたり取れなかったりしがちです</li>
+                <li>※急に大声を出す場合があるので音量注意</li>
+            </ul>
+        </div>
+
+        <div class="flex justify-center my-8">
+            <a href="https://marshmallow-qa.com/9g30tl6rxqlqb4b?t=ieNI7S&utm_medium=url_text&utm_source=promotion" target="_blank"
+                class="group flex items-center gap-3 bg-pink-400 text-white font-black py-4 px-10 rounded-2xl shadow-xl shadow-pink-100 hover:bg-pink-500 hover:-translate-y-1 transition-all duration-300">
+                <i class="fa-solid fa-envelope-open-text text-xl"></i>
+                <span>ましゅまろで相談を送る</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-xs opacity-50 group-hover:opacity-100 transition-opacity"></i>
+            </a>
+        </div>
+
+        <h3 class="text-xl font-bold mb-4">◆出演者</h3>
+        <ul class="mb-8 text-slate-600 leading-loose list-disc list-inside">
+            <li>
+                <strong>まじぇんて</strong>　<a href="https://x.com/majennte_vrc" target="_blank" class="text-primary underline">https://x.com/majennte_vrc</a><br>
+                黒髪ロングの赤目ルルネ好きのお兄さん。<br>
+                今宵は酒が入って切れ味がいつもの数段上がっている。
+            </li>
+            <li>
+                <strong>こまつちま</strong>　<a href="https://x.com/komatsu_chiii" target="_blank" class="text-primary underline">https://x.com/komatsu_chiii</a><br>
+                いつも笑顔な歌うま絵うまお姉さん。<br>
+                今宵はお酒を片手に縦横無尽にぶった切る！？
+            </li>
+        </ul>
+
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 mb-8">
+            <p class="text-sm font-bold text-slate-500 mb-4 uppercase tracking-widest">Related Content</p>
+            <ul class="space-y-3 text-slate-600">
+                <li>
+                    ★こまつちまシチュエーションボイス<br>
+                    メスガキの耳かきで屈服させられる【メスガキに耳かきをされるシチュボ】販売中<br>
+                    <a href="https://egu.booth.pm/items/8151321" target="_blank" class="text-primary underline">
+                        https://egu.booth.pm/items/8151321
+                    </a>
+                </li>
+                <li>
+                    ★EGUあにまるず歌ってみた動画「ようこそジャパリパークへ」公開中！<br>
+                    <a href="https://www.youtube.com/watch?v=gLAd9EQtDpc&feature=youtu.be" target="_blank" class="text-primary underline">
+                        https://www.youtube.com/watch?v=gLAd9EQtDpc
+                    </a>
+                </li>
+                <li>
+                    ★Sava&こまつちま歌ってみた動画「革命デュアリズム」公開中！<br>
+                    <a href="https://www.youtube.com/watch?v=4qaMwhXaW2c" target="_blank" class="text-primary underline">
+                        https://www.youtube.com/watch?v=4qaMwhXaW2c
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <p class="mb-8 text-slate-600 leading-loose">
+            この配信はVRC内のグループ「Enjoy Game Union（EGU）」所属メンバーがお届けするLive配信です。
+        </p>`
   }
 //   {
 //     id: 6,
