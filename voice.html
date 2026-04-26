@@ -6,116 +6,42 @@
     <title>Voice Board | EnjoyGameUnion!!</title>
     <link rel="icon" href="/favicon.ico" />
 
-    <!-- Tailwind CSS (元サイトと同じ) -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ELSZFFR470"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-ELSZFFR470");
+    </script>
+
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Google Fonts (元サイトと同じ) -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
       rel="stylesheet" />
 
-    <!-- FontAwesome (元サイトと同じバージョン) -->
+    <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
 
-    <!-- 元サイトの stylesheet.css (同ディレクトリに置いてください) -->
-    <link rel="stylesheet" href="./css/stylesheet.css" />
+    <!-- CSS — 読み込み順を守ってください -->
+    <link rel="stylesheet" href="./css/common.css" />  <!-- 共通スタイル -->
+    <link rel="stylesheet" href="./css/voice.css" />   <!-- voice.html 専用 -->
 
-    <!-- Tailwind config (元サイトと完全一致) -->
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['"Noto Sans JP"', "sans-serif"],
-              en:   ['"Montserrat"', "sans-serif"],
-            },
-            colors: {
-              primary:   "#6366f1",
-              secondary: "#ec4899",
-              dark:      "#111827",
-              light:     "#f9fafb",
-            },
-          },
-        },
-      };
-    </script>
-
-    <style>
-      /* ボイスボタン固有スタイル */
-      .v-btn {
-        position: relative;
-        overflow: hidden;
-        transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
-      }
-      .v-btn::after {
-        content: '';
-        position: absolute;
-        left: 0; top: 0; bottom: 0;
-        width: 3px;
-        background: linear-gradient(to bottom, #6366f1, #ec4899);
-        transform: scaleY(0);
-        transform-origin: bottom;
-        transition: transform 0.25s ease;
-        border-radius: 0 2px 2px 0;
-      }
-      .v-btn:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 10px 25px -5px rgba(99,102,241,0.2);
-        border-color: #c7d2fe !important;
-      }
-      .v-btn:hover::after { transform: scaleY(1); }
-      .v-btn:active { transform: translateY(0); }
-
-      .v-btn.is-playing {
-        background: #f5f3ff !important;
-        border-color: #a5b4fc !important;
-        box-shadow: 0 0 0 3px rgba(99,102,241,0.15);
-      }
-      .v-btn.is-playing::after { transform: scaleY(1); }
-
-      /* 再生中の波形アニメーション */
-      .wave-bar {
-        display: inline-block;
-        width: 3px;
-        background: #6366f1;
-        border-radius: 2px;
-        animation: waveAnim 0.7s ease-in-out infinite alternate;
-      }
-      .wave-bar:nth-child(1) { height: 4px;  animation-delay: 0s; }
-      .wave-bar:nth-child(2) { height: 14px; animation-delay: 0.1s; }
-      .wave-bar:nth-child(3) { height: 8px;  animation-delay: 0.05s; }
-      .wave-bar:nth-child(4) { height: 12px; animation-delay: 0.15s; }
-      .wave-bar:nth-child(5) { height: 5px;  animation-delay: 0.08s; }
-      @keyframes waveAnim {
-        from { transform: scaleY(0.3); }
-        to   { transform: scaleY(1); }
-      }
-
-      /* カテゴリセクション */
-      .cat-section { transition: opacity 0.3s ease, transform 0.3s ease; }
-      .cat-section.is-hidden { display: none; }
-      .v-btn.is-hidden { display: none; }
-
-      /* コントロールバー */
-      .controls-sticky {
-        position: sticky;
-        top: 80px; /* ヘッダー高さ分 */
-        z-index: 40;
-      }
-
-      /* フィルタータブ スクロール */
-      .filter-scroll::-webkit-scrollbar { display: none; }
-      .filter-scroll { -ms-overflow-style: none; scrollbar-width: none; }
-    </style>
+    <!-- Tailwind config -->
+    <script src="js/Config/config.js"></script>
   </head>
 
   <body class="text-gray-800 bg-light antialiased font-sans">
 
-    <!-- ========================================================
-         HEADER（index.html と完全一致）
-    ======================================================== -->
+    <!-- ナビゲーションバー -->
     <header
       class="fixed w-full top-0 z-50 bg-white/80 backdrop-blur-md shadow-sm transition-all duration-300"
       id="header">
@@ -139,7 +65,7 @@
       </div>
     </header>
 
-    <!-- モバイル用サイドメニュー（index.html と完全一致） -->
+    <!-- モバイル用サイドメニュー -->
     <div id="menu-overlay" class="menu-overlay fixed inset-0 z-50"></div>
     <aside
       id="side-menu"
@@ -246,7 +172,7 @@
     </main>
 
     <!-- ========================================================
-         FOOTER（index.html と完全一致）
+         FOOTER
     ======================================================== -->
     <footer class="bg-dark text-white py-12 border-t-4 border-primary">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
@@ -276,480 +202,22 @@
     </footer>
 
 
-    <!-- ========================================================
-         JAVASCRIPT
-    ======================================================== -->
-    <script>
-    /* ============================================================
-       DATA
-       ▼ ここを編集してボタンを追加・管理します
-       src: 音声ファイルのパス（例: "audio/anri/voice01.mp3"）
-            空文字のままでもデモ音で動作確認できます
-    ============================================================ */
-    const VOICE_CATEGORIES = [
-      {
-        id: "anri",
-        en: "Tossano Anri",
-        jp: "トッサノ Anri",
-        icon: "fa-solid fa-microphone",
-        voices: [
-          { id: "anri-01", label: "よろしくお願いします！",     src: "" },
-          { id: "anri-02", label: "えっ、マジで!?",             src: "" },
-          { id: "anri-03", label: "いや待って待って",            src: "" },
-          { id: "anri-04", label: "隅っこラジオ始まるよ〜",      src: "" },
-          { id: "anri-05", label: "そんなことある!?",            src: "" },
-          { id: "anri-06", label: "ありがとうございます！",      src: "" },
-        ]
-      },
-      {
-        id: "majente",
-        en: "Majente",
-        jp: "まじぇんて",
-        icon: "fa-solid fa-wine-glass",
-        voices: [
-          { id: "mj-01", label: "お酒飲みながら話しましょ",      src: "" },
-          { id: "mj-02", label: "ほろ酔いですよ〜",              src: "" },
-          { id: "mj-03", label: "深い話しようか",                src: "" },
-          { id: "mj-04", label: "乾杯！",                        src: "" },
-          { id: "mj-05", label: "それ分かる気がする",            src: "" },
-        ]
-      },
-      {
-        id: "eriri",
-        en: "Eriri Eri",
-        jp: "エリリ・エリ",
-        icon: "fa-solid fa-shirt",
-        voices: [
-          { id: "er-01", label: "おしゃれ番長ですから！",        src: "" },
-          { id: "er-02", label: "このコーデ見て！",              src: "" },
-          { id: "er-03", label: "センスが光るでしょ",            src: "" },
-          { id: "er-04", label: "ゆるふわが一番！",              src: "" },
-          { id: "er-05", label: "え〜かわいい〜",               src: "" },
-        ]
-      },
-      {
-        id: "greeting",
-        en: "Greeting",
-        jp: "挨拶・日常",
-        icon: "fa-solid fa-hand",
-        voices: [
-          { id: "gr-01", label: "こんにちは〜",                  src: "" },
-          { id: "gr-02", label: "おはようございます",            src: "" },
-          { id: "gr-03", label: "おやすみなさい",                src: "" },
-          { id: "gr-04", label: "またね〜！",                   src: "" },
-          { id: "gr-05", label: "お疲れ様です",                  src: "" },
-          { id: "gr-06", label: "よろしく！",                    src: "" },
-        ]
-      },
-      {
-        id: "gaming",
-        en: "Gaming",
-        jp: "ゲーム・実況",
-        icon: "fa-solid fa-gamepad",
-        voices: [
-          { id: "gm-01", label: "行くぞ！",                      src: "" },
-          { id: "gm-02", label: "やばいやばい！",               src: "" },
-          { id: "gm-03", label: "勝ったぁ！",                   src: "" },
-          { id: "gm-04", label: "なんで死んだの俺",              src: "" },
-          { id: "gm-05", label: "強すぎでしょ",                 src: "" },
-          { id: "gm-06", label: "もう一回！",                   src: "" },
-          { id: "gm-07", label: "集中集中…",                    src: "" },
-        ]
-      },
-      {
-        id: "reaction",
-        en: "Reaction",
-        jp: "リアクション",
-        icon: "fa-solid fa-face-laugh-squint",
-        voices: [
-          { id: "rc-01", label: "え〜〜〜！！",                  src: "" },
-          { id: "rc-02", label: "すごい！！",                    src: "" },
-          { id: "rc-03", label: "ウソだぁ",                      src: "" },
-          { id: "rc-04", label: "草",                            src: "" },
-          { id: "rc-05", label: "それはちょっと…",              src: "" },
-          { id: "rc-06", label: "天才か",                        src: "" },
-          { id: "rc-07", label: "わかりみが深い",                src: "" },
-        ]
-      },
-      {
-        id: "vrc",
-        en: "VRChat",
-        jp: "VRChat",
-        icon: "fa-solid fa-vr-cardboard",
-        voices: [
-          { id: "vr-01", label: "ワールド入ろ〜",               src: "" },
-          { id: "vr-02", label: "アバター可愛くない？",          src: "" },
-          { id: "vr-03", label: "フレンドになろ！",              src: "" },
-          { id: "vr-04", label: "VRCが楽しい",                  src: "" },
-          { id: "vr-05", label: "全身トラッキングすごい",        src: "" },
-        ]
-      },
-      {
-        id: "event",
-        en: "Event",
-        jp: "大会・イベント",
-        icon: "fa-solid fa-trophy",
-        voices: [
-          { id: "ev-01", label: "大会始まるよ！",               src: "" },
-          { id: "ev-02", label: "絶対優勝する",                  src: "" },
-          { id: "ev-03", label: "熱い戦いでした",               src: "" },
-          { id: "ev-04", label: "次も頑張ろう！",               src: "" },
-          { id: "ev-05", label: "応援ありがとう！",             src: "" },
-        ]
-      },
-      {
-        id: "radio",
-        en: "Radio",
-        jp: "ラジオ・雑談",
-        icon: "fa-solid fa-radio",
-        voices: [
-          { id: "rd-01", label: "今日のテーマはね〜",           src: "" },
-          { id: "rd-02", label: "それ面白いね！",               src: "" },
-          { id: "rd-03", label: "話膨らませて〜",               src: "" },
-          { id: "rd-04", label: "そこ突っ込む？",               src: "" },
-          { id: "rd-05", label: "なるほどね〜",                 src: "" },
-        ]
-      },
-      {
-        id: "song",
-        en: "Song",
-        jp: "歌・音楽",
-        icon: "fa-solid fa-music",
-        voices: [
-          { id: "sg-01", label: "歌ってみたよ！",               src: "" },
-          { id: "sg-02", label: "この曲好きすぎる",             src: "" },
-          { id: "sg-03", label: "一緒に歌おう",                 src: "" },
-          { id: "sg-04", label: "音程外れた…",                 src: "" },
-        ]
-      },
-      {
-        id: "tsukkomi",
-        en: "Tsukkomi",
-        jp: "ツッコミ・怒り",
-        icon: "fa-solid fa-triangle-exclamation",
-        voices: [
-          { id: "tk-01", label: "なんでや！",                    src: "" },
-          { id: "tk-02", label: "ちゃんとして！",               src: "" },
-          { id: "tk-03", label: "そこじゃないよ！",             src: "" },
-          { id: "tk-04", label: "信じてたのに",                  src: "" },
-          { id: "tk-05", label: "もうええわ",                    src: "" },
-        ]
-      },
-      {
-        id: "funny",
-        en: "Funny",
-        jp: "ネタ・小ネタ",
-        icon: "fa-solid fa-face-grin-tears",
-        voices: [
-          { id: "fn-01", label: "それ言っちゃう？",              src: "" },
-          { id: "fn-02", label: "天丼！",                        src: "" },
-          { id: "fn-03", label: "何回目だよ",                   src: "" },
-          { id: "fn-04", label: "伏線回収！",                   src: "" },
-          { id: "fn-05", label: "これはわかる人にはわかる",     src: "" },
-        ]
-      },
-      {
-        id: "positive",
-        en: "Positive",
-        jp: "応援・ポジティブ",
-        icon: "fa-solid fa-star",
-        voices: [
-          { id: "ps-01", label: "頑張れ〜！",                    src: "" },
-          { id: "ps-02", label: "絶対大丈夫！",                  src: "" },
-          { id: "ps-03", label: "その調子！",                    src: "" },
-          { id: "ps-04", label: "最高だよ！",                    src: "" },
-          { id: "ps-05", label: "諦めないで！",                  src: "" },
-        ]
-      },
-      {
-        id: "collab",
-        en: "Collab",
-        jp: "コラボ・掛け合い",
-        icon: "fa-solid fa-people-group",
-        voices: [
-          { id: "cl-01", label: "一緒にやろう！",               src: "" },
-          { id: "cl-02", label: "息ぴったり！",                 src: "" },
-          { id: "cl-03", label: "チームEGU！",                  src: "" },
-          { id: "cl-04", label: "みんなで楽しもう",             src: "" },
-        ]
-      },
-      {
-        id: "stream",
-        en: "Stream",
-        jp: "配信・コメント",
-        icon: "fa-solid fa-tower-broadcast",
-        voices: [
-          { id: "st-01", label: "配信見てくれてありがとう！",    src: "" },
-          { id: "st-02", label: "コメントきた〜！",             src: "" },
-          { id: "st-03", label: "スパチャありがとう！",          src: "" },
-          { id: "st-04", label: "今日も来てくれた！",           src: "" },
-          { id: "st-05", label: "チャンネル登録よろしく",       src: "" },
-        ]
-      },
-    ];
+    <!-- =====================================================
+         JavaScript — 読み込み順を守ってください
 
+         1. Data層（データ定義）を読む
+         2. UI層（描画）を読む
+         3. Renderer層（イベント処理）を読む
+    ====================================================== -->
 
-    /* ============================================================
-       Audio Engine
-    ============================================================ */
-    let currentAudio = null;
-    let currentBtn   = null;
-    let masterVolume = 0.8;
+    <!-- 1. Data層（データ定義） -->
+    <script src="js/Data/voiceData.js"></script>
 
-    function playBeep(freq = 440, dur = 0.5) {
-      try {
-        const ctx  = new (window.AudioContext || window.webkitAudioContext)();
-        const osc  = ctx.createOscillator();
-        const gain = ctx.createGain();
-        osc.connect(gain); gain.connect(ctx.destination);
-        osc.type = 'sine';
-        osc.frequency.value = freq;
-        gain.gain.setValueAtTime(masterVolume * 0.22, ctx.currentTime);
-        gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + dur);
-        osc.start(); osc.stop(ctx.currentTime + dur);
-        return dur * 1000;
-      } catch(e) { return 500; }
-    }
+    <!-- 2. UI層（描画） -->
+    <script src="js/UI/commonUI.js"></script>
+    <script src="js/UI/voiceUI.js"></script>
 
-    function setPlayIcon(btn, playing) {
-      const icon = btn.querySelector('.btn-play-icon');
-      if (!icon) return;
-      icon.className = playing
-        ? 'btn-play-icon fa-solid fa-pause text-primary text-xs'
-        : 'btn-play-icon fa-solid fa-play text-slate-400 text-xs group-hover:text-primary transition-colors';
-    }
-
-    function stopCurrent() {
-      if (currentAudio) { currentAudio.pause(); currentAudio = null; }
-      if (currentBtn)   { currentBtn.classList.remove('is-playing'); setPlayIcon(currentBtn, false); currentBtn = null; }
-      document.getElementById('now-playing-text').textContent = '—';
-      document.getElementById('music-icon').className = 'fa-solid fa-music text-primary';
-    }
-
-    function playVoice(btn, src, label) {
-      if (currentBtn === btn) { stopCurrent(); return; }
-      stopCurrent();
-
-      document.getElementById('now-playing-text').textContent = label;
-      document.getElementById('music-icon').className = 'fa-solid fa-music text-primary fa-beat';
-      btn.classList.add('is-playing');
-      setPlayIcon(btn, true);
-      currentBtn = btn;
-
-      if (!src) {
-        const freqs = [262,294,330,349,392,440,494,523,587,659];
-        const ms = playBeep(freqs[label.length % freqs.length], 0.55);
-        setTimeout(() => { if (currentBtn === btn) stopCurrent(); }, ms);
-        return;
-      }
-      const audio = new Audio(src);
-      audio.volume = masterVolume;
-      audio.play().catch(() => {});
-      audio.addEventListener('ended', () => { if (currentBtn === btn) stopCurrent(); });
-      audio.addEventListener('error', () => { if (currentBtn === btn) stopCurrent(); });
-      currentAudio = audio;
-    }
-
-
-    /* ============================================================
-       Build UI
-    ============================================================ */
-    function buildFilterTabs() {
-      const wrap = document.querySelector('.filter-scroll');
-      VOICE_CATEGORIES.forEach(cat => {
-        const btn = document.createElement('button');
-        btn.className = 'filter-tab shrink-0 px-4 py-2 rounded-full text-xs font-black font-en tracking-wider border border-slate-200 text-slate-500 hover:border-primary hover:text-primary transition-all';
-        btn.dataset.filter = cat.id;
-        btn.textContent = cat.en;
-        wrap.appendChild(btn);
-      });
-    }
-
-    function buildVoiceMain() {
-      const main = document.getElementById('voice-main');
-      main.innerHTML = '';
-
-      VOICE_CATEGORIES.forEach((cat, idx) => {
-        const sec = document.createElement('section');
-        sec.className = 'cat-section mb-16 fade-in-up';
-        sec.id = `cat-${cat.id}`;
-        sec.style.transitionDelay = `${idx * 0.04}s`;
-
-        // セクションヘッダー
-        sec.innerHTML = `
-          <div class="flex items-center gap-4 mb-6">
-            <div class="w-10 h-10 rounded-2xl bg-primary/10 flex items-center justify-center shrink-0">
-              <i class="${cat.icon} text-primary text-sm"></i>
-            </div>
-            <div class="flex items-baseline gap-3">
-              <h2 class="text-2xl font-black font-en text-dark tracking-tight">${cat.en}</h2>
-              <span class="text-sm text-slate-400 font-medium">${cat.jp}</span>
-              <span class="text-[10px] font-black font-en tracking-widest text-slate-400 border border-slate-200 rounded-full px-2.5 py-0.5">${cat.voices.length}</span>
-            </div>
-            <div class="flex-1 h-px bg-slate-100 ml-2"></div>
-          </div>
-          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-2.5" id="grid-${cat.id}"></div>
-        `;
-        main.appendChild(sec);
-
-        const grid = sec.querySelector(`#grid-${cat.id}`);
-        cat.voices.forEach(v => {
-          const btn = document.createElement('button');
-          btn.className = 'v-btn group w-full bg-white rounded-2xl border border-slate-100 p-3.5 text-left flex items-center gap-3 shadow-sm';
-          btn.dataset.label = v.label;
-          btn.dataset.cat   = cat.id;
-          btn.innerHTML = `
-            <div class="w-8 h-8 rounded-xl bg-slate-50 group-hover:bg-primary/10 flex items-center justify-center shrink-0 transition-colors">
-              <i class="btn-play-icon fa-solid fa-play text-slate-400 text-xs group-hover:text-primary transition-colors"></i>
-            </div>
-            <div class="flex-1 min-w-0">
-              <span class="text-xs font-bold text-slate-700 leading-snug line-clamp-2">${v.label}</span>
-            </div>
-            <div class="wave-wrap flex items-end gap-0.5 h-4 shrink-0 opacity-0 transition-opacity ${'' /* is-playing で opacity-100 */}">
-              <span class="wave-bar"></span>
-              <span class="wave-bar"></span>
-              <span class="wave-bar"></span>
-              <span class="wave-bar"></span>
-              <span class="wave-bar"></span>
-            </div>
-          `;
-          // is-playing で wave 表示
-          const waveWrap = btn.querySelector('.wave-wrap');
-          const mo = new MutationObserver(() => {
-            waveWrap.classList.toggle('opacity-100', btn.classList.contains('is-playing'));
-            waveWrap.classList.toggle('opacity-0',  !btn.classList.contains('is-playing'));
-          });
-          mo.observe(btn, { attributes: true, attributeFilter: ['class'] });
-
-          btn.addEventListener('click', () => playVoice(btn, v.src, v.label));
-          grid.appendChild(btn);
-        });
-      });
-
-      // fade-in-up を IntersectionObserver で発火
-      document.querySelectorAll('.fade-in-up').forEach(el => observer.observe(el));
-    }
-
-
-    /* ============================================================
-       Filter / Search
-    ============================================================ */
-    function applyFilter(filterId, query = '') {
-      const q = query.trim().toLowerCase();
-      const main = document.getElementById('voice-main');
-
-      const old = document.getElementById('empty-state');
-      if (old) old.remove();
-
-      let anyVisible = false;
-
-      VOICE_CATEGORIES.forEach(cat => {
-        const sec  = document.getElementById(`cat-${cat.id}`);
-        if (!sec) return;
-        const grid = document.getElementById(`grid-${cat.id}`);
-        const catMatch = filterId === 'all' || filterId === cat.id;
-        let visible = 0;
-
-        grid.querySelectorAll('.v-btn').forEach(btn => {
-          const match = catMatch && (!q || btn.dataset.label.toLowerCase().includes(q));
-          btn.classList.toggle('is-hidden', !match);
-          if (match) visible++;
-        });
-
-        sec.classList.toggle('is-hidden', visible === 0);
-        if (visible > 0) anyVisible = true;
-      });
-
-      if (!anyVisible) {
-        const div = document.createElement('div');
-        div.id = 'empty-state';
-        div.className = 'text-center py-24 text-slate-400';
-        div.innerHTML = `
-          <i class="fa-solid fa-magnifying-glass text-4xl mb-4 block opacity-30"></i>
-          <p class="font-bold">「${query}」に一致するボタンが見つかりませんでした。</p>
-        `;
-        main.appendChild(div);
-      }
-    }
-
-
-    /* ============================================================
-       Event Listeners
-    ============================================================ */
-    document.getElementById('volume-slider').addEventListener('input', e => {
-      masterVolume = e.target.value / 100;
-      if (currentAudio) currentAudio.volume = masterVolume;
-    });
-
-    document.getElementById('search-input').addEventListener('input', e => {
-      const active = document.querySelector('.filter-tab.active-tab');
-      applyFilter(active ? active.dataset.filter : 'all', e.target.value);
-    });
-
-    document.querySelector('.filter-scroll').addEventListener('click', e => {
-      const tab = e.target.closest('.filter-tab');
-      if (!tab) return;
-
-      // スタイル切り替え
-      document.querySelectorAll('.filter-tab').forEach(t => {
-        t.classList.remove('active-tab', 'bg-slate-900', 'text-white', 'border-slate-900', 'shadow-md');
-        t.classList.add('border-slate-200', 'text-slate-500');
-      });
-      tab.classList.add('active-tab', 'bg-slate-900', 'text-white', 'border-slate-900', 'shadow-md');
-      tab.classList.remove('border-slate-200', 'text-slate-500');
-
-      const q = document.getElementById('search-input').value;
-      applyFilter(tab.dataset.filter, q);
-
-      if (tab.dataset.filter !== 'all') {
-        const target = document.getElementById(`cat-${tab.dataset.filter}`);
-        if (target) {
-          const offset = 160; // ヘッダー＋コントロールバー分
-          window.scrollTo({ top: target.offsetTop - offset, behavior: 'smooth' });
-        }
-      }
-    });
-
-    /* ヘッダースクロール制御 (common.js と同じ) */
-    window.addEventListener('scroll', () => {
-      const header = document.getElementById('header');
-      if (window.scrollY > 50) {
-        header.classList.add('shadow-md');
-        header.classList.replace('bg-white/80', 'bg-white/95');
-      } else {
-        header.classList.remove('shadow-md');
-        header.classList.replace('bg-white/95', 'bg-white/80');
-      }
-    });
-
-    /* ハンバーガーメニュー (common.js と同じ) */
-    const sideMenu = document.getElementById('side-menu');
-    const overlay  = document.getElementById('menu-overlay');
-    function toggleMenu(isOpen) {
-      sideMenu.classList.toggle('active', isOpen);
-      overlay.classList.toggle('active', isOpen);
-      document.body.style.overflow = isOpen ? 'hidden' : '';
-    }
-    document.addEventListener('DOMContentLoaded', () => {
-      document.getElementById('menu-open-btn').addEventListener('click', () => toggleMenu(true));
-      document.getElementById('menu-close-btn').addEventListener('click', () => toggleMenu(false));
-      overlay.addEventListener('click', () => toggleMenu(false));
-      document.querySelectorAll('.nav-link').forEach(l => l.addEventListener('click', () => toggleMenu(false)));
-    });
-
-    /* スクロールアニメーション (common.js と同じ) */
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) entry.target.classList.add('is-visible');
-      });
-    }, { threshold: 0.1 });
-
-
-    /* ============================================================
-       Init
-    ============================================================ */
-    buildFilterTabs();
-    buildVoiceMain();
-    </script>
+    <!-- 3. Renderer層（イベント処理） -->
+    <script src="js/Renderer/voiceRenderer.js"></script>
   </body>
 </html>
