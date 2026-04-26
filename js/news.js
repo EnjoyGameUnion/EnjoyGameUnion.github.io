@@ -394,6 +394,174 @@ const newsContent = [
             この配信はVRC内のグループ「Enjoy Game Union（EGU）」所属メンバーがお届けするゲーム配信です。
         </p>`,
   },
+  {
+    id: 7,
+    title: "【フレ＋隅っこラジオ】ゲスト：ずんだゆき 公開！",
+    date: "2026.04.10",
+    tag: "Live配信",
+    thumb: "./img/news/NEWS-07-01.webp",
+    body: `<img src="./img/news/NEWS-07-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="フレ＋隅っこラジオずんだゆき">
+  
+          <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
+              【フレ＋隅っこラジオ】ゲスト：ずんだゆきを公開しました。
+          </h3>
+  
+          <p class="mb-6 text-slate-600 leading-loose">
+              トッサノ、アンリによるフレ＋隅っこラジオのLive配信を行いました。<br>
+              ずんだゆきからどんな秘密が飛び出すのか！？<br>
+              ぜひアーカイブでお楽しみください。
+          </p>
+  
+          <!-- YouTube埋め込み -->
+          <div class="aspect-video w-full mb-8">
+              <iframe 
+                  class="w-full h-full rounded-3xl shadow-2xl" 
+                  src="https://www.youtube.com/embed/vPBCsqsgzyw?rel=0"
+                  title="Live配信アーカイブ" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  allowfullscreen>
+              </iframe>
+          </div>
+  
+          <h3 class="text-xl font-bold mb-4">◆メインパーソナリティー</h3>
+            <ul class="mb-8 text-slate-600 leading-loose list-disc list-inside">
+                <li>トッサノ　<a href="https://x.com/tossanovrc" target="_blank" class="text-primary underline">https://x.com/tossanovrc</a><br>EGUという謎グループの主催、エイプリルフールに動画を上げて疲れた</li>
+                <li>Dr.Anri　<a href="https://x.com/Es96L4ap" target="_blank" class="text-primary underline">https://x.com/Es96L4ap</a><br>EGU所属の自称一般人、アイドルになるらしい、乞うご期待</li>
+            </ul>
+
+          <h3 class="text-xl font-bold mb-4">◆ゲスト</h3>
+            <ul class="mb-8 text-slate-600 leading-loose list-disc list-inside">
+                <li>ずんだゆき　<a href="https://x.com/zund_Yuki" target="_blank" class="text-primary underline">https://x.com/zund_Yuki</a><br>EGUメンバーの優しいお兄さん担当、いつ寝てるんだろうってぐらいぶいちゃでも仕事しかしてない</li>
+            </ul>
+        
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 mb-8">
+            <p class="text-sm font-bold text-slate-500 mb-4 uppercase tracking-widest">Related Content</p>
+            <ul class="space-y-3 text-slate-600">
+                <li>
+                    ★EnjoyGameUnion!!公式HP<br>
+                    <a href="https://enjoygameunion.github.io" target="_blank" class="text-primary underline">
+                        https://enjoygameunion.github.io
+                    </a>
+                </li>
+                <li>
+                    ★ずんだゆき シチュエーションボイス販売中！<br>
+                    <a href="https://egu.booth.pm/items/8058227" target="_blank" class="text-primary underline">
+                        震える君を抱きしめて
+                    </a>
+                </li>
+                <li>
+                    ★こまつちま シチュエーションボイス販売中！<br>
+                    <a href="https://egu.booth.pm/items/8151321" target="_blank" class="text-primary underline">
+                        メスガキの耳かきで屈服させられる
+                    </a>
+                </li>
+                <li>
+                    ★まじぇんて酒飲み相談室その2【ゲスト：こまつちま】<br>
+                    <a href="https://youtube.com/live/P9nF0JQ3K7w" target="_blank" class="text-primary underline">
+                        まじぇんて酒飲み相談室その2
+                    </a>
+                </li>
+                <li>
+                    ★EGUゲーム部<br>
+                    <a href="https://www.youtube.com/playlist?list=PLsYg7sr7EZhMXmscI7dvX-0KCFi5agQf_" target="_blank" class="text-primary underline">
+                        EGUゲーム部
+                    </a>
+                </li>
+                <li>
+                    ★ラウラ・セッテ🌿4月1日に舞い降りた天使系アイドル!!<br>
+                    <a href="https://x.com/aruaLirpa/status/2042508542540943828?s=20" target="_blank" class="text-primary underline">
+                        ラウラ凸待ち配信！
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        <p class="mb-8 text-slate-600 leading-loose">
+            この配信はVRC内のグループ「Enjoy Game Union（EGU）」所属メンバーがお届けするラジオ配信です。
+        </p>`
+  },
+  {
+    id: 8,
+    title: "【まじぇんて酒飲み相談室】第2回 ゲスト：こまつちま",
+    date: "2026.04.15",
+    tag: "Live配信",
+    thumb: "./img/news/NEWS-08-01.webp",
+    body: `<img src="./img/news/NEWS-08-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="まじぇんて酒飲み相談室 第2回">
+
+        <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
+            【第2回】まじぇんて酒飲み相談室
+        </h3>
+
+        <p class="mb-2 text-slate-600 leading-loose">
+            📅 2026年04月15日（水）21:00〜
+        </p>
+
+        <p class="mb-6 text-slate-600 leading-loose">
+            お酒片手に何でも相談に乗る（かもしれない）配信、第2回！<br>
+            今回はゲストにこまつちまを迎え、縦横無尽にぶった切るトークをお届けします！
+        </p>
+
+        <div class="bg-amber-50 border border-amber-200 rounded-2xl p-5 mb-8">
+            <p class="text-sm font-bold text-amber-700 mb-3 uppercase tracking-widest">⚠ ご視聴の前に</p>
+            <ul class="text-slate-600 leading-loose space-y-1 text-sm">
+                <li>※飲酒してるので発言に責任が取れたり取れなかったりしがちです</li>
+                <li>※急に大声を出す場合があるので音量注意</li>
+            </ul>
+        </div>
+
+        <div class="flex justify-center my-8">
+            <a href="https://marshmallow-qa.com/9g30tl6rxqlqb4b?t=ieNI7S&utm_medium=url_text&utm_source=promotion" target="_blank"
+                class="group flex items-center gap-3 bg-pink-400 text-white font-black py-4 px-10 rounded-2xl shadow-xl shadow-pink-100 hover:bg-pink-500 hover:-translate-y-1 transition-all duration-300">
+                <i class="fa-solid fa-envelope-open-text text-xl"></i>
+                <span>ましゅまろで相談を送る</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-xs opacity-50 group-hover:opacity-100 transition-opacity"></i>
+            </a>
+        </div>
+
+        <h3 class="text-xl font-bold mb-4">◆出演者</h3>
+        <ul class="mb-8 text-slate-600 leading-loose list-disc list-inside">
+            <li>
+                <strong>まじぇんて</strong>　<a href="https://x.com/majennte_vrc" target="_blank" class="text-primary underline">https://x.com/majennte_vrc</a><br>
+                黒髪ロングの赤目ルルネ好きのお兄さん。<br>
+                今宵は酒が入って切れ味がいつもの数段上がっている。
+            </li>
+            <li>
+                <strong>こまつちま</strong>　<a href="https://x.com/komatsu_chiii" target="_blank" class="text-primary underline">https://x.com/komatsu_chiii</a><br>
+                いつも笑顔な歌うま絵うまお姉さん。<br>
+                今宵はお酒を片手に縦横無尽にぶった切る！？
+            </li>
+        </ul>
+
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 mb-8">
+            <p class="text-sm font-bold text-slate-500 mb-4 uppercase tracking-widest">Related Content</p>
+            <ul class="space-y-3 text-slate-600">
+                <li>
+                    ★こまつちまシチュエーションボイス<br>
+                    メスガキの耳かきで屈服させられる【メスガキに耳かきをされるシチュボ】販売中<br>
+                    <a href="https://egu.booth.pm/items/8151321" target="_blank" class="text-primary underline">
+                        https://egu.booth.pm/items/8151321
+                    </a>
+                </li>
+                <li>
+                    ★EGUあにまるず歌ってみた動画「ようこそジャパリパークへ」公開中！<br>
+                    <a href="https://www.youtube.com/watch?v=gLAd9EQtDpc&feature=youtu.be" target="_blank" class="text-primary underline">
+                        https://www.youtube.com/watch?v=gLAd9EQtDpc
+                    </a>
+                </li>
+                <li>
+                    ★Sava&こまつちま歌ってみた動画「革命デュアリズム」公開中！<br>
+                    <a href="https://www.youtube.com/watch?v=4qaMwhXaW2c" target="_blank" class="text-primary underline">
+                        https://www.youtube.com/watch?v=4qaMwhXaW2c
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <p class="mb-8 text-slate-600 leading-loose">
+            この配信はVRC内のグループ「Enjoy Game Union（EGU）」所属メンバーがお届けするLive配信です。
+        </p>`
+  }
 //   {
 //     id: 6,
 //     title: "Live配信『誰の頭が一番《Ultimate》かって話』【EGUゲーム部】開始",
