@@ -1,3 +1,9 @@
+/**
+ * newsModel.js
+ * ニュースコンテンツ データ定義
+ * ▼ ニュースを追加・編集する場合はこのファイルのみ変更してください
+ */
+
 const newsContent = [
   {
     id: 1,
@@ -561,7 +567,125 @@ const newsContent = [
         <p class="mb-8 text-slate-600 leading-loose">
             この配信はVRC内のグループ「Enjoy Game Union（EGU）」所属メンバーがお届けするLive配信です。
         </p>`
-  }
+  },
+//   {
+//     id: 9,
+//     title: "【麻雀大会】春季麻雀大会、開催ッッッ！！！",
+//     date: "2026.04.17",
+//     tag: "Live配信",
+//     thumb: "./img/news/NEWS-09-01.webp",
+//     body: `<img src="./img/news/NEWS-09-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="春季麻雀大会">
+
+//         <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
+//             春季麻雀大会、開催ッッッ！！！
+//         </h3>
+
+//         <p class="mb-6 text-slate-600 leading-loose">
+//             今夜、20名の雀士たちがシノギを削る麻雀バトル、開幕ッッッ！！！<br>
+//             熱き戦いの行方をぜひリアルタイムでご覧ください！
+//         </p>
+
+//         <div class="overflow-hidden border border-slate-100 rounded-2xl mb-8">
+//             <table class="w-full text-left border-collapse">
+//                 <tr class="bg-slate-50">
+//                     <th class="p-4 border-b border-slate-100 font-bold text-slate-600 w-1/3">主催</th>
+//                     <td class="p-4 border-b border-slate-100">
+//                         Sava　<a href="https://x.com/Sava_403" target="_blank" class="text-primary underline">https://x.com/Sava_403</a>
+//                     </td>
+//                 </tr>
+//                 <tr>
+//                     <th class="p-4 border-b border-slate-100 font-bold text-slate-600">実況・解説</th>
+//                     <td class="p-4 border-b border-slate-100">
+//                         Tooka　<a href="https://x.com/t1o0k" target="_blank" class="text-primary underline">https://x.com/t1o0k</a>
+//                     </td>
+//                 </tr>
+//                 <tr class="bg-slate-50">
+//                     <th class="p-4 font-bold text-slate-600">技術スタッフ</th>
+//                     <td class="p-4">
+//                         ずんだゆき　<a href="https://x.com/zund_Yuki" target="_blank" class="text-primary underline">https://x.com/zund_Yuki</a>
+//                     </td>
+//                 </tr>
+//             </table>
+//         </div>
+
+//         <h3 class="text-xl font-bold mb-4">◆各視点</h3>
+//         <ul class="mb-8 text-slate-600 leading-loose list-disc list-inside space-y-1">
+//             <li>エリリ・エリ　<a href="https://www.youtube.com/@namesnow66" target="_blank" class="text-primary underline">namesnow66</a></li>
+//             <li>きゅう　（<a href="https://www.youtube.com/watch?v=_placeholder_kyu" target="_blank" class="text-primary underline">【雀鯖杯|グループ予選/D卓】僕以外全員焼き鳥！！！#雀鯖杯【きゅう視点】</a>）</li>
+//             <li>白夏ハル　<a href="https://www.youtube.com/@shiranatsu" target="_blank" class="text-primary underline">shiranatsu</a></li>
+//             <li>ちぇるびん　<a href="https://www.youtube.com/@che1bin" target="_blank" class="text-primary underline">che1bin</a></li>
+//             <li>てとらまる　<a href="https://www.youtube.com/@tetramarumaru" target="_blank" class="text-primary underline">tetramarumaru</a></li>
+//             <li>佃煮ブラスター　<a href="https://youtube.com/live/TCy5cNLLEsI" target="_blank" class="text-primary underline">https://youtube.com/live/TCy5cNLLEsI</a></li>
+//         </ul>
+
+//         <h3 class="text-xl font-bold mb-4">◆出演者（20名）</h3>
+//         <div class="overflow-hidden border border-slate-100 rounded-2xl mb-8">
+//             <table class="w-full text-left border-collapse text-sm">
+//                 <thead>
+//                     <tr class="bg-slate-100">
+//                         <th class="p-3 border-b border-slate-200 font-bold text-slate-600 text-center w-12">No</th>
+//                         <th class="p-3 border-b border-slate-200 font-bold text-slate-600">名前</th>
+//                         <th class="p-3 border-b border-slate-200 font-bold text-slate-600">雀魂名</th>
+//                         <th class="p-3 border-b border-slate-200 font-bold text-slate-600">X（Twitter）</th>
+//                     </tr>
+//                 </thead>
+//                 <tbody class="text-slate-600">
+//                     <tr class="bg-slate-50"><td class="p-3 border-b border-slate-100 text-center">01</td><td class="p-3 border-b border-slate-100">garavella</td><td class="p-3 border-b border-slate-100">がらろ</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/garavella1010" target="_blank" class="text-primary underline">@garavella1010</a></td></tr>
+//                     <tr><td class="p-3 border-b border-slate-100 text-center">02</td><td class="p-3 border-b border-slate-100">ibumelon</td><td class="p-3 border-b border-slate-100">ibumelon</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/melon3837" target="_blank" class="text-primary underline">@melon3837</a></td></tr>
+//                     <tr class="bg-slate-50"><td class="p-3 border-b border-slate-100 text-center">03</td><td class="p-3 border-b border-slate-100">komatsu</td><td class="p-3 border-b border-slate-100">komatsu</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/komatsu_chiii" target="_blank" class="text-primary underline">@komatsu_chiii</a></td></tr>
+//                     <tr><td class="p-3 border-b border-slate-100 text-center">04</td><td class="p-3 border-b border-slate-100">majennte</td><td class="p-3 border-b border-slate-100">マジェスタス</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/majennte_vrc" target="_blank" class="text-primary underline">@majennte_vrc</a></td></tr>
+//                     <tr class="bg-slate-50"><td class="p-3 border-b border-slate-100 text-center">05</td><td class="p-3 border-b border-slate-100">rneguri</td><td class="p-3 border-b border-slate-100">meguri</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/rneguri" target="_blank" class="text-primary underline">@rneguri</a></td></tr>
+//                     <tr><td class="p-3 border-b border-slate-100 text-center">06</td><td class="p-3 border-b border-slate-100">saboint99</td><td class="p-3 border-b border-slate-100">gogogoing</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/morrimorriGhh" target="_blank" class="text-primary underline">@morrimorriGhh</a></td></tr>
+//                     <tr class="bg-slate-50"><td class="p-3 border-b border-slate-100 text-center">07</td><td class="p-3 border-b border-slate-100">Shiranatsu_haru</td><td class="p-3 border-b border-slate-100">xしらなつx</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/shiranatsu_haru" target="_blank" class="text-primary underline">@shiranatsu_haru</a></td></tr>
+//                     <tr><td class="p-3 border-b border-slate-100 text-center">08</td><td class="p-3 border-b border-slate-100">Zunda315</td><td class="p-3 border-b border-slate-100">ぜろしきむげん</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/Zunda315_VR" target="_blank" class="text-primary underline">@Zunda315_VR</a></td></tr>
+//                     <tr class="bg-slate-50"><td class="p-3 border-b border-slate-100 text-center">09</td><td class="p-3 border-b border-slate-100">エリリ・エリ</td><td class="p-3 border-b border-slate-100">エリリ・エリ</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/nameSnow66" target="_blank" class="text-primary underline">@nameSnow66</a></td></tr>
+//                     <tr><td class="p-3 border-b border-slate-100 text-center">10</td><td class="p-3 border-b border-slate-100">かぐやねぃ</td><td class="p-3 border-b border-slate-100">かぐやねぃちゃ</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/kaguya_nei_VRC" target="_blank" class="text-primary underline">@kaguya_nei_VRC</a></td></tr>
+//                     <tr class="bg-slate-50"><td class="p-3 border-b border-slate-100 text-center">11</td><td class="p-3 border-b border-slate-100">きゅう９</td><td class="p-3 border-b border-slate-100">Europort</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/9___9_nine" target="_blank" class="text-primary underline">@9___9_nine</a></td></tr>
+//                     <tr><td class="p-3 border-b border-slate-100 text-center">12</td><td class="p-3 border-b border-slate-100">しーろさん</td><td class="p-3 border-b border-slate-100">N309</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/C6C6_vrc" target="_blank" class="text-primary underline">@C6C6_vrc</a></td></tr>
+//                     <tr class="bg-slate-50"><td class="p-3 border-b border-slate-100 text-center">13</td><td class="p-3 border-b border-slate-100">しんやぞ</td><td class="p-3 border-b border-slate-100">マグロの教祖2</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/Zz_sinsin_Zz" target="_blank" class="text-primary underline">@Zz_sinsin_Zz</a></td></tr>
+//                     <tr><td class="p-3 border-b border-slate-100 text-center">14</td><td class="p-3 border-b border-slate-100">ちぇるびん</td><td class="p-3 border-b border-slate-100">ばさしポンする</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/chelb1n" target="_blank" class="text-primary underline">@chelb1n</a></td></tr>
+//                     <tr class="bg-slate-50"><td class="p-3 border-b border-slate-100 text-center">15</td><td class="p-3 border-b border-slate-100">てとらまる</td><td class="p-3 border-b border-slate-100">ゆのちょす</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/tetora1747" target="_blank" class="text-primary underline">@tetora1747</a></td></tr>
+//                     <tr><td class="p-3 border-b border-slate-100 text-center">16</td><td class="p-3 border-b border-slate-100">トッサノ</td><td class="p-3 border-b border-slate-100">咄嗟の魚拓</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/tossanovrc" target="_blank" class="text-primary underline">@tossanovrc</a></td></tr>
+//                     <tr class="bg-slate-50"><td class="p-3 border-b border-slate-100 text-center">17</td><td class="p-3 border-b border-slate-100">ひすいのたけ</td><td class="p-3 border-b border-slate-100">—</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/8TP0tg5Tje18575" target="_blank" class="text-primary underline">@8TP0tg5Tje18575</a></td></tr>
+//                     <tr><td class="p-3 border-b border-slate-100 text-center">18</td><td class="p-3 border-b border-slate-100">霞澄さん</td><td class="p-3 border-b border-slate-100">霞澄さんさん</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/kasumisan_VR" target="_blank" class="text-primary underline">@kasumisan_VR</a></td></tr>
+//                     <tr class="bg-slate-50"><td class="p-3 border-b border-slate-100 text-center">19</td><td class="p-3 border-b border-slate-100">佃煮ブラスター</td><td class="p-3 border-b border-slate-100">佃煮ブラスター</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/tukkydanibuta" target="_blank" class="text-primary underline">@tukkydanibuta</a></td></tr>
+//                     <tr><td class="p-3 text-center">20</td><td class="p-3">萌葱ねる</td><td class="p-3">ねるくん２</td><td class="p-3"><a href="https://x.com/moegineru_vrc" target="_blank" class="text-primary underline">@moegineru_vrc</a></td></tr>
+//                 </tbody>
+//             </table>
+//         </div>
+
+//         <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 mb-8">
+//             <p class="text-sm font-bold text-slate-500 mb-4 uppercase tracking-widest">Related Content</p>
+//             <ul class="space-y-3 text-slate-600">
+//                 <li>
+//                     ★こまつちまシチュエーションボイス<br>
+//                     メスガキの耳かきで屈服させられる【メスガキに耳かきをされるシチュボ】販売中<br>
+//                     <a href="https://egu.booth.pm/items/8151321" target="_blank" class="text-primary underline">
+//                         https://egu.booth.pm/items/8151321
+//                     </a>
+//                 </li>
+//                 <li>
+//                     ★ずんだゆきシチュエーションボイス<br>
+//                     震える君を抱きしめて【サド甘お兄さんに死ぬほど愛されるシチュボ】販売中！<br>
+//                     <a href="https://egu.booth.pm/items/8058227" target="_blank" class="text-primary underline">
+//                         https://egu.booth.pm/items/8058227
+//                     </a>
+//                 </li>
+//             </ul>
+//         </div>
+
+//         <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+//             <p class="text-sm font-bold text-slate-500 mb-2 uppercase tracking-widest">About EGU</p>
+//             <ul class="space-y-2 text-slate-600">
+//                 <li>
+//                     公式HP：<a href="https://enjoygameunion.github.io/" target="_blank" class="text-primary underline">https://enjoygameunion.github.io/</a>
+//                 </li>
+//                 <li>
+//                     公式X：<a href="https://x.com/EnjoyGameUnion" target="_blank" class="text-primary underline">https://x.com/EnjoyGameUnion</a>
+//                 </li>
+//             </ul>
+//         </div>`
+//   }
 //   {
 //     id: 6,
 //     title: "Live配信『誰の頭が一番《Ultimate》かって話』【EGUゲーム部】開始",

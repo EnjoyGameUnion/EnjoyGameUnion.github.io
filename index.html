@@ -26,7 +26,11 @@
       rel="stylesheet" />
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
-    <link rel="stylesheet" href="./css/stylesheet.css" />
+    <!-- CSS — 読み込み順を守ってください -->
+    <link rel="stylesheet" href="./css/common.css" />
+    <!-- 共通スタイル -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- index.html 専用 -->
     <script>
       tailwind.config = {
         theme: {
@@ -546,36 +550,33 @@
       </div>
     </div>
 
-    <!-- JavaScript 処理 -->
+    <!-- =====================================================
+         JavaScript — 読み込み順を守ってください
 
-    <script src="js/member.js">
-      // --- 1. メンバーデータ読込 ---
-    </script>
-    <script src="js/news.js">
-      // --- 2. news読込 ---
-    </script>
+         1. Model（データ定義）を先に読む
+         2. Service（処理）を後に読む
+         3. commonService は voice.html とも共通
+    ====================================================== -->
+
+    <!-- 1. Model層（データ定義のみ） -->
+    <script src="js/memberModel.js"></script>
+    <script src="js/Data/newsData.js"></script>
+
+    <!-- 2. About画像スライダー（インライン・依存なし） -->
     <script>
-      // --- 3. Aboutの画像切り替え
       const aboutSlide = document.querySelectorAll(".about-slide");
       let currentSlides = 0;
-
       setInterval(() => {
         aboutSlide[currentSlides].classList.remove("active");
-
         currentSlides = (currentSlides + 1) % aboutSlide.length;
-
         aboutSlide[currentSlides].classList.add("active");
-      }, 4000); // 4秒ごと切り替え
+      }, 4000);
     </script>
 
-    <script src="js/common.js">
-      // --- 2. メンバーカードの動的生成 ---
-      // --- 3. モーダル制御ロジック ---
-      // --- 4. スクロールアニメーション (Intersection Observer) ---
-      // --- 5. ヘッダーのスクロール制御 ---
-      // --- 6. ハンバーガーメニュー ---
-      // --- 7. Newsハイライト ---
-      // --- 8. News詳細 ---
-    </script>
+    <!-- 3. Service層（処理ロジック） -->
+    <script src="js/commonService.js"></script>
+    <script src="js/UI/memberUI.js"></script>
+    <script src="js/Renderer/memberRenderer.js"></script>
+    <script src="js/newsService.js"></script>
   </body>
 </html>
