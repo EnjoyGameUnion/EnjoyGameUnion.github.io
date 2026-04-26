@@ -1,6 +1,6 @@
 /**
  * voiceRenderer.js
- * 描画専用
+ * 描画専用（ALLタブ追加版）
  */
 
 function buildFilterTabs() {
@@ -9,6 +9,23 @@ function buildFilterTabs() {
 
   wrap.innerHTML = "";
 
+  // -----------------------------
+  // ALL タブ（先頭固定）
+  // -----------------------------
+  const allBtn = document.createElement("button");
+
+  allBtn.className =
+    "filter-tab active-tab shrink-0 px-4 py-2 rounded-full text-xs font-black font-en tracking-wider " +
+    "bg-slate-900 text-white border border-slate-900 shadow-md transition-all";
+
+  allBtn.dataset.filter = "all";
+  allBtn.textContent = "ALL";
+
+  wrap.appendChild(allBtn);
+
+  // -----------------------------
+  // カテゴリタブ
+  // -----------------------------
   VOICE_CATEGORIES.forEach((cat) => {
     const btn = document.createElement("button");
 
@@ -43,12 +60,26 @@ function buildVoiceMain() {
         </div>
 
         <div class="flex items-baseline gap-3">
-          <h2 class="text-2xl font-black font-en text-dark">${cat.en}</h2>
-          <span class="text-sm text-slate-400">${cat.jp}</span>
+          <h2 class="text-2xl font-black font-en text-dark tracking-tight">
+            ${cat.en}
+          </h2>
+
+          <span class="text-sm text-slate-400 font-medium">
+            ${cat.jp}
+          </span>
+
+          <span class="text-[10px] font-black font-en tracking-widest text-slate-400 border border-slate-200 rounded-full px-2.5 py-0.5">
+            ${cat.voices.length}
+          </span>
         </div>
+
+        <div class="flex-1 h-px bg-slate-100 ml-2"></div>
       </div>
 
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-2.5" id="grid-${cat.id}"></div>
+      <div
+        class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-2.5"
+        id="grid-${cat.id}"
+      ></div>
     `;
 
     main.appendChild(sec);
@@ -59,19 +90,29 @@ function buildVoiceMain() {
       const btn = document.createElement("button");
 
       btn.className =
-        "v-btn group w-full bg-white rounded-2xl border border-slate-100 p-3.5 text-left flex items-center gap-3";
+        "v-btn group w-full bg-white rounded-2xl border border-slate-100 p-3.5 text-left flex items-center gap-3 shadow-sm";
 
       btn.dataset.label = v.label;
       btn.dataset.cat = cat.id;
-      btn.dataset.src = v.src;
+      btn.dataset.src = v.src || "";
 
       btn.innerHTML = `
-        <div class="w-8 h-8 rounded-xl bg-slate-50 flex items-center justify-center shrink-0">
-          <i class="btn-play-icon fa-solid fa-play text-slate-400 text-xs"></i>
+        <div class="w-8 h-8 rounded-xl bg-slate-50 group-hover:bg-primary/10 flex items-center justify-center shrink-0 transition-colors">
+          <i class="btn-play-icon fa-solid fa-play text-slate-400 text-xs group-hover:text-primary transition-colors"></i>
         </div>
 
         <div class="flex-1 min-w-0">
-          <span class="text-xs font-bold text-slate-700">${v.label}</span>
+          <span class="text-xs font-bold text-slate-700 leading-snug line-clamp-2">
+            ${v.label}
+          </span>
+        </div>
+
+        <div class="wave-wrap flex items-end gap-0.5 h-4 shrink-0 opacity-0 transition-opacity">
+          <span class="wave-bar"></span>
+          <span class="wave-bar"></span>
+          <span class="wave-bar"></span>
+          <span class="wave-bar"></span>
+          <span class="wave-bar"></span>
         </div>
       `;
 
