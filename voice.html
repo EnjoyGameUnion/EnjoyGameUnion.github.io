@@ -6,49 +6,42 @@
     <title>Voice Board | EnjoyGameUnion!!</title>
     <link rel="icon" href="/favicon.ico" />
 
-    <!-- Tailwind CSS (元サイトと同じ) -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ELSZFFR470"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-ELSZFFR470");
+    </script>
+
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Google Fonts (元サイトと同じ) -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
       rel="stylesheet" />
 
-    <!-- FontAwesome (元サイトと同じバージョン) -->
+    <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
 
     <!-- CSS — 読み込み順を守ってください -->
     <link rel="stylesheet" href="./css/common.css" />  <!-- 共通スタイル -->
     <link rel="stylesheet" href="./css/voice.css" />   <!-- voice.html 専用 -->
 
-    <!-- Tailwind config (index.html と完全一致) -->
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['"Noto Sans JP"', "sans-serif"],
-              en:   ['"Montserrat"', "sans-serif"],
-            },
-            colors: {
-              primary:   "#6366f1",
-              secondary: "#ec4899",
-              dark:      "#111827",
-              light:     "#f9fafb",
-            },
-          },
-        },
-      };
-    </script>
+    <!-- Tailwind config -->
+    <script src="js/Config/config.js"></script>
   </head>
 
   <body class="text-gray-800 bg-light antialiased font-sans">
 
-    <!-- ========================================================
-         HEADER（index.html と完全一致）
-    ======================================================== -->
+    <!-- ナビゲーションバー -->
     <header
       class="fixed w-full top-0 z-50 bg-white/80 backdrop-blur-md shadow-sm transition-all duration-300"
       id="header">
@@ -72,7 +65,7 @@
       </div>
     </header>
 
-    <!-- モバイル用サイドメニュー（index.html と完全一致） -->
+    <!-- モバイル用サイドメニュー -->
     <div id="menu-overlay" class="menu-overlay fixed inset-0 z-50"></div>
     <aside
       id="side-menu"
@@ -179,7 +172,7 @@
     </main>
 
     <!-- ========================================================
-         FOOTER（index.html と完全一致）
+         FOOTER
     ======================================================== -->
     <footer class="bg-dark text-white py-12 border-t-4 border-primary">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
@@ -209,19 +202,23 @@
     </footer>
 
 
-    <!-- ========================================================
+    <!-- =====================================================
          JavaScript — 読み込み順を守ってください
-         1. Model（データ定義）を先に読む
-         2. Service（処理）を後に読む
-         3. commonService は両ページ共通
-    ======================================================== -->
 
-    <!-- 1. Model層（データ定義のみ） -->
-    <script src="js/voiceModel.js"></script>
+         1. Data層（データ定義）を読む
+         2. UI層（描画）を読む
+         3. Renderer層（イベント処理）を読む
+    ====================================================== -->
 
-    <!-- 2. Service層（処理ロジック） -->
-    <script src="js/commonService.js"></script>
-    <script src="js/voiceService.js"></script>
+    <!-- 1. Data層（データ定義） -->
+    <script src="js/Data/voiceData.js"></script>
 
+    <!-- 2. UI層（描画） -->
+    <script src="js/UI/commonUI.js"></script>
+    <script src="js/UI/voiceUI.js"></script>
+
+    <!-- 3. Renderer層（イベント処理） -->
+    <script src="js/Renderer/voiceRenderer.js"></script>
+    <!-- <script src="js/voiceService.js"></script> -->
   </body>
 </html>
