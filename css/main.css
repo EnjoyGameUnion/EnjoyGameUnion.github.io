@@ -1,0 +1,152 @@
+/* ============================================================
+   main.css
+   index.html 専用スタイル
+   ※ index.html のみ読み込む
+============================================================ */
+
+/* ----------------------------------------------------------
+   Hero セクション：オーロラ背景グラデーション
+---------------------------------------------------------- */
+.hero-gradient {
+  background: linear-gradient(125deg, #ffffff 0%, #f5f3ff 40%, #fdf2f8 70%, #ffffff 100%);
+  background-size: 400% 400%;
+  animation: gradient-flow 15s ease infinite;
+}
+
+@keyframes gradient-flow {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* ----------------------------------------------------------
+   Hero セクション：浮遊パーティクル
+---------------------------------------------------------- */
+.particle {
+  position: absolute;
+  background: rgba(99, 102, 241, 0.1);
+  border-radius: 50%;
+  pointer-events: none;
+  animation: float-particle 20s linear infinite;
+}
+
+@keyframes float-particle {
+  0%   { transform: translateY(100vh) scale(0); opacity: 0; }
+  50%  { opacity: 0.5; }
+  100% { transform: translateY(-10vh) scale(1.5); opacity: 0; }
+}
+
+/* ----------------------------------------------------------
+   About セクション：画像スライドフェード
+---------------------------------------------------------- */
+.about-slide {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1.5s ease;
+}
+
+.about-slide.active {
+  opacity: 1;
+}
+
+/* ----------------------------------------------------------
+   幾何学模様の背景アニメーション（Projects / Members）
+---------------------------------------------------------- */
+.bg-shapes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+  background: linear-gradient(135deg, #f3f4f6 0%, #ffffff 100%);
+}
+
+.shape {
+  position: absolute;
+  background: rgba(99, 102, 241, 0.05);
+  animation: float 15s infinite linear;
+}
+
+@keyframes float {
+  0%   { transform: translateY(0) rotate(0deg); }
+  100% { transform: translateY(-1000px) rotate(360deg); }
+}
+
+/* ----------------------------------------------------------
+   メンバーカード
+---------------------------------------------------------- */
+.member-card {
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.member-card:hover {
+  transform: translateY(-8px);
+  box-shadow:
+    0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.member-img-wrap {
+  overflow: hidden;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  transition: clip-path 0.4s ease;
+}
+
+.member-card:hover .member-img-wrap {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.member-card img {
+  transition: transform 0.6s ease;
+}
+
+.member-card:hover img {
+  transform: scale(1.1);
+}
+
+/* ----------------------------------------------------------
+   メンバー詳細モーダル
+---------------------------------------------------------- */
+.modal-overlay {
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(8px);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-content {
+  transform: scale(0.9) translateY(20px);
+  opacity: 0;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.modal-overlay.active .modal-content {
+  transform: scale(1) translateY(0);
+  opacity: 1;
+}
+
+/* ----------------------------------------------------------
+   メンバーモーダル：画像スライダー
+---------------------------------------------------------- */
+.slider-container {
+  display: flex;
+  transition: transform 0.6s cubic-bezier(0.65, 0, 0.35, 1);
+  width: 300%;
+}
+
+.slide {
+  width: 33.333%;
+  flex-shrink: 0;
+}
