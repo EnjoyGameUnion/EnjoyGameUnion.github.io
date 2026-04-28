@@ -750,7 +750,191 @@ const newsContent = [
             </ul>
         </div>`
   },
+  {
+    id: 10,
+    title: "【麻雀大会】春季麻雀大会、開催ッッッ！！！【#雀鯖杯】",
+    date: "2026.04.17",
+    tag: "Live配信",
+    thumb: "./img/news/NEWS-10-01.webp",
+    body: `<img src="./img/news/NEWS-10-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="春季麻雀大会 雀鯖杯">
 
+        <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
+            春季麻雀大会『雀鯖杯』、開催ッッッ！！！
+        </h3>
+
+        <p class="mb-6 text-slate-600 leading-loose">
+            EnjoyGameUnion!! が誇る最初で最後（になるはずがない）麻雀頂上決戦――<strong>「雀鯖杯」</strong>がついに幕を開けます！！！<br>
+            EGU所属メンバーに加え、日頃からEGUと交流のある腕自慢の雀士たちが一堂に会し、計20名がシノギを削る激闘が今夜いよいよ始まります。<br>
+            <br>
+            「雀鯖杯」という名前は、主催・Savaの名前と「麻雀」「カップ（杯）」を掛け合わせた、この大会のためだけに生まれた特別な名前。<br>
+            EGU初の麻雀大会として、全員が全力でぶつかり合います。<br>熱き戦いが今始まる！！！！
+        </p>
+
+        <!-- YouTube埋め込み -->
+        <div class="aspect-video w-full mb-8">
+            <iframe
+                class="w-full h-full rounded-3xl shadow-2xl"
+                src="https://www.youtube.com/embed/_4eFoVDdnfs?rel=0"
+                title="【麻雀大会】春季麻雀大会 雀鯖杯"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <div class="overflow-hidden border border-slate-100 rounded-2xl mb-10">
+            <table class="w-full text-left border-collapse">
+                <tr class="bg-slate-50">
+                    <th class="p-4 border-b border-slate-100 font-bold text-slate-600 w-1/3">大会名</th>
+                    <td class="p-4 border-b border-slate-100">雀鯖杯</td>
+                </tr>
+                <tr>
+                    <th class="p-4 border-b border-slate-100 font-bold text-slate-600">開催日時</th>
+                    <td class="p-4 border-b border-slate-100">2026年4月17日（金）21:00~</td>
+                </tr>
+                <tr class="bg-slate-50">
+                    <th class="p-4 border-b border-slate-100 font-bold text-slate-600">参加人数</th>
+                    <td class="p-4 border-b border-slate-100">20名</td>
+                </tr>
+                <tr>
+                    <th class="p-4 border-b border-slate-100 font-bold text-slate-600">主催</th>
+                    <td class="p-4 border-b border-slate-100">Sava</td>
+                </tr>
+                <tr class="bg-slate-50">
+                    <th class="p-4 font-bold text-slate-600">実況・解説</th>
+                    <td class="p-4">Tooka</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- 麻雀している画像 -->
+        <h3 class="text-xl font-bold mb-4">◆大会の様子</h3>
+        <img src="./img/news/NEWS-10-02.webp" class="w-full h-auto rounded-2xl shadow-md mb-10" alt="大会の様子">
+
+        <!-- 大会進行ルール -->
+        <h3 class="text-xl font-bold mb-4">◆大会進行ルール</h3>
+        <img src="./img/news/NEWS-10-03.webp" class="w-full h-auto rounded-2xl shadow-md mb-10" alt="大会進行ルール">
+
+        <!-- 対局ルール -->
+        <h3 class="text-xl font-bold mb-4">◆対局ルール</h3>
+        <img src="./img/news/NEWS-10-04.webp" class="w-full h-auto rounded-2xl shadow-md mb-10" alt="対局ルール">
+
+        <!-- 賞品 -->
+        <h3 class="text-xl font-bold mb-4">◆賞品・景品</h3>
+        <div class="grid grid-cols-1 gap-6 mb-10">
+            <div>
+                <p class="font-bold text-slate-700 mb-2">🏆 優勝賞品</p>
+                <img src="./img/news/NEWS-10-05.webp" class="w-full h-auto rounded-2xl shadow-md" alt="優勝賞品">
+            </div>
+            <div>
+                <p class="font-bold text-slate-700 mb-2">🎁 ずんだゆき賞</p>
+                <img src="./img/news/NEWS-10-06.webp" class="w-full h-auto rounded-2xl shadow-md" alt="ずんだゆき賞">
+            </div>
+            <div>
+                <p class="font-bold text-slate-700 mb-2">🎁 トッサノ賞</p>
+                <img src="./img/news/NEWS-10-07.webp" class="w-full h-auto rounded-2xl shadow-md" alt="トッサノ賞">
+            </div>
+        </div>
+
+        <!-- グループ予選 -->
+        <h3 class="text-xl font-bold mb-4">◆グループ予選一覧</h3>
+        <img src="./img/news/NEWS-10-08.webp" class="w-full h-auto rounded-2xl shadow-md mb-10" alt="グループ予選一覧">
+
+        <!-- 出演者紹介 -->
+        <h3 class="text-xl font-bold mb-6">◆出演者紹介</h3>
+        <div class="grid grid-cols-2 gap-3 mb-10 sm:grid-cols-4">
+            <img src="./img/news/NEWS-10-09.webp" class="w-full h-auto rounded-xl shadow-sm" alt="garavella">
+            <img src="./img/news/NEWS-10-10.webp" class="w-full h-auto rounded-xl shadow-sm" alt="ibumelon">
+            <img src="./img/news/NEWS-10-11.webp" class="w-full h-auto rounded-xl shadow-sm" alt="komatsu">
+            <img src="./img/news/NEWS-10-12.webp" class="w-full h-auto rounded-xl shadow-sm" alt="majennte">
+            <img src="./img/news/NEWS-10-13.webp" class="w-full h-auto rounded-xl shadow-sm" alt="rneguri">
+            <img src="./img/news/NEWS-10-14.webp" class="w-full h-auto rounded-xl shadow-sm" alt="saboint99">
+            <img src="./img/news/NEWS-10-15.webp" class="w-full h-auto rounded-xl shadow-sm" alt="Shiranatsu_haru">
+            <img src="./img/news/NEWS-10-16.webp" class="w-full h-auto rounded-xl shadow-sm" alt="Zunda315">
+            <img src="./img/news/NEWS-10-17.webp" class="w-full h-auto rounded-xl shadow-sm" alt="エリリ・エリ">
+            <img src="./img/news/NEWS-10-18.webp" class="w-full h-auto rounded-xl shadow-sm" alt="かぐやねぃ">
+            <img src="./img/news/NEWS-10-19.webp" class="w-full h-auto rounded-xl shadow-sm" alt="きゅう９">
+            <img src="./img/news/NEWS-10-20.webp" class="w-full h-auto rounded-xl shadow-sm" alt="しーろさん">
+            <img src="./img/news/NEWS-10-21.webp" class="w-full h-auto rounded-xl shadow-sm" alt="しんやぞ">
+            <img src="./img/news/NEWS-10-22.webp" class="w-full h-auto rounded-xl shadow-sm" alt="ちぇるびん">
+            <img src="./img/news/NEWS-10-23.webp" class="w-full h-auto rounded-xl shadow-sm" alt="てとらまる">
+            <img src="./img/news/NEWS-10-24.webp" class="w-full h-auto rounded-xl shadow-sm" alt="トッサノ">
+            <img src="./img/news/NEWS-10-25.webp" class="w-full h-auto rounded-xl shadow-sm" alt="ひすいのたけ">
+            <img src="./img/news/NEWS-10-26.webp" class="w-full h-auto rounded-xl shadow-sm" alt="霞澄さん">
+            <img src="./img/news/NEWS-10-27.webp" class="w-full h-auto rounded-xl shadow-sm" alt="佃煮ブラスター">
+            <img src="./img/news/NEWS-10-28.webp" class="w-full h-auto rounded-xl shadow-sm" alt="萌葱ねる">
+        </div>
+
+        <!-- スタッフ -->
+        <h3 class="text-xl font-bold mb-4">◆スタッフ</h3>
+        <ul class="mb-8 text-slate-600 leading-loose list-disc list-inside">
+            <li>主催：Sava　<a href="https://x.com/Sava_403" target="_blank" class="text-primary underline">https://x.com/Sava_403</a></li>
+            <li>実況・解説：Tooka　<a href="https://x.com/t1o0k" target="_blank" class="text-primary underline">https://x.com/t1o0k</a></li>
+            <li>技術スタッフ：ずんだゆき　<a href="https://x.com/zund_Yuki" target="_blank" class="text-primary underline">https://x.com/zund_Yuki</a></li>
+        </ul>
+
+        <!-- 各視点 -->
+        <h3 class="text-xl font-bold mb-4">◆各視点配信</h3>
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 mb-10">
+            <p class="text-sm font-bold text-slate-500 mb-4 uppercase tracking-widest">Player POV Links</p>
+            <ul class="space-y-2 text-slate-600">
+                <li>エリリ・エリ　<a href="https://www.twitch.tv/namesnow66" target="_blank" class="text-primary underline">https://www.twitch.tv/namesnow66</a></li>
+                <li>きゅう　<a href="https://www.youtube.com/watch?v=UEwbBwCq-ws" target="_blank" class="text-primary underline">https://www.youtube.com/watch?v=UEwbBwCq-ws</a></li>
+                <li>白夏ハル　<a href="https://www.twitch.tv/shiranatsu" target="_blank" class="text-primary underline">https://www.twitch.tv/shiranatsu</a></li>
+                <li>ちぇるびん　<a href="https://www.twitch.tv/che1bin" target="_blank" class="text-primary underline">https://www.twitch.tv/che1bin</a></li>
+                <li>てとらまる　<a href="https://www.twitch.tv/tetramarumaru" target="_blank" class="text-primary underline">https://www.twitch.tv/tetramarumaru</a></li>
+                <li>佃煮ブラスター　<a href="https://youtube.com/live/TCy5cNLLEsI?feature=share" target="_blank" class="text-primary underline">https://youtube.com/live/TCy5cNLLEsI</a></li>
+            </ul>
+        </div>
+
+        <!-- 出演者一覧 -->
+        <h3 class="text-xl font-bold mb-4">◆出演者一覧（雀魂名）</h3>
+        <div class="overflow-hidden border border-slate-100 rounded-2xl mb-10">
+            <table class="w-full text-left border-collapse text-sm">
+                <thead>
+                    <tr class="bg-slate-100">
+                        <th class="p-3 border-b border-slate-100 font-bold text-slate-600 w-8">No</th>
+                        <th class="p-3 border-b border-slate-100 font-bold text-slate-600">名前</th>
+                        <th class="p-3 border-b border-slate-100 font-bold text-slate-600">雀魂名</th>
+                        <th class="p-3 border-b border-slate-100 font-bold text-slate-600">X (Twitter)</th>
+                    </tr>
+                </thead>
+                <tbody class="text-slate-600">
+                    <tr class="bg-slate-50"><td class="p-3 border-b border-slate-100">01</td><td class="p-3 border-b border-slate-100">garavella</td><td class="p-3 border-b border-slate-100">がらろ</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/garavella1010" target="_blank" class="text-primary underline">@garavella1010</a></td></tr>
+                    <tr><td class="p-3 border-b border-slate-100">02</td><td class="p-3 border-b border-slate-100">ibumelon</td><td class="p-3 border-b border-slate-100">ibumelon</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/melon3837" target="_blank" class="text-primary underline">@melon3837</a></td></tr>
+                    <tr class="bg-slate-50"><td class="p-3 border-b border-slate-100">03</td><td class="p-3 border-b border-slate-100">komatsu</td><td class="p-3 border-b border-slate-100">komatsu</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/komatsu_chiii" target="_blank" class="text-primary underline">@komatsu_chiii</a></td></tr>
+                    <tr><td class="p-3 border-b border-slate-100">04</td><td class="p-3 border-b border-slate-100">majennte</td><td class="p-3 border-b border-slate-100">マジェスタス</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/majennte_vrc" target="_blank" class="text-primary underline">@majennte_vrc</a></td></tr>
+                    <tr class="bg-slate-50"><td class="p-3 border-b border-slate-100">05</td><td class="p-3 border-b border-slate-100">rneguri</td><td class="p-3 border-b border-slate-100">meguri</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/rneguri" target="_blank" class="text-primary underline">@rneguri</a></td></tr>
+                    <tr><td class="p-3 border-b border-slate-100">06</td><td class="p-3 border-b border-slate-100">saboint99</td><td class="p-3 border-b border-slate-100">gogogoing</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/morrimorriGhh" target="_blank" class="text-primary underline">@morrimorriGhh</a></td></tr>
+                    <tr class="bg-slate-50"><td class="p-3 border-b border-slate-100">07</td><td class="p-3 border-b border-slate-100">Shiranatsu_haru</td><td class="p-3 border-b border-slate-100">xしらなつx</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/shiranatsu_haru" target="_blank" class="text-primary underline">@shiranatsu_haru</a></td></tr>
+                    <tr><td class="p-3 border-b border-slate-100">08</td><td class="p-3 border-b border-slate-100">Zunda315</td><td class="p-3 border-b border-slate-100">ぜろしきむげん</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/Zunda315_VR" target="_blank" class="text-primary underline">@Zunda315_VR</a></td></tr>
+                    <tr class="bg-slate-50"><td class="p-3 border-b border-slate-100">09</td><td class="p-3 border-b border-slate-100">エリリ・エリ</td><td class="p-3 border-b border-slate-100">エリリ・エリ</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/nameSnow66" target="_blank" class="text-primary underline">@nameSnow66</a></td></tr>
+                    <tr><td class="p-3 border-b border-slate-100">10</td><td class="p-3 border-b border-slate-100">かぐやねぃ</td><td class="p-3 border-b border-slate-100">かぐやねぃちゃ</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/kaguya_nei_VRC" target="_blank" class="text-primary underline">@kaguya_nei_VRC</a></td></tr>
+                    <tr class="bg-slate-50"><td class="p-3 border-b border-slate-100">11</td><td class="p-3 border-b border-slate-100">きゅう９</td><td class="p-3 border-b border-slate-100">Europort</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/9___9_nine" target="_blank" class="text-primary underline">@9___9_nine</a></td></tr>
+                    <tr><td class="p-3 border-b border-slate-100">12</td><td class="p-3 border-b border-slate-100">しーろさん</td><td class="p-3 border-b border-slate-100">N309</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/C6C6_vrc" target="_blank" class="text-primary underline">@C6C6_vrc</a></td></tr>
+                    <tr class="bg-slate-50"><td class="p-3 border-b border-slate-100">13</td><td class="p-3 border-b border-slate-100">しんやぞ</td><td class="p-3 border-b border-slate-100">マグロの教祖2</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/Zz_sinsin_Zz" target="_blank" class="text-primary underline">@Zz_sinsin_Zz</a></td></tr>
+                    <tr><td class="p-3 border-b border-slate-100">14</td><td class="p-3 border-b border-slate-100">ちぇるびん</td><td class="p-3 border-b border-slate-100">ばさしポンする</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/chelb1n" target="_blank" class="text-primary underline">@chelb1n</a></td></tr>
+                    <tr class="bg-slate-50"><td class="p-3 border-b border-slate-100">15</td><td class="p-3 border-b border-slate-100">てとらまる</td><td class="p-3 border-b border-slate-100">ゆのちょす</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/tetora1747" target="_blank" class="text-primary underline">@tetora1747</a></td></tr>
+                    <tr><td class="p-3 border-b border-slate-100">16</td><td class="p-3 border-b border-slate-100">トッサノ</td><td class="p-3 border-b border-slate-100">咄嗟の魚拓</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/tossanovrc" target="_blank" class="text-primary underline">@tossanovrc</a></td></tr>
+                    <tr class="bg-slate-50"><td class="p-3 border-b border-slate-100">17</td><td class="p-3 border-b border-slate-100">ひすいのたけ</td><td class="p-3 border-b border-slate-100">ヒスイノタケ</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/8TP0tg5Tje18575" target="_blank" class="text-primary underline">@8TP0tg5Tje18575</a></td></tr>
+                    <tr><td class="p-3 border-b border-slate-100">18</td><td class="p-3 border-b border-slate-100">霞澄さん</td><td class="p-3 border-b border-slate-100">霞澄さんさん</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/kasumisan_VR" target="_blank" class="text-primary underline">@kasumisan_VR</a></td></tr>
+                    <tr class="bg-slate-50"><td class="p-3 border-b border-slate-100">19</td><td class="p-3 border-b border-slate-100">佃煮ブラスター</td><td class="p-3 border-b border-slate-100">佃煮ブラスター</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/tukkydanibuta" target="_blank" class="text-primary underline">@tukkydanibuta</a></td></tr>
+                    <tr><td class="p-3 border-b border-slate-100">20</td><td class="p-3 border-b border-slate-100">萌葱ねる</td><td class="p-3 border-b border-slate-100">ねるくん２</td><td class="p-3 border-b border-slate-100"><a href="https://x.com/moegineru_vrc" target="_blank" class="text-primary underline">@moegineru_vrc</a></td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Thank you -->
+        <img src="./img/news/NEWS-10-29.webp" class="w-full h-auto rounded-2xl shadow-md mb-8" alt="Thank you for watching">
+
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+            <p class="text-sm font-bold text-slate-500 mb-2 uppercase tracking-widest">About EGU</p>
+            <ul class="space-y-2 text-slate-600">
+                <li>公式HP：<a href="https://enjoygameunion.github.io/" target="_blank" class="text-primary underline">https://enjoygameunion.github.io/</a></li>
+                <li>公式X：<a href="https://x.com/EnjoyGameUnion" target="_blank" class="text-primary underline">https://x.com/EnjoyGameUnion</a></li>
+            </ul>
+        </div>`,
+  },
   /* ===投稿テンプレ=== */
   // {
   //     id: ,
