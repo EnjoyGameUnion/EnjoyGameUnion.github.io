@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EnjoyGameUnion!! | Official Site</title>
     <link rel="icon" href="/favicon.ico" />
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ELSZFFR470"></script>
     <script>
@@ -16,35 +17,26 @@
 
       gtag("config", "G-ELSZFFR470");
     </script>
+
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
       rel="stylesheet" />
+    
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
-    <link rel="stylesheet" href="./css/stylesheet.css" />
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['"Noto Sans JP"', "sans-serif"],
-              en: ['"Montserrat"', "sans-serif"],
-            },
-            colors: {
-              primary: "#6366f1", // Indigo-500
-              secondary: "#ec4899", // Pink-500
-              dark: "#111827",
-              light: "#f9fafb",
-            },
-          },
-        },
-      };
-    </script>
+    
+    <!-- CSS — 読み込み順を守ってください -->
+    <link rel="stylesheet" href="./css/common.css" /> <!-- 共通スタイル -->
+    <link rel="stylesheet" href="./css/main.css" />   <!-- index.html 専用 -->
+    
+    <!-- Tailwind config -->
+    <script src="js/Config/config.js"></script>
   </head>
 
   <body class="text-gray-800 bg-light antialiased font-sans">
@@ -62,6 +54,7 @@
             <a href="#about" class="text-gray-600 hover:text-primary font-bold transition-colors">About</a>
             <a href="#news" class="text-gray-600 hover:text-primary font-bold transition-colors">News</a>
             <a href="#projects" class="text-gray-600 hover:text-primary font-bold transition-colors">Projects</a>
+            <a href="./voice.html" class="text-gray-600 hover:text-primary font-bold transition-colors">Voice</a>
             <a href="#members" class="text-gray-600 hover:text-primary font-bold transition-colors">Members</a>
           </nav>
           <!-- スマホ用メニューボタン (今回はモック) -->
@@ -87,6 +80,7 @@
         <a href="#about" class="nav-link hover:text-primary transition-colors">About</a>
         <a href="#news" class="nav-link hover:text-primary transition-colors">News</a>
         <a href="#projects" class="nav-link hover:text-primary transition-colors">Projects</a>
+        <a href="./voice.html" class="nav-link hover:text-primary transition-colors">Voice</a>
         <a href="#members" class="nav-link hover:text-primary transition-colors">Members</a>
       </nav>
 
@@ -362,6 +356,99 @@
         </div>
       </section>
 
+      <!-- Voice セクション -->
+      <section id="voice" class="py-24 bg-white relative overflow-hidden">
+        <!-- 背景装飾 -->
+        <div class="absolute inset-0 pointer-events-none">
+          <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-primary/5 rounded-full blur-3xl"></div>
+          <div class="absolute bottom-0 right-0 w-80 h-80 bg-secondary/5 rounded-full blur-3xl"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+
+          <!-- セクションヘッダー -->
+          <div class="text-center mb-16">
+            <span class="block text-primary font-en font-bold tracking-widest text-sm mb-3 fade-in-up">VOICE BOARD</span>
+            <h2 class="text-4xl md:text-5xl font-black font-en text-dark mb-4 fade-in-up">Members Voice</h2>
+            <div class="w-16 h-1 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full mb-6 fade-in-up"></div>
+            <p class="text-slate-500 max-w-xl mx-auto text-sm leading-relaxed fade-in-up">
+              EGUメンバーのボイスを集めたサウンドボードです。<br>
+              ボタンをタップしてメンバーの声を楽しもう！
+            </p>
+          </div>
+
+          <!-- プレビューカード3枚 -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+            <!-- カード1 -->
+            <div class="fade-in-up bg-slate-50 rounded-3xl p-6 border border-slate-100 flex flex-col gap-4" style="transition-delay:0.05s">
+              <div class="flex items-center gap-3 mb-2">
+                <div class="w-9 h-9 rounded-xl bg-primary/10 flex items-center justify-center">
+                  <i class="fa-solid fa-microphone text-primary text-sm"></i>
+                </div>
+                <span class="font-black font-en text-dark text-sm tracking-tight">CHARACTER VOICE</span>
+              </div>
+              <p class="text-slate-400 text-xs leading-relaxed">
+                各メンバーのキャラクターボイスや決め台詞を収録。思わず笑えるセリフから感動的な言葉まで。
+              </p>
+              <div class="flex gap-2 flex-wrap mt-auto">
+                <span class="text-[10px] font-bold bg-primary/10 text-primary px-3 py-1 rounded-full">エリリ・エリ</span>
+                <span class="text-[10px] font-bold bg-primary/10 text-primary px-3 py-1 rounded-full">UTAN</span>
+                <span class="text-[10px] font-bold bg-primary/10 text-primary px-3 py-1 rounded-full">こまつちま</span>
+              </div>
+            </div>
+
+            <!-- カード2 -->
+            <div class="fade-in-up bg-slate-50 rounded-3xl p-6 border border-slate-100 flex flex-col gap-4" style="transition-delay:0.1s">
+              <div class="flex items-center gap-3 mb-2">
+                <div class="w-9 h-9 rounded-xl bg-secondary/10 flex items-center justify-center">
+                  <i class="fa-solid fa-gamepad text-secondary text-sm"></i>
+                </div>
+                <span class="font-black font-en text-dark text-sm tracking-tight">GAME REACTION</span>
+              </div>
+              <p class="text-slate-400 text-xs leading-relaxed">
+                ゲーム中のリアクションや実況ボイスを厳選。勝利の雄叫びから嘆きの声まで臨場感たっぷり。
+              </p>
+              <div class="flex gap-2 flex-wrap mt-auto">
+                <span class="text-[10px] font-bold bg-secondary/10 text-secondary px-3 py-1 rounded-full">実況</span>
+                <span class="text-[10px] font-bold bg-secondary/10 text-secondary px-3 py-1 rounded-full">リアクション</span>
+                <span class="text-[10px] font-bold bg-secondary/10 text-secondary px-3 py-1 rounded-full">煽り</span>
+              </div>
+            </div>
+
+            <!-- カード3 -->
+            <div class="fade-in-up bg-slate-50 rounded-3xl p-6 border border-slate-100 flex flex-col gap-4" style="transition-delay:0.15s">
+              <div class="flex items-center gap-3 mb-2">
+                <div class="w-9 h-9 rounded-xl bg-indigo-100 flex items-center justify-center">
+                  <i class="fa-solid fa-music text-indigo-500 text-sm"></i>
+                </div>
+                <span class="font-black font-en text-dark text-sm tracking-tight">DAILY VOICE</span>
+              </div>
+              <p class="text-slate-400 text-xs leading-relaxed">
+                挨拶・日常会話・VRChatあるあるなど、日々の配信やフレプラから生まれたボイスを収録。
+              </p>
+              <div class="flex gap-2 flex-wrap mt-auto">
+                <span class="text-[10px] font-bold bg-indigo-100 text-indigo-500 px-3 py-1 rounded-full">挨拶</span>
+                <span class="text-[10px] font-bold bg-indigo-100 text-indigo-500 px-3 py-1 rounded-full">VRChat</span>
+                <span class="text-[10px] font-bold bg-indigo-100 text-indigo-500 px-3 py-1 rounded-full">日常</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- CTAボタン -->
+          <div class="text-center fade-in-up">
+            <a
+              href="./voice.html"
+              class="inline-flex items-center gap-3 bg-dark text-white font-black font-en text-sm tracking-wider px-10 py-4 rounded-2xl hover:bg-primary transition-all duration-300 shadow-lg hover:shadow-primary/30 hover:-translate-y-1 group">
+              <i class="fa-solid fa-headphones text-base group-hover:animate-bounce"></i>
+              OPEN VOICE BOARD
+              <i class="fa-solid fa-arrow-right text-xs group-hover:translate-x-1 transition-transform"></i>
+            </a>
+            <p class="text-slate-400 text-xs mt-4">随時ボイスを追加予定！</p>
+          </div>
+
+        </div>
+      </section>
+
       <!-- Members セクション -->
       <section id="members" class="py-24 bg-gray-50 relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -546,36 +633,27 @@
       </div>
     </div>
 
-    <!-- JavaScript 処理 -->
+    <!-- =====================================================
+         JavaScript — 読み込み順を守ってください
 
-    <script src="js/member.js">
-      // --- 1. メンバーデータ読込 ---
-    </script>
-    <script src="js/news.js">
-      // --- 2. news読込 ---
-    </script>
-    <script>
-      // --- 3. Aboutの画像切り替え
-      const aboutSlide = document.querySelectorAll(".about-slide");
-      let currentSlides = 0;
+         1. Data層（データ定義）を読む
+         2. UI層（描画）を読む
+         3. Renderer層（イベント処理）を読む
+    ====================================================== -->
 
-      setInterval(() => {
-        aboutSlide[currentSlides].classList.remove("active");
+    <!-- 1. Data層（データ定義） -->
+    <script src="js/Data/memberData.js"></script>
+    <script src="js/Data/newsData.js"></script>
 
-        currentSlides = (currentSlides + 1) % aboutSlide.length;
+    <!-- 2. UI層（描画） -->
+    <script src="js/UI/commonUI.js"></script>
+    <script src="js/UI/aboutUI.js"></script>
+    <script src="js/UI/particleUI.js"></script>
+    <script src="js/UI/memberUI.js"></script>
+    <script src="js/UI/newsUI.js"></script>
 
-        aboutSlide[currentSlides].classList.add("active");
-      }, 4000); // 4秒ごと切り替え
-    </script>
-
-    <script src="js/common.js">
-      // --- 2. メンバーカードの動的生成 ---
-      // --- 3. モーダル制御ロジック ---
-      // --- 4. スクロールアニメーション (Intersection Observer) ---
-      // --- 5. ヘッダーのスクロール制御 ---
-      // --- 6. ハンバーガーメニュー ---
-      // --- 7. Newsハイライト ---
-      // --- 8. News詳細 ---
-    </script>
+    <!-- 3. Renderer層（イベント処理） -->
+    <script src="js/Renderer/memberRenderer.js"></script>
+    <script src="js/Renderer/newsRenderer.js"></script>
   </body>
 </html>

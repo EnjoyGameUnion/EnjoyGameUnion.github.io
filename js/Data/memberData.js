@@ -1,3 +1,9 @@
+/**
+ * memberModel.js
+ * メンバーデータ定義
+ * ▼ メンバーを追加・編集する場合はこのファイルのみ変更してください
+ */
+
 const membersData = [
   {
     id: 1,
@@ -386,66 +392,17 @@ const membersData = [
     x: "siawase_suraimi",
     youtube: "",
   },
-  // {
-  //   id: 24,
-  //   name: "Chelsea",
-  //   vrc: "ChelseaPOP",
-  //   tag: ["メンバー"],
-  //   color: "#eb5a96",
-  //   desc1: "",
-  //   desc2: "",
-  //   images: [""],
-  //   x: "ManyaruYazawa",
-  //   youtube: "",
-  // },
-  // {
-  //   id: 25,
-  //   name: "KAITO",
-  //   vrc: "KAITO-030",
-  //   tag: ["メンバー"],
-  //   color: "#205ada",
-  //   desc1: "",
-  //   desc2: "",
-  //   images: [""],
-  //   x: "",
-  //   youtube: "",
-  // },
-  // {
-  //   id: 26,
-  //   name: "61",
-  //   vrc: "61__",
-  //   tag: ["メンバー"],
-  //   color: "#b80909",
-  //   desc1: "",
-  //   desc2: "",
-  //   images: [""],
-  //   x: "",
-  //   youtube: "",
-  // },
-  // {
-  //   id: 27,
-  //   name: "mikanoisii",
-  //   vrc: "mikanoisii",
-  //   tag: ["メンバー"],
-  //   color: "#8f67b6",
-  //   desc1: "",
-  //   desc2: "",
-  //   images: [""],
-  //   x: "mikanoisii72360",
-  //   youtube: "",
-  // },
+  // ▼ メンバー追加テンプレ（コメントアウトを外して使用）
   // {
   //   id: ,
   //   name: "活動名",
   //   vrc: "VRC名",
-  //   tag: ["運営・裏方", "メンバー"],
+  //   tag: ["運営・裏方"], // or ["メンバー"] or ["主催"]
   //   color: "#000000",
   //   desc1: "自己紹介",
   //   desc2: "EGUでの活動",
-  //   images: [
-  //     "画像1", "画像2", "画像3",
-  //   ],
-  //   x: "XのID(ないときは空白)",
-  //   youtube: "youtubeチャンネルのID(ないときは空白)",
+  //   images: ["画像1", "画像2", "画像3"],
+  //   x: "XのID（なければ空白）",
+  //   youtube: "YouTubeチャンネルID（なければ空白）",
   // },
 ];

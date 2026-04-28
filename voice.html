@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="ja" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voice Board | EnjoyGameUnion!!</title>
+    <link rel="icon" href="/favicon.ico" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ELSZFFR470"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-ELSZFFR470");
+    </script>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
+      rel="stylesheet" />
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+    <!-- CSS — 読み込み順を守ってください -->
+    <link rel="stylesheet" href="./css/common.css" />  <!-- 共通スタイル -->
+    <link rel="stylesheet" href="./css/voice.css" />   <!-- voice.html 専用 -->
+
+    <!-- Tailwind config -->
+    <script src="js/Config/config.js"></script>
+  </head>
+
+  <body class="text-gray-800 bg-light antialiased font-sans">
+
+    <!-- ナビゲーションバー -->
+    <header
+      class="fixed w-full top-0 z-50 bg-white/80 backdrop-blur-md shadow-sm transition-all duration-300"
+      id="header">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-20">
+          <a href="/" class="text-2xl font-black font-en tracking-tighter text-slate-900">
+            <i class="fa-solid fa-gamepad text-primary"></i>
+            EnjoyGameUnion<span class="text-primary">!!</span>
+          </a>
+          <nav class="hidden md:flex space-x-8">
+            <a href="/#about"    class="text-gray-600 hover:text-primary font-bold transition-colors">About</a>
+            <a href="/#news"     class="text-gray-600 hover:text-primary font-bold transition-colors">News</a>
+            <a href="/#projects" class="text-gray-600 hover:text-primary font-bold transition-colors">Projects</a>
+            <a href="./voice.html" class="text-primary font-bold transition-colors">Voice</a>
+            <a href="/#members"  class="text-gray-600 hover:text-primary font-bold transition-colors">Members</a>
+          </nav>
+          <button id="menu-open-btn" class="md:hidden text-gray-600 hover:text-primary">
+            <i class="fa-solid fa-bars text-2xl"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- モバイル用サイドメニュー -->
+    <div id="menu-overlay" class="menu-overlay fixed inset-0 z-50"></div>
+    <aside
+      id="side-menu"
+      class="side-menu fixed top-0 right-0 h-full w-[280px] sm:w-[320px] bg-white z-[60] shadow-2xl p-10 flex flex-col">
+      <div class="flex justify-end mb-12">
+        <button id="menu-close-btn" class="text-2xl text-slate-400 hover:text-primary transition-colors">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <nav class="flex flex-col space-y-8 font-black font-en text-2xl tracking-tighter">
+        <a href="/#about"    class="nav-link hover:text-primary transition-colors">About</a>
+        <a href="/#news"     class="nav-link hover:text-primary transition-colors">News</a>
+        <a href="/#projects" class="nav-link hover:text-primary transition-colors">Projects</a>
+        <a href="./voice.html" class="text-primary">Voice</a>
+        <a href="/#members"  class="nav-link hover:text-primary transition-colors">Members</a>
+      </nav>
+      <div class="mt-auto flex flex-col gap-6">
+        <div class="flex gap-6 text-xl">
+          <a href="https://x.com/EnjoyGameUnion" target="_blank" class="hover:text-primary"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://www.youtube.com/@EnjoyGameUnion" target="_blank" class="hover:text-red-600"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://egu.booth.pm/" target="_blank" class="hover:text-[#fc4d50]"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <p class="text-[10px] font-bold text-slate-300 uppercase tracking-widest">© 2026 EnjoyGameUnion!!</p>
+      </div>
+    </aside>
+
+    <!-- ========================================================
+         PAGE HERO
+    ======================================================== -->
+    <section class="relative pt-20 pb-20 bg-white overflow-hidden">
+      <!-- 背景グラデーション (stylesheet.css の hero-gradient を流用) -->
+      <div class="hero-gradient absolute inset-0 opacity-60"></div>
+
+      <!-- 幾何学背景 -->
+      <div class="bg-shapes">
+        <div class="shape w-64 h-64 rounded-full" style="top:10%;left:5%;animation-delay:0s;"></div>
+        <div class="shape w-40 h-40 rounded-lg" style="top:60%;right:8%;animation-delay:5s;animation-duration:20s;"></div>
+        <div class="shape w-20 h-20 rounded-full" style="top:30%;right:20%;animation-delay:10s;animation-duration:25s;"></div>
+      </div>
+
+      <div class="relative z-10 max-w-5xl mx-auto px-4 text-center pt-16">
+        <span class="block text-primary font-en font-bold tracking-widest mb-4 text-sm fade-in-up" style="transition-delay:0.1s">
+          EnjoyGameUnion!!
+        </span>
+        <h1 class="text-5xl md:text-7xl lg:text-8xl font-black font-en text-dark tracking-tight leading-tight mb-6 fade-in-up" style="transition-delay:0.2s">
+          VOICE <span class="text-gradient">BOARD</span>
+        </h1>
+        <p class="text-lg text-gray-500 font-medium mb-8 fade-in-up" style="transition-delay:0.3s">
+          メンバーのボイスを自由に再生しよう
+        </p>
+
+        <!-- Now Playing pill -->
+        <div class="inline-flex items-center gap-3 bg-white/80 backdrop-blur-sm border border-slate-200 rounded-full px-6 py-3 shadow-sm fade-in-up" style="transition-delay:0.4s">
+          <span class="flex items-center gap-2 text-sm text-slate-400 font-bold">
+            <i class="fa-solid fa-music text-primary" id="music-icon"></i>
+            Now Playing :
+          </span>
+          <span id="now-playing-text" class="text-sm font-bold text-slate-700 max-w-[200px] truncate">—</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         CONTROLS BAR（sticky）
+    ======================================================== -->
+    <div class="controls-sticky bg-white/95 backdrop-blur-md border-b border-slate-100 shadow-sm">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex flex-wrap items-center gap-3">
+
+        <!-- 検索 -->
+        <div class="relative w-full sm:w-64 shrink-0">
+          <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-sm"></i>
+          <input
+            type="text"
+            id="search-input"
+            placeholder="ボタンを検索..."
+            autocomplete="off"
+            class="w-full pl-9 pr-4 py-2.5 rounded-xl border border-slate-200 bg-slate-50 text-sm font-medium text-slate-700 placeholder-slate-400 focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all" />
+        </div>
+
+        <!-- フィルタータブ（横スクロール対応） -->
+        <div class="filter-scroll flex items-center gap-2 overflow-x-auto flex-1 min-w-0 pb-0.5">
+          <button class="filter-tab shrink-0 px-4 py-2 rounded-full text-xs font-black font-en tracking-wider border border-slate-900 bg-slate-900 text-white shadow-md transition-all" data-filter="all">
+            ALL
+          </button>
+          <!-- JS で動的生成 -->
+        </div>
+
+        <!-- ボリューム -->
+        <div class="hidden sm:flex items-center gap-2 shrink-0 ml-auto">
+          <i class="fa-solid fa-volume-low text-slate-400 text-sm"></i>
+          <input type="range" id="volume-slider" min="0" max="100" value="80"
+            class="w-20 h-1 accent-primary cursor-pointer" />
+          <i class="fa-solid fa-volume-high text-slate-400 text-sm"></i>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ========================================================
+         MAIN コンテンツ
+    ======================================================== -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16" id="voice-main">
+      <!-- JS で動的生成 -->
+    </main>
+
+    <!-- ========================================================
+         FOOTER
+    ======================================================== -->
+    <footer class="bg-dark text-white py-12 border-t-4 border-primary">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+        <div>
+          <a href="/" class="text-2xl font-black font-en tracking-tighter text-white">
+            <i class="fa-solid fa-gamepad text-primary"></i>
+            EnjoyGameUnion<span class="text-primary">!!</span>
+          </a>
+          <p class="text-gray-400 text-sm">VRChatから最高のゲーム体験を。</p>
+        </div>
+        <div class="flex gap-4">
+          <a href="https://x.com/EnjoyGameUnion" target="_blank"
+            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-white hover:bg-primary transition-colors">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+          <a href="https://www.youtube.com/@EnjoyGameUnion" target="_blank"
+            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-white hover:bg-red-600 transition-colors">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+          <a href="https://egu.booth.pm/" target="_blank"
+            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-white hover:bg-[#fc4d50] transition-colors">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+        </div>
+      </div>
+      <div class="text-center text-gray-500 text-sm mt-12">&copy; 2026 EnjoyGameUnion!!. All rights reserved.</div>
+    </footer>
+
+
+    <!-- =====================================================
+         JavaScript — 読み込み順を守ってください
+
+         1. Data層（データ定義）を読む
+         2. UI層（描画）を読む
+         3. Renderer層（イベント処理）を読む
+    ====================================================== -->
+
+    <!-- 1. Data層（データ定義） -->
+    <script src="js/Data/voiceData.js"></script>
+
+    <!-- 2. UI層（描画） -->
+    <script src="js/UI/commonUI.js"></script>
+    <script src="js/UI/voiceUI.js"></script>
+
+    <!-- 3. Renderer層（イベント処理） -->
+    <script src="js/Renderer/voiceRenderer.js"></script>
+  </body>
+</html>
