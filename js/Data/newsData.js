@@ -935,6 +935,113 @@ const newsContent = [
             </ul>
         </div>`,
   },
+  {
+    id: 11,
+    title: "【第17回】トッサノ Anriのフレ＋隅っこラジオ【ゲスト：よく寝るかれん】",
+    date: "2026.04.24",
+    tag: "Live配信",
+    thumb: "./img/news/NEWS-11-01.webp",
+    body: `<img src="./img/news/NEWS-11-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="フレ＋隅っこラジオ 第17回 よく寝るかれん">
+
+        <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
+            【第17回】トッサノ Anriのフレ＋隅っこラジオ<br>ゲスト：よく寝るかれん
+        </h3>
+
+        <p class="mb-6 text-slate-600 leading-loose">
+            EnjoyGameUnion!!（EGU）の看板配信のひとつ、<strong>「トッサノ Anriのフレ＋隅っこラジオ」</strong>。<br>
+            主催・トッサノとDr.Anriがお届けするこのラジオも、ついに第17回を迎えました！<br>
+            今回のゲストは、リアルVketでイラストや物販販売も手がける、イラストレーターの<strong>よく寝るかれん</strong>さん。<br>
+            癒し系…かどうかはフレンド間でも物議を醸したそうですが、果たしてどんなお話が飛び出すのか、ぜひアーカイブでお楽しみください！
+        </p>
+
+        <!-- YouTube埋め込み -->
+        <div class="aspect-video w-full mb-8">
+            <iframe 
+                class="w-full h-full rounded-3xl shadow-2xl" 
+                src="https://www.youtube.com/embed/Ks_xzWTzgNM?rel=0"
+                title="【第17回】トッサノ Anriのフレ＋隅っこラジオ【ゲスト：よく寝るかれん】" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <!-- 蓋絵 -->
+        <img src="./img/news/NEWS-11-02.webp" class="w-full h-auto rounded-2xl shadow-md mb-10" alt="フレ＋隅っこラジオ 蓋絵（Dr.Anri 画）">
+
+        <h3 class="text-xl font-bold mb-4">◆番組について</h3>
+        <p class="mb-8 text-slate-600 leading-loose">
+            「フレ＋隅っこラジオ」は、VRC内グループ「Enjoy Game Union（EGU）」の主催・トッサノと、EGU所属メンバーのDr.Anriが毎回ゲストを招いてお届けするフリートークラジオです。<br>
+            ゲームの話、VRChatの話、日常のあれこれ……隅っこでゆるーく語る雰囲気が人気の番組です。<br>
+            番組へのお便りはいつでも募集中！下記フォームからぜひご投稿ください。
+        </p>
+
+        <div class="flex justify-center my-8">
+            <a href="https://forms.gle/vLhpdfTYJyArNjtt5" target="_blank"
+                class="group flex items-center gap-3 bg-slate-700 text-white font-black py-4 px-10 rounded-2xl shadow-xl shadow-slate-200 hover:bg-slate-800 hover:-translate-y-1 transition-all duration-300">
+                <i class="fa-solid fa-envelope text-xl"></i>
+                <span>番組へのお便りはこちら</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-xs opacity-50 group-hover:opacity-100 transition-opacity"></i>
+            </a>
+        </div>
+
+        <!-- 放送中の画像 -->
+        <img src="./img/news/NEWS-11-03.webp" class="w-full h-auto rounded-2xl shadow-md mb-10" alt="放送中の様子">
+
+        <h3 class="text-xl font-bold mb-4">◆今回のゲスト：よく寝るかれんさんについて</h3>
+        <p class="mb-8 text-slate-600 leading-loose">
+            今回お呼びしたよく寝るかれんさんは、VRChat内でも活動するイラストレーター。<br>
+            リアルVketにてイラストやグッズの販売も手がける実力派クリエイターです。<br>
+            フレンド間では「癒し系」という評判に何やら物議があったそうですが……その真相はぜひ本編でご確認ください。<br>
+            Anriとはほぼ初対面に近い関係とのことで、どんな化学反応が起きるか注目です！
+        </p>
+
+        <!-- お品書き画像 -->
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 mb-8">
+            <p class="text-sm font-bold text-slate-500 mb-4 uppercase tracking-widest">よく寝るかれん / くりえいてぃ部2 お品書き</p>
+            <img src="./img/news/NEWS-11-04.webp" class="w-full h-auto rounded-2xl shadow-sm" alt="くりえいてぃ部2 お品書き">
+            <p class="mt-4 text-sm text-slate-500 leading-relaxed">
+                ▲よく寝るかれんさんがリアルVketにて出展された「くりえいてぃ部2」のお品書きです。<br>
+                気になる方はぜひチェックしてみてください！
+            </p>
+        </div>
+
+        <h3 class="text-xl font-bold mb-4">◆メインパーソナリティー</h3>
+        <ul class="mb-8 text-slate-600 leading-loose list-disc list-inside">
+            <li>
+                <strong>トッサノ</strong>　<a href="https://x.com/tossanovrc" target="_blank" class="text-primary underline">https://x.com/tossanovrc</a><br>
+                EGUという謎グループの主催。最近だらけ切っているらしい。
+            </li>
+            <li>
+                <strong>Dr.Anri</strong>　<a href="https://x.com/Es96L4ap" target="_blank" class="text-primary underline">https://x.com/Es96L4ap</a><br>
+                EGU所属の自称一般人。ほぼ初めて話すゲストということで、軽く緊張してそう。
+            </li>
+        </ul>
+
+        <h3 class="text-xl font-bold mb-4">◆ゲスト</h3>
+        <ul class="mb-8 text-slate-600 leading-loose list-disc list-inside">
+            <li>
+                <strong>よく寝るかれん</strong>　<a href="https://x.com/yokuneru_x" target="_blank" class="text-primary underline">https://x.com/yokuneru_x</a><br>
+                イラストレーターの癒し系（？）お姉さん。フレンド間では「癒し系」に物議があったが、なぜだ。
+            </li>
+        </ul>
+
+        <p class="mb-8 text-slate-600 leading-loose">
+            この配信はVRC内のグループ「Enjoy Game Union（EGU）」所属メンバーがお届けするラジオ配信です。
+        </p>
+
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+            <p class="text-sm font-bold text-slate-500 mb-2 uppercase tracking-widest">About EGU</p>
+            <ul class="space-y-2 text-slate-600">
+                <li>
+                    公式HP：<a href="https://enjoygameunion.github.io/" target="_blank" class="text-primary underline">https://enjoygameunion.github.io/</a>
+                </li>
+                <li>
+                    公式X：<a href="https://x.com/EnjoyGameUnion" target="_blank" class="text-primary underline">https://x.com/EnjoyGameUnion</a>
+                </li>
+            </ul>
+        </div>`,
+  },
   /* ===投稿テンプレ=== */
   // {
   //     id: ,
