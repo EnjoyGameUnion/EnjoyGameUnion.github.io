@@ -1042,7 +1042,155 @@ const newsContent = [
             </ul>
         </div>`,
   },
-  /* ===投稿テンプレ=== */
+  {
+    id: 12,
+    title: "【Super Bunny Man】は？？？お前が足引っ張ってんだろうが？？？？？？？？？【Sava/ずんだゆき [#EGU裏方組]】",
+    date: "2026.04.25",
+    tag: "Live配信",
+    thumb: "./img/news/NEWS-12-01.webp",
+    body: `<img src="./img/news/NEWS-12-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="Super Bunny Man EGU裏方組">
+
+        <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
+            EGU裏方組、Super Bunny Manで激突！
+        </h3>
+
+        <p class="mb-6 text-slate-600 leading-loose">
+            普段は表に出ることなく、EGUを陰から支え続けてきた<strong>裏方組</strong>がついに配信に登場！<br>
+            マネジメント担当のSavaと、技術サポート担当のずんだゆき――<br>
+            普段から仲の良い（？）二人が、協力プレイで有名なあのゲームに挑みます。
+        </p>
+
+        <p class="mb-8 text-slate-600 leading-loose">
+            果たして二人は力を合わせてクリアできるのか？<br>
+            それとも……互いの主張がぶつかり合い、大惨事になってしまうのか？<br>
+            <strong>「仲良し♡」</strong>な二人の行方を、ぜひアーカイブでお見届けください！
+        </p>
+
+        <!-- YouTube埋め込み -->
+        <div class="aspect-video w-full mb-8">
+            <iframe 
+                class="w-full h-full rounded-3xl shadow-2xl" 
+                src="https://www.youtube.com/embed/jl9Y5HZk9ME?rel=0"
+                title="【Super Bunny Man】は？？？お前が足引っ張ってんだろうが？？？？？？？？？【Sava/ずんだゆき】" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <h3 class="text-xl font-bold mb-4">◆EGU裏方組とは？</h3>
+        <p class="mb-8 text-slate-600 leading-loose">
+            EnjoyGameUnion!!（EGU）には、普段の動画や配信には登場しないながらも、グループを支える重要なメンバーたちがいます。<br>
+            今回出演するSavaとずんだゆきも、まさにそんな「縁の下の力持ち」。<br>
+            マネジメントと技術サポートという、それぞれ違う役割でEGUを支えている二人が、<br>
+            今回はゲームという名の戦場で、その本性を剥き出しにします。
+        </p>
+
+        <!-- ゲーム中の画像 3枚分割 -->
+        <h3 class="text-xl font-bold mb-4">◆大惨事の記録</h3>
+        <div class="grid grid-cols-3 gap-3 mb-10">
+            <img src="./img/news/NEWS-12-02.webp" class="w-full h-auto rounded-2xl shadow-md object-cover aspect-video" alt="Super Bunny Man プレイ画像1">
+            <img src="./img/news/NEWS-12-03.webp" class="w-full h-auto rounded-2xl shadow-md object-cover aspect-video" alt="Super Bunny Man プレイ画像2">
+            <img src="./img/news/NEWS-12-04.webp" class="w-full h-auto rounded-2xl shadow-md object-cover aspect-video" alt="Super Bunny Man プレイ画像3">
+        </div>
+
+        <h3 class="text-xl font-bold mb-4">◆二人の主張</h3>
+        <div class="grid grid-cols-1 gap-4 mb-10 sm:grid-cols-2">
+            <div class="bg-slate-50 p-5 rounded-2xl border border-slate-100">
+                <p class="font-bold text-slate-700 mb-2">Savaの言い分</p>
+                <p class="text-slate-600 text-sm leading-relaxed">
+                    大体のことはずんだゆきが厳しすぎるから悪い。<br>
+                    もっとゆるく楽しくやればいいんだよ！
+                </p>
+            </div>
+            <div class="bg-slate-50 p-5 rounded-2xl border border-slate-100">
+                <p class="font-bold text-slate-700 mb-2">ずんだゆきの言い分</p>
+                <p class="text-slate-600 text-sm leading-relaxed">
+                    大体のことはSavaが甘すぎるから悪い。<br>
+                    ちゃんとやれば絶対クリアできるのに！
+                </p>
+            </div>
+        </div>
+
+        <div class="bg-amber-50 border border-amber-200 rounded-2xl p-5 mb-8">
+            <p class="text-sm font-bold text-amber-700 mb-1">📢 なお</p>
+            <p class="text-slate-600 text-sm leading-relaxed">
+                EGU主催のトッサノは今回の配信に一切の関係性はありませんが、<strong>大体のことはこいつが悪い</strong>とのことです。
+            </p>
+        </div>
+
+        <h3 class="text-xl font-bold mb-4">◆出演者</h3>
+        <ul class="mb-8 text-slate-600 leading-loose list-disc list-inside">
+            <li>
+                <strong>Sava</strong>　<a href="https://x.com/Sava_403" target="_blank" class="text-primary underline">https://x.com/Sava_403</a><br>
+                EGUのマネジメント担当。大体のことはずんだゆきが厳しすぎるから悪いと思ってる。
+            </li>
+            <li>
+                <strong>ずんだゆき</strong>　<a href="https://x.com/zund_Yuki" target="_blank" class="text-primary underline">https://x.com/zund_Yuki</a><br>
+                EGUの技術サポート担当。大体のことはSavaが甘すぎるから悪いと思ってる。
+            </li>
+        </ul>
+
+        <h3 class="text-xl font-bold mb-4">◆ゲーム情報</h3>
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 mb-8">
+            <p class="font-bold text-slate-700 mb-1">Super Bunny Man</p>
+            <p class="text-slate-500 text-sm mb-3">
+                ウサギのコスプレをした二人が転がりながらコースをクリアしていく協力アクションゲーム。<br>
+                シンプルそうに見えて、二人の息が合わないと想像以上にカオスになる…。
+            </p>
+            <a href="https://store.steampowered.com/app/672840/" target="_blank" class="text-primary underline text-sm">
+                Steamページはこちら →
+            </a>
+        </div>
+
+        <h3 class="text-xl font-bold mb-4">◆EnjoyGameUnion!!とは？</h3>
+        <p class="mb-8 text-slate-600 leading-loose">
+            VRChatで楽しく遊ぶことを目的に集まったグループ『EnjoyGameUnion!!』（通称：EGU）が、<br>
+            VRChat内外で様々な楽しいことを見つけ出していくYouTubeチャンネルです！<br>
+            ゲーム実況・歌ってみた・大会運営・バラエティ企画など、様々なことに挑戦していきますので、ぜひ応援よろしくお願いします！
+        </p>
+
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 mb-8">
+            <p class="text-sm font-bold text-slate-500 mb-4 uppercase tracking-widest">Related Content</p>
+            <ul class="space-y-3 text-slate-600">
+                <li>
+                    ★ずんだゆき シチュエーションボイス販売中！<br>
+                    <a href="https://egu.booth.pm/items/8058227" target="_blank" class="text-primary underline">
+                        震える君を抱きしめて
+                    </a>
+                </li>
+                <li>
+                    ★EGUゲーム部プレイリスト<br>
+                    <a href="https://www.youtube.com/playlist?list=PLsYg7sr7EZhMXmscI7dvX-0KCFi5agQf_" target="_blank" class="text-primary underline">
+                        EGUゲーム部
+                    </a>
+                </li>
+                <li>
+                    ★EGUあにまるず 歌ってみた「ようこそジャパリパークへ」<br>
+                    <a href="https://www.youtube.com/watch?v=gLAd9EQtDpc" target="_blank" class="text-primary underline">
+                        https://www.youtube.com/watch?v=gLAd9EQtDpc
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+            <p class="text-sm font-bold text-slate-500 mb-2 uppercase tracking-widest">About EGU</p>
+            <ul class="space-y-2 text-slate-600">
+                <li>
+                    公式HP：<a href="https://enjoygameunion.github.io/" target="_blank" class="text-primary underline">https://enjoygameunion.github.io/</a>
+                </li>
+                <li>
+                    公式X：<a href="https://x.com/EnjoyGameUnion" target="_blank" class="text-primary underline">https://x.com/EnjoyGameUnion</a>
+                </li>
+                <li>
+                    主催：トッサノ　<a href="https://x.com/tossanovrc" target="_blank" class="text-primary underline">https://x.com/tossanovrc</a>
+                </li>
+            </ul>
+        </div>`,
+  },
+    
+    /* ===投稿テンプレ=== */
   // {
   //     id: ,
   //     title: "タイトル",
