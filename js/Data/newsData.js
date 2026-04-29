@@ -937,7 +937,7 @@ const newsContent = [
   },
   {
     id: 11,
-    title: "【第17回】トッサノ Anriのフレ＋隅っこラジオ【ゲスト：よく寝るかれん】",
+    title: "【第17回】トッサノ Anriのフレ＋隅っこラジオ【ゲスト：ずんだちゅき】",
     date: "2026.04.24",
     tag: "Live配信",
     thumb: "./img/news/NEWS-11-01.webp",
