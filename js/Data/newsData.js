@@ -1189,6 +1189,174 @@ const newsContent = [
             </ul>
         </div>`,
   },
+  {
+    id: 13,
+    title: "【EnjoyGameUnion!!】企画&メンバー紹介PV作成しました！",
+    date: "2026.05.03",
+    tag: "動画更新",
+    thumb: "./img/news/NEWS-13-01.webp",
+    body: `<img src="./img/news/NEWS-13-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="EGU企画&メンバー紹介PV">
+
+        <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
+            EnjoyGameUnion!! 企画＆メンバー紹介PV、完成しました！
+        </h3>
+
+        <p class="mb-6 text-slate-600 leading-loose">
+            EnjoyGameUnion!!（EGU）の企画・メンバー紹介PVが完成しました！<br>
+            EGUとはどんなグループなのか、どんな活動をしているのか――<br>
+            そのすべてが詰まった、EGU初の本格的なPV動画です。<br>
+            ぜひご覧ください！
+        </p>
+
+        <!-- YouTube埋め込み -->
+        <div class="aspect-video w-full mb-8">
+            <iframe
+                class="w-full h-full rounded-3xl shadow-2xl"
+                src="https://www.youtube.com/embed/kaTd-SR4yp4?rel=0"
+                title="【EnjoyGameUnion!!】企画&メンバー紹介PV"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <!-- 紹介動画カット -->
+        <h3 class="text-xl font-bold mb-4">◆PVより</h3>
+        <img src="./img/news/NEWS-13-02.webp" class="w-full h-auto rounded-2xl shadow-md mb-10" alt="PV紹介カット">
+
+        <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
+            EnjoyGameUnion!! とは？
+        </h3>
+
+        <p class="mb-6 text-slate-600 leading-loose">
+            EnjoyGameUnion!!（略称：EGU）は、VRChatを拠点に活動するコミュニティグループです。<br>
+            「楽しくゲームをすること」をモットーに、歌ってみた・バラエティ動画・ゲーム配信・麻雀大会・ボイス作品など、<br>
+            メンバーそれぞれの個性を活かしながら、様々なコンテンツを発信してきました。<br>
+            <br>
+            このPVは、そんなEGUのこれまでの活動と、個性豊かなメンバーたちを一本の動画にギュッと凝縮したものです。<br>
+            初めてEGUを知る方にも、いつも応援してくださっている方にも、ぜひ楽しんでいただけると嬉しいです！
+        </p>
+
+        <!-- 企画画像 7枚まとめ -->
+        <h3 class="text-xl font-bold mb-4">◆これまでの企画</h3>
+        <div class="grid grid-cols-2 gap-3 mb-10 sm:grid-cols-3">
+            <img src="./img/news/NEWS-13-03.webp" class="w-full h-auto rounded-2xl shadow-md object-cover aspect-video" alt="企画カット1">
+            <img src="./img/news/NEWS-13-04.webp" class="w-full h-auto rounded-2xl shadow-md object-cover aspect-video" alt="企画カット2">
+            <img src="./img/news/NEWS-13-05.webp" class="w-full h-auto rounded-2xl shadow-md object-cover aspect-video" alt="企画カット3">
+            <img src="./img/news/NEWS-13-06.webp" class="w-full h-auto rounded-2xl shadow-md object-cover aspect-video" alt="企画カット4">
+            <img src="./img/news/NEWS-13-07.webp" class="w-full h-auto rounded-2xl shadow-md object-cover aspect-video" alt="企画カット5">
+            <img src="./img/news/NEWS-13-08.webp" class="w-full h-auto rounded-2xl shadow-md object-cover aspect-video" alt="企画カット6">
+            <img src="./img/news/NEWS-13-09.webp" class="w-full h-auto rounded-2xl shadow-md object-cover aspect-video col-span-2 sm:col-span-1" alt="企画カット7">
+        </div>
+
+        <!-- Thank you -->
+        <img src="./img/news/NEWS-13-10.webp" class="w-full h-auto rounded-2xl shadow-md mb-10" alt="Thank you for watching">
+
+        <!-- インタビューセクション -->
+        <div class="my-12 border-t-2 border-slate-100 pt-10">
+            <h3 class="text-2xl font-bold text-slate-900 mb-2 border-l-4 border-primary pl-4">
+                制作者インタビュー
+            </h3>
+            <p class="text-slate-500 text-sm mb-8 pl-5">PV制作担当：Tooka</p>
+
+            <p class="mb-10 text-slate-600 leading-loose">
+                今回のPVを手がけてくれたのは、EGU所属メンバーのTooka。<br>
+                動画・イラスト・実況と多岐にわたる活動を持つ彼女に、今回の制作について根掘り葉掘りインタビューしました！
+            </p>
+
+            <!-- 🎨 制作について -->
+            <img src="./img/news/NEWS-13-11.webp" class="w-full h-auto rounded-2xl shadow-md mb-8" alt="インタビュー写真1">
+
+            <p class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6">🎨 制作について</p>
+
+            <div class="space-y-6 mb-12">
+
+                <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
+                    <p class="font-bold text-slate-700 mb-3">Q1. 今回のPV制作作ろうと思ったきっかけを教えてください。</p>
+                    <p class="text-slate-500 leading-loose text-sm">（回答を入力してください）</p>
+                </div>
+
+                <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
+                    <p class="font-bold text-slate-700 mb-3">Q2. 制作する上でこだわったポイントはどこですか？</p>
+                    <p class="text-slate-500 leading-loose text-sm">（回答を入力してください）</p>
+                </div>
+
+                <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
+                    <p class="font-bold text-slate-700 mb-3">Q3. 制作期間はどのくらいかかりましたか？</p>
+                    <p class="text-slate-500 leading-loose text-sm">（回答を入力してください）</p>
+                </div>
+
+                <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
+                    <p class="font-bold text-slate-700 mb-3">Q4. 一番大変だった作業はなんでしたか？</p>
+                    <p class="text-slate-500 leading-loose text-sm">（回答を入力してください）</p>
+                </div>
+
+                <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
+                    <p class="font-bold text-slate-700 mb-3">Q5. 使用したソフトやツールを教えてください！</p>
+                    <p class="text-slate-500 leading-loose text-sm">（回答を入力してください）</p>
+                </div>
+
+            </div>
+
+            <!-- 💡 EnjoyGameUnion!! について -->
+            <img src="./img/news/NEWS-13-12.webp" class="w-full h-auto rounded-2xl shadow-md mb-8" alt="インタビュー写真2">
+
+            <p class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6">💡 EnjoyGameUnion!! について</p>
+
+            <div class="space-y-6 mb-12">
+
+                <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
+                    <p class="font-bold text-slate-700 mb-3">Q6. EGUのメンバーや雰囲気を動画でどう表現しようと意識しましたか？</p>
+                    <p class="text-slate-500 leading-loose text-sm">（回答を入力してください）</p>
+                </div>
+
+                <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
+                    <p class="font-bold text-slate-700 mb-3">Q7. PVを通して一番伝えたかったことはなんですか？</p>
+                    <p class="text-slate-500 leading-loose text-sm">（回答を入力してください）</p>
+                </div>
+
+            </div>
+
+            <!-- 🙌 振り返って -->
+            <img src="./img/news/NEWS-13-13.webp" class="w-full h-auto rounded-2xl shadow-md mb-8" alt="インタビュー写真3">
+
+            <p class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6">🙌 振り返って</p>
+
+            <div class="space-y-6 mb-4">
+
+                <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
+                    <p class="font-bold text-slate-700 mb-3">Q8. 完成した動画を見て、自分的に一番お気に入りのシーンはどこですか？</p>
+                    <p class="text-slate-500 leading-loose text-sm">（回答を入力してください）</p>
+                </div>
+
+                <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
+                    <p class="font-bold text-slate-700 mb-3">Q9. 次に制作するとしたら、挑戦してみたいことはありますか？</p>
+                    <p class="text-slate-500 leading-loose text-sm">（回答を入力してください）</p>
+                </div>
+
+                <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
+                    <p class="font-bold text-slate-700 mb-3">Q10. 最後に、視聴者やEGUメンバーへひとことお願いします！</p>
+                    <p class="text-slate-500 leading-loose text-sm">（回答を入力してください）</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- クレジット -->
+        <h3 class="text-xl font-bold mb-4 mt-10">◆クレジット</h3>
+        <ul class="mb-8 text-slate-600 leading-loose list-disc list-inside">
+            <li>動画制作：Tooka　<a href="https://x.com/t1o0k" target="_blank" class="text-primary underline">https://x.com/t1o0k</a></li>
+        </ul>
+
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+            <p class="text-sm font-bold text-slate-500 mb-2 uppercase tracking-widest">About EGU</p>
+            <ul class="space-y-2 text-slate-600">
+                <li>公式HP：<a href="https://enjoygameunion.github.io/" target="_blank" class="text-primary underline">https://enjoygameunion.github.io/</a></li>
+                <li>公式X：<a href="https://x.com/EnjoyGameUnion" target="_blank" class="text-primary underline">https://x.com/EnjoyGameUnion</a></li>
+            </ul>
+        </div>`,
+  },
     
     /* ===投稿テンプレ=== */
   // {
