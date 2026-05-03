@@ -392,6 +392,23 @@ const membersData = [
     x: "siawase_suraimi",
     youtube: "",
   },
+  {
+    id: 24,
+    name: "mikanoisii",
+    vrc: "mikanoisii",
+    tag: ["メンバー"],
+    color: "#8f67b6",
+    desc1: "マダミスにハマってて、面白い人を見つけるのが趣味です。<br><br>今年の目標は去年よりも腹筋を割る事",
+    desc2: "-",
+    images: [
+      "./img/members/24-mikannoisii-01.webp",
+      "./img/members/24-mikannoisii-02.webp",
+      "./img/members/24-mikannoisii-03.webp",
+    ],
+    x: "mikanoisii72360",
+    youtube: "",
+  },
+
   // ▼ メンバー追加テンプレ（コメントアウトを外して使用）
   // {
   //   id: ,

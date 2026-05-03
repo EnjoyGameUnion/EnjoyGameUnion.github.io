@@ -61,12 +61,24 @@ const VOICE_CATEGORIES = [
     ]
   },
   {
-    id: "shiranatsu_haru",
-    en: "白夏ハル",
-    jp: "ハルちゃん！",
+    id: "Sava",
+    en: "Sava",
+    jp: "Sava",
     icon: "fa-solid fa-microphone",
     voices: [
-      { id: "shiranatsu_haru-01", label: "はる吸いってなんですか？", src: "/audio/haru/Haru_01_はる吸いってなんですか？.mp3" },
+      { id: "Sava-01", label: "お誕生日おめでとうちゃむ～", src: "/audio/Sava/Sava_01_お誕生日おめでとうちゃむ～.mp3" },
+    ]
+  },
+  {
+    id: "tukkydanibuta",
+    en: "？？？",
+    jp: "Coming soon...",
+    icon: "fa-solid fa-microphone",
+    voices: [
+      { id: "tukkydanibuta-01", label: "？？？", src: "/audio/tukkydanibuta/Tukkydanibuta_01_???.mp3" },
+      { id: "tukkydanibuta-02", label: "？？？", src: "/audio/tukkydanibuta/Tukkydanibuta_02_???.mp3" },
+      { id: "tukkydanibuta-03", label: "？？？", src: "/audio/tukkydanibuta/Tukkydanibuta_03_???.mp3" },
+      { id: "tukkydanibuta-04", label: "？？？", src: "/audio/tukkydanibuta/Tukkydanibuta_04_???.mp3" },
     ]
   },
 ];

@@ -63,6 +63,27 @@ function openModal(id) {
   document.getElementById("modal-desc1").innerHTML = member.desc1;
   document.getElementById("modal-desc2").innerHTML = member.desc2;
 
+  // --- SNSリンク更新 ---
+  const xLink = document.getElementById("modal-x");
+  if (xLink) {
+    if (member.x) {
+      xLink.href = `https://x.com/${member.x}`;
+      xLink.classList.remove("hidden");
+    } else {
+      xLink.classList.add("hidden");
+    }
+  }
+
+  const ytLink = document.getElementById("modal-yt");
+  if (ytLink) {
+    if (member.youtube) {
+      ytLink.href = `https://www.youtube.com/@${member.youtube}`;
+      ytLink.classList.remove("hidden");
+    } else {
+      ytLink.classList.add("hidden");
+    }
+  }
+
   for (let i = 0; i < 3; i++) {
     const slide = document.getElementById(`slide-${i}`);
     if (slide) slide.src = member.images[i] || "";
