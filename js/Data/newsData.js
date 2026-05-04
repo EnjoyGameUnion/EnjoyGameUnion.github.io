@@ -1273,27 +1273,49 @@ const newsContent = [
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q1. 今回のPV制作作ろうと思ったきっかけを教えてください。</p>
-                    <p class="text-slate-500 leading-loose text-sm">（回答を入力してください）</p>
+                    <p class="text-slate-500 leading-loose text-sm">
+                    元々メンバーが多くなってきた段階で紹介動画を作りたいねという話があって、トッサノさんが裏で作ってたんですよ。確か去年(2025年)の11月くらい？<br>
+                    その時点で、動画の構成であったりとか、構図の思いつかないシーンの案出しであったりとかを手伝ってはいました。<br>
+                    その後トッサノさんが他の作業で忙しいということで、わたしが巻き取ったという形になります。<br>
+                    わたしも全部把握してるわけではないんですけど、どう考えても<span class="font-bold">トッサノさんの作業量がおかしい</span>んですよ。どうにかなりませんかアレ？
+                    </p>
                 </div>
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q2. 制作する上でこだわったポイントはどこですか？</p>
-                    <p class="text-slate-500 leading-loose text-sm">（回答を入力してください）</p>
+                    <p class="text-slate-500 leading-loose text-sm">
+                    やっぱりメンバーが多い上に<span class="font-bold">みんなを紹介したい！</span>という気持ちがあったので、動画後半のメンバー紹介の部分まで見てもらえるように工夫しました。<br>
+                    たぶん長すぎても最後まで見ないだろうなとは思うし、正直わたしも見ないので、できるだけコンパクトに収めつつ、曲の展開に合わせた動画構成を心がけました。
+                    </p>
                 </div>
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q3. 制作期間はどのくらいかかりましたか？</p>
-                    <p class="text-slate-500 leading-loose text-sm">（回答を入力してください）</p>
+                    <p class="text-slate-500 leading-loose text-sm">
+                    1ヶ月半ぐらいですね。そのうちの大部分は写真とか映像とかの募集期間だったりします。<br>
+                    同時進行でサイト作成の方も動いていたので、そちらにも使えるようにメンバーの皆さんには少し多めに撮影していただきました。自己紹介文もサイトに掲載するためのものをこちらで少しいじらせてもらって……。<br>
+                    皆様ご協力ありがとうございました！
+                    </p>
                 </div>
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q4. 一番大変だった作業はなんでしたか？</p>
-                    <p class="text-slate-500 leading-loose text-sm">（回答を入力してください）</p>
+                    <p class="text-slate-500 leading-loose text-sm">
+                    メンバー紹介に移る直前のシーンがなんだかんだ一番面倒だったかも。<br>
+                    背景を脱色して、ベースの枠を作って、写真を嵌めて、いい感じのモーションをつけて……。<br>
+                    とはいえトッサノさんに案出ししたやつをそのまま使ったので、言うほど大変な作業ってあんまりなかったりします。<br>
+                    誰か動画編集やりましょうよ。結構楽ですよ。
+                    </p>
                 </div>
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q5. 使用したソフトやツールを教えてください！</p>
-                    <p class="text-slate-500 leading-loose text-sm">（回答を入力してください）</p>
+                    <p class="text-slate-500 leading-loose text-sm">
+                    主にAviutl2を使用しました！<br>
+                    元々Aviutlで動画制作をしていたので、最近出た後継が使いやすくてほとんどこれだけで作りました。<br>
+                    あと長尺の動画を切り抜くためにDaVinch resolveを使ったり？<br>
+                    こちらは最近教わったソフトなので全然扱いきれてないです、もっと使いたい気持ちはあるんですけど、もう、Aviutlからは離れられないかも……。
+                    </p>
                 </div>
 
             </div>
@@ -1307,12 +1329,19 @@ const newsContent = [
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q6. EGUのメンバーや雰囲気を動画でどう表現しようと意識しましたか？</p>
-                    <p class="text-slate-500 leading-loose text-sm">（回答を入力してください）</p>
+                    <p class="text-slate-500 leading-loose text-sm">
+                    やっぱり<span class="font-bold">メンバーそれぞれの個性</span>ってあるんですよ。個性ってあって、メンバー紹介での写真であったり、企画紹介のシーンであったりを選定するときに、そういうのが出ているものを使うように結構意識していました。<br>
+                    どうしてもわたし目線での人柄を考慮した選定ということになってしまうので、そこら辺は勘弁してほしいんですけど、個人的にはその人の個性を表したものになっているんじゃないかな、と思っております。
+                    </p>
                 </div>
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q7. PVを通して一番伝えたかったことはなんですか？</p>
-                    <p class="text-slate-500 leading-loose text-sm">（回答を入力してください）</p>
+                    <p class="text-slate-500 leading-loose text-sm">
+                    わたしEGUメンバー大好きなので、<span class="font-bold">好きな人たちがこんな活動してるんだよ！！！愉快な人たちだよ！！！！</span>というのを一番伝えたくて。<br>
+                    こういう言い方するのもアレですけど、フォロワー数とかチャンネル登録者数とかの絶対指標にはあんまり興味なくて、ただこういう人たちが認知されていくのが嬉しいんですよね。<br>
+                    これからも色んな人に布教できるように精進したいって言い方するの、オタクって感じがしてウケますね。頑張ります。
+                    </p>
                 </div>
 
             </div>
@@ -1326,17 +1355,27 @@ const newsContent = [
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q8. 完成した動画を見て、自分的に一番お気に入りのシーンはどこですか？</p>
-                    <p class="text-slate-500 leading-loose text-sm">（回答を入力してください）</p>
+                    <p class="text-slate-500 leading-loose text-sm">
+                    やっぱハルさんのあのシーンですよね！！！！！！！かわいい！！！！！！！！！<br>
+                    後半のシーンって、紹介すべき人数も多い分どうしてもダレてしまうんですけど、今回使わせていただいた「Nocturnal Dance」という曲にはアクセントになるパートがあって、その部分を有効活用したいがためのあのシーンです。<br>
+                    <span class="font-bold">最後まで見てね。</span>
+                    </p>
                 </div>
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q9. 次に制作するとしたら、挑戦してみたいことはありますか？</p>
-                    <p class="text-slate-500 leading-loose text-sm">（回答を入力してください）</p>
+                    <p class="text-slate-500 leading-loose text-sm">
+                    紹介動画は今後作るかどうか分かりませんけど、個人的に動画企画を何かしら動かしたいんですよね。<br>
+                    現状生配信メインでやってますけど、併せてコンスタントに発信できるコンテンツを制作したくて、いろいろ模索中です。<br>
+                    <span class="font-bold">面白い企画考えたいな～～～～～～！</span>頑張ります！！！
+                    </p>
                 </div>
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q10. 最後に、視聴者やEGUメンバーへひとことお願いします！</p>
-                    <p class="text-slate-500 leading-loose text-sm">（回答を入力してください）</p>
+                    <p class="text-slate-500 leading-loose text-sm">
+                    自分、やれることはやります。よろしくお願いします。
+                    </p>
                 </div>
 
             </div>
