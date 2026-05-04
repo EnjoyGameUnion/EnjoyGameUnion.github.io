@@ -75,6 +75,41 @@ function DetailToAll() {
   showView("view-news-all");
 }
 
+// --- URLコピー ---
+function copyNewsUrl(id, btnId) {
+  const url = `${location.origin}${location.pathname}#news=${id}`;
+
+  navigator.clipboard.writeText(url).then(() => {
+    const btn = document.getElementById(btnId);
+    if (!btn) return;
+
+    // コピー完了フィードバック
+    const original = btn.innerHTML;
+    btn.innerHTML = `
+      <i class="fa-solid fa-check text-sm text-green-500"></i>
+      <span class="text-green-600">コピーしました！</span>
+    `;
+    btn.classList.add("border-green-300", "bg-green-50");
+    btn.classList.remove("border-slate-200");
+    btn.disabled = true;
+
+    setTimeout(() => {
+      btn.innerHTML = original;
+      btn.classList.remove("border-green-300", "bg-green-50");
+      btn.classList.add("border-slate-200");
+      btn.disabled = false;
+    }, 2000);
+  }).catch(() => {
+    // fallback: execCommand
+    const el = document.createElement("input");
+    el.value = url;
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand("copy");
+    document.body.removeChild(el);
+  });
+}
+
 // --- ハッシュを読み取って初期表示を決定 ---
 function handleHash() {
   const hash = location.hash; // 例: "#news=3" or "#news=all"

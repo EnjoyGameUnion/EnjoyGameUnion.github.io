@@ -15,6 +15,52 @@ function getTagBadge(tag) {
   return `<span class="${cls} text-xs font-bold px-3 py-1 rounded-full">${tag}</span>`;
 }
 
+// --- SNSシェアボタン ---
+function buildShareButtons(title, id) {
+  const pageUrl = encodeURIComponent(
+    `${location.origin}${location.pathname}#news=${id}`
+  );
+  const text = encodeURIComponent(`${title} | EnjoyGameUnion!!`);
+
+  const xUrl    = `https://x.com/intent/tweet?text=${text}&url=${pageUrl}`;
+  const lineUrl = `https://social-plugins.line.me/lineit/share?url=${pageUrl}`;
+  const copyId  = `copy-btn-${id}`;
+
+  return `
+    <div class="share-block mt-16 pt-10 border-t border-slate-100">
+      <p class="text-[11px] font-black font-en tracking-[0.25em] text-slate-400 uppercase mb-5">Share this article</p>
+      <div class="flex flex-wrap gap-3">
+
+        <!-- X (Twitter) -->
+        <a
+          href="${xUrl}"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="share-btn group inline-flex items-center gap-2.5 px-5 py-3 rounded-2xl
+                 bg-slate-900 text-white font-bold text-sm
+                 hover:bg-primary hover:-translate-y-0.5 transition-all shadow-sm hover:shadow-primary/30"
+        >
+          <i class="fa-brands fa-x-twitter text-base"></i>
+          <span>ポストする</span>
+        </a>
+
+        <!-- URLコピー -->
+        <button
+          id="${copyId}"
+          onclick="copyNewsUrl(${id}, '${copyId}')"
+          class="share-btn group inline-flex items-center gap-2.5 px-5 py-3 rounded-2xl
+                 bg-white text-slate-700 font-bold text-sm border border-slate-200
+                 hover:border-primary hover:text-primary hover:-translate-y-0.5 transition-all shadow-sm"
+        >
+          <i class="fa-solid fa-link text-sm group-hover:text-primary transition-colors"></i>
+          <span>URLをコピー</span>
+        </button>
+
+      </div>
+    </div>
+  `;
+}
+
 // --- 一覧描画 ---
 function renderNewsList(showAll) {
   const containerId = showAll ? "news-all-grid" : "news-grid";
@@ -66,5 +112,6 @@ function renderNewsDetail(id) {
     <h1 class="text-4xl md:text-6xl font-black text-slate-900 mt-4 mb-8 leading-tight">${data.title}</h1>
     <div class="text-slate-400 font-en font-bold mb-16">${data.date}</div>
     <div class="prose prose-xl prose-slate">${data.body}</div>
+    ${buildShareButtons(data.title, id)}
   `;
 }
