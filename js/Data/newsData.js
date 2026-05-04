@@ -1191,7 +1191,7 @@ const newsContent = [
   },
   {
     id: 13,
-    title: "【EnjoyGameUnion!!】企画&メンバー紹介PV作成しました！",
+    title: "【EGU】企画&メンバー紹介PV作成しました！",
     date: "2026.05.03",
     tag: "動画更新",
     thumb: "./img/news/NEWS-13-01.webp",
