@@ -21,15 +21,22 @@ function pushHash(hash) {
   history.pushState(null, "", hash || location.pathname);
 }
 
+// --- 戻るボタン HTML ---
+const BACK_TO_HOME = `
+  <button onclick="DetailToMain()"
+    class="group flex items-center gap-3 text-slate-400 hover:text-primary font-bold transition-colors">
+    <i class="fa-solid fa-arrow-left group-hover:-translate-x-2 transition-transform"></i> BACK TO HOME
+  </button>`;
+
+const BACK_TO_NEWS = `
+  <button onclick="DetailToAll()"
+    class="group flex items-center gap-3 text-slate-400 hover:text-primary font-bold transition-colors">
+    <i class="fa-solid fa-arrow-left group-hover:-translate-x-2 transition-transform"></i> BACK TO NEWS
+  </button>`;
+
 // --- ホーム → 詳細 ---
 function MainToDetail(id) {
-  document.getElementById("news-back-btn").innerHTML = `
-    <button onclick="DetailToMain()"
-      class="group flex items-center gap-3 text-slate-400 hover:text-primary font-bold mb-12 transition-colors">
-      <i class="fa-solid fa-arrow-left group-hover:-translate-x-2 transition-transform"></i> BACK TO HOME
-    </button>`;
-
-  renderNewsDetail(id);
+  renderNewsDetail(id, BACK_TO_HOME);
   showView("view-news-detail");
   window.scrollTo(0, 0);
   pushHash(`#news=${id}`);
@@ -37,7 +44,7 @@ function MainToDetail(id) {
 
 // --- 詳細 → ホーム ---
 function DetailToMain() {
-  pushHash(location.pathname); // ハッシュを消す
+  pushHash(location.pathname);
   showView("view-home");
   document.getElementById("news")?.scrollIntoView();
 }
@@ -57,13 +64,7 @@ function AllToMain() {
 
 // --- 全表示 → 詳細 ---
 function AllToDetail(id) {
-  document.getElementById("news-back-btn").innerHTML = `
-    <button onclick="DetailToAll()"
-      class="group flex items-center gap-3 text-slate-400 hover:text-primary font-bold mb-12 transition-colors">
-      <i class="fa-solid fa-arrow-left group-hover:-translate-x-2 transition-transform"></i> BACK TO NEWS
-    </button>`;
-
-  renderNewsDetail(id);
+  renderNewsDetail(id, BACK_TO_NEWS);
   showView("view-news-detail");
   window.scrollTo(0, 0);
   pushHash(`#news=${id}`);
@@ -75,51 +76,105 @@ function DetailToAll() {
   showView("view-news-all");
 }
 
+// --- トースト通知 ---
+function showCopyToast() {
+  // 既存トーストがあれば削除
+  const existing = document.getElementById("copy-toast");
+  if (existing) existing.remove();
+
+  const toast = document.createElement("div");
+  toast.id = "copy-toast";
+  toast.style.cssText = `
+    position: fixed;
+    bottom: 32px;
+    left: 50%;
+    transform: translateX(-50%) translateY(16px);
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity 0.25s ease, transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    pointer-events: none;
+  `;
+  toast.innerHTML = `
+    <div style="
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: #1e1b4b;
+      color: #fff;
+      font-size: 13px;
+      font-weight: 700;
+      padding: 12px 20px;
+      border-radius: 999px;
+      box-shadow: 0 8px 30px rgba(99,102,241,0.35), 0 2px 8px rgba(0,0,0,0.15);
+      white-space: nowrap;
+    ">
+      <span style="
+        width: 22px; height: 22px;
+        background: #6366f1;
+        border-radius: 50%;
+        display: flex; align-items: center; justify-content: center;
+        flex-shrink: 0;
+      ">
+        <i class="fa-solid fa-check" style="font-size:10px;"></i>
+      </span>
+      リンクをコピーしました
+    </div>
+  `;
+
+  document.body.appendChild(toast);
+
+  // フェードイン
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      toast.style.opacity = "1";
+      toast.style.transform = "translateX(-50%) translateY(0)";
+    });
+  });
+
+  // 2秒後にフェードアウト→削除
+  setTimeout(() => {
+    toast.style.opacity = "0";
+    toast.style.transform = "translateX(-50%) translateY(8px)";
+    setTimeout(() => toast.remove(), 300);
+  }, 2000);
+}
+
 // --- URLコピー ---
-function copyNewsUrl(id, btnId) {
+function copyNewsUrl(id) {
   const url = `${location.origin}${location.pathname}#news=${id}`;
 
-  navigator.clipboard.writeText(url).then(() => {
-    const btn = document.getElementById(btnId);
-    if (!btn) return;
+  const doAction = () => {
+    showCopyToast();
+  };
 
-    // コピー完了フィードバック
-    const original = btn.innerHTML;
-    btn.innerHTML = `
-      <i class="fa-solid fa-check text-sm text-green-500"></i>
-      <span class="text-green-600">コピーしました！</span>
-    `;
-    btn.classList.add("border-green-300", "bg-green-50");
-    btn.classList.remove("border-slate-200");
-    btn.disabled = true;
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(url).then(doAction).catch(() => {
+      fallbackCopy(url);
+      doAction();
+    });
+  } else {
+    fallbackCopy(url);
+    doAction();
+  }
+}
 
-    setTimeout(() => {
-      btn.innerHTML = original;
-      btn.classList.remove("border-green-300", "bg-green-50");
-      btn.classList.add("border-slate-200");
-      btn.disabled = false;
-    }, 2000);
-  }).catch(() => {
-    // fallback: execCommand
-    const el = document.createElement("input");
-    el.value = url;
-    document.body.appendChild(el);
-    el.select();
-    document.execCommand("copy");
-    document.body.removeChild(el);
-  });
+function fallbackCopy(text) {
+  const el = document.createElement("input");
+  el.value = text;
+  document.body.appendChild(el);
+  el.select();
+  document.execCommand("copy");
+  document.body.removeChild(el);
 }
 
 // --- ハッシュを読み取って初期表示を決定 ---
 function handleHash() {
-  const hash = location.hash; // 例: "#news=3" or "#news=all"
-
-  if (!hash.startsWith("#news=")) return; // newsに関係ないハッシュは無視
+  const hash = location.hash;
+  if (!hash.startsWith("#news=")) return;
 
   const value = hash.replace("#news=", "");
 
   if (value === "all") {
-    // ニュース一覧ページを表示
     MainToAll();
     return;
   }
@@ -127,13 +182,11 @@ function handleHash() {
   const id = parseInt(value, 10);
   if (isNaN(id)) return;
 
-  // どちらの遷移元かわからないので AllToDetail を使う（BACK TO NEWS）
   AllToDetail(id);
 }
 
 // --- ブラウザの「戻る/進む」ボタン対応 ---
 window.addEventListener("popstate", () => {
-  // ハッシュが消えたらホームに戻す
   if (!location.hash.startsWith("#news=")) {
     showView("view-home");
   } else {
@@ -145,5 +198,5 @@ window.addEventListener("popstate", () => {
 document.addEventListener("DOMContentLoaded", () => {
   renderNewsList(false);
   renderNewsList(true);
-  handleHash(); // ページ読み込み時にURLを確認
+  handleHash();
 });
