@@ -402,14 +402,14 @@ const newsContent = [
   },
   {
     id: 7,
-    title: "【フレ＋隅っこラジオ】ゲスト：ずんだゆき 公開！",
+    title: "【第16回】フレ＋隅っこラジオ ゲスト：ずんだゆき 公開！",
     date: "2026.04.10",
     tag: "Live配信",
     thumb: "./img/news/NEWS-07-01.webp",
     body: `<img src="./img/news/NEWS-07-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="フレ＋隅っこラジオずんだゆき">
   
           <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
-              【フレ＋隅っこラジオ】ゲスト：ずんだゆきを公開しました。
+              【第16回】フレ＋隅っこラジオ、ゲストにずんだゆきを迎えてお届け！
           </h3>
   
           <p class="mb-6 text-slate-600 leading-loose">
@@ -937,7 +937,7 @@ const newsContent = [
   },
   {
     id: 11,
-    title: "【第17回】トッサノ Anriのフレ＋隅っこラジオ【ゲスト：よく寝るかれん】",
+    title: "【第17回】フレ＋隅っこラジオ ゲスト：よく寝るかれん 公開！",
     date: "2026.04.24",
     tag: "Live配信",
     thumb: "./img/news/NEWS-11-01.webp",
@@ -1396,7 +1396,210 @@ const newsContent = [
             </ul>
         </div>`,
   },
-    
+  {
+    id: 14,
+    title: "【第18回】フレ＋隅っこラジオ ゲスト：suraimi 公開！",
+    date: "2026.05.07",
+    tag: "Live配信",
+    thumb: "./img/news/NEWS-18-01.webp",
+    body: `<img src="./img/news/NEWS-18-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="フレ＋隅っこラジオ第18回 ゲスト：suraimi">
+
+        <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
+            【第18回】フレ＋隅っこラジオ、ゲストにsuraimiを迎えてお届け！
+        </h3>
+
+        <p class="mb-6 text-slate-600 leading-loose">
+            トッサノとDr.Anriがお届けする「フレ＋隅っこラジオ」の第18回を公開しました！<br>
+            今回のゲストは、若者枠としておなじみ――<strong>suraimi</strong>さんの登場です！<br>
+            最近はVALORANTの練習配信を精力的に続けているという彼女、いったいどんな話が飛び出すのか……<br>
+            アーカイブでぜひお楽しみください！
+        </p>
+
+        <!-- YouTube埋め込み -->
+        <div class="aspect-video w-full mb-8">
+            <iframe
+                class="w-full h-full rounded-3xl shadow-2xl"
+                src="https://www.youtube.com/embed/7ABLHA2A9hk?rel=0"
+                title="【第18回】フレ＋隅っこラジオ ゲスト：suraimi"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <!-- 放送中の画像 -->
+        <img src="./img/news/NEWS-18-02.webp" class="w-full h-auto rounded-2xl shadow-md mb-10" alt="放送中のスクリーンショット">
+
+        <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
+            フレ＋隅っこラジオとは？
+        </h3>
+
+        <p class="mb-8 text-slate-600 leading-loose">
+            本番組は、VRChat内のグループ「Enjoy Game Union（略称：EGU）」の主催者である<strong>トッサノ</strong>と、<strong>Dr.Anri</strong>がお届けするトーク・ラジオ配信です。<br>
+            フレンドの輪をひろげながら、EGUメンバーや関係者をゲストに招き、ゆるく・楽しく・時々深めに語り合う、そんな番組です。<br>
+            毎回個性豊かなゲストをお迎えし、普段なかなか聞けない話や、VRChatならではのエピソードが次々と飛び出します。<br>
+            <br>
+            第18回となる今回は、若者代表・suraimiさんが登場！<br>
+            いつも配信で見せているゲームへの情熱から、EGUへの思い、二人のパーソナリティとのかけあいまで、盛りだくさんな内容となっています。
+        </p>
+
+        <h3 class="text-xl font-bold mb-4">◆メインパーソナリティー</h3>
+        <ul class="mb-8 text-slate-600 leading-loose list-disc list-inside">
+            <li>
+                <strong>トッサノ</strong>　<a href="https://x.com/tossanovrc" target="_blank" class="text-primary underline">https://x.com/tossanovrc</a><br>
+                EGUという謎グループの主催、最近一生缶詰作業
+            </li>
+            <li>
+                <strong>Dr.Anri</strong>　<a href="https://x.com/Es96L4ap" target="_blank" class="text-primary underline">https://x.com/Es96L4ap</a><br>
+                EGU所属の自称一般人、最近寸劇台本のレベルが日に日に上がっている
+            </li>
+        </ul>
+
+        <h3 class="text-xl font-bold mb-4">◆ゲスト</h3>
+        <ul class="mb-8 text-slate-600 leading-loose list-disc list-inside">
+            <li>
+                <strong>suraimi</strong>　<a href="https://x.com/siawase_suraimi" target="_blank" class="text-primary underline">https://x.com/siawase_suraimi</a><br>
+                若者枠、最近VALOの練習を配信しながら頑張ってるらしい
+            </li>
+        </ul>
+
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 mb-10">
+            <p class="text-sm font-bold text-slate-500 mb-2 uppercase tracking-widest">お便りはこちらから</p>
+            <p class="text-slate-600 leading-loose">
+                当番組へのご感想・お便りはこちらまで！<br>
+                <a href="https://forms.gle/vLhpdfTYJyArNjtt5" target="_blank" class="text-primary underline">
+                    https://forms.gle/vLhpdfTYJyArNjtt5
+                </a>
+            </p>
+        </div>
+
+        <!-- インタビューセクション -->
+        <div class="my-12 border-t-2 border-slate-100 pt-10">
+            <h3 class="text-2xl font-bold text-slate-900 mb-2 border-l-4 border-primary pl-4">
+                ゲストインタビュー
+            </h3>
+            <p class="text-slate-500 text-sm mb-8 pl-5">ゲスト：suraimi</p>
+
+            <p class="mb-10 text-slate-600 leading-loose">
+                今回の放送に出演してくれたsuraimiさんに、収録前後の気持ちや番組の感想、EGUについての思いなど、いろいろと聞いてみました！<br>
+                ラジオ本編とあわせてお楽しみください。
+            </p>
+
+            <!-- 🎙️ 出演前・収録中について -->
+            <img src="./img/news/NEWS-18-03.webp" class="w-full h-auto rounded-2xl shadow-md mb-8" alt="インタビュー写真1">
+
+            <p class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6">🎙️ 出演前・収録中について</p>
+
+            <div class="space-y-6 mb-12">
+
+                <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
+                    <p class="font-bold text-slate-700 mb-3">Q1. 今回ゲストとして呼ばれたとき、最初どんな気持ちだった？「やったー！」それとも「え、大丈夫かな…」？</p>
+                    <p class="text-slate-400 leading-loose text-sm italic">
+                        ── 回答をここに入力してください ──
+                    </p>
+                </div>
+
+                <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
+                    <p class="font-bold text-slate-700 mb-3">Q2. 収録が始まる前と、終わった後でテンションや気持ちに変化はあった？</p>
+                    <p class="text-slate-400 leading-loose text-sm italic">
+                        ── 回答をここに入力してください ──
+                    </p>
+                </div>
+
+                <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
+                    <p class="font-bold text-slate-700 mb-3">Q3. トッサノとAnriの二人と実際に絡んでみて、「こいつらこんな感じなんだ」ってなった瞬間はありました？（笑）</p>
+                    <p class="text-slate-400 leading-loose text-sm italic">
+                        ── 回答をここに入力してください ──
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- 😂 ラジオの内容について -->
+            <img src="./img/news/NEWS-18-04.webp" class="w-full h-auto rounded-2xl shadow-md mb-8" alt="インタビュー写真2">
+
+            <p class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6">😂 ラジオの内容について</p>
+
+            <div class="space-y-6 mb-12">
+
+                <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
+                    <p class="font-bold text-slate-700 mb-3">Q4. 収録中、一番盛り上がった・楽しかったと思うトピックってどこだった？</p>
+                    <p class="text-slate-400 leading-loose text-sm italic">
+                        ── 回答をここに入力してください ──
+                    </p>
+                </div>
+
+                <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
+                    <p class="font-bold text-slate-700 mb-3">Q5. 逆に「これ答えるの難しいな〜」ってなった質問はあった？</p>
+                    <p class="text-slate-400 leading-loose text-sm italic">
+                        ── 回答をここに入力してください ──
+                    </p>
+                </div>
+
+                <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
+                    <p class="font-bold text-slate-700 mb-3">Q6. 自分でラジオを聴き返したとき、「あ、ここもっとこう言えばよかった」ってなった場面はある？</p>
+                    <p class="text-slate-400 leading-loose text-sm italic">
+                        ── 回答をここに入力してください ──
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- 🌐 EGUについて -->
+            <img src="./img/news/NEWS-18-05.webp" class="w-full h-auto rounded-2xl shadow-md mb-8" alt="インタビュー写真3">
+
+            <p class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6">🌐 EGUについて</p>
+
+            <div class="space-y-6 mb-12">
+
+                <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
+                    <p class="font-bold text-slate-700 mb-3">Q7. 改めて、EGUってsuraimiさんから見てどんなグループだと思う？一言で表すとしたら？</p>
+                    <p class="text-slate-400 leading-loose text-sm italic">
+                        ── 回答をここに入力してください ──
+                    </p>
+                </div>
+
+                <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
+                    <p class="font-bold text-slate-700 mb-3">Q8. 今回のラジオを通じて、EGUのメンバーや雰囲気について新たに気づいたことはあった？</p>
+                    <p class="text-slate-400 leading-loose text-sm italic">
+                        ── 回答をここに入力してください ──
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- 🙌 振り返って -->
+            <p class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6">🙌 振り返って</p>
+
+            <div class="space-y-6 mb-4">
+
+                <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
+                    <p class="font-bold text-slate-700 mb-3">Q9. 今回の出演、自分的に何点くらいの出来だった？採点とその理由も教えて！</p>
+                    <p class="text-slate-400 leading-loose text-sm italic">
+                        ── 回答をここに入力してください ──
+                    </p>
+                </div>
+
+                <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
+                    <p class="font-bold text-slate-700 mb-3">Q10. 最後に、また出たいと思う？リスナーとEGUメンバーへひとことどうぞ！</p>
+                    <p class="text-slate-400 leading-loose text-sm italic">
+                        ── 回答をここに入力してください ──
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+            <p class="text-sm font-bold text-slate-500 mb-2 uppercase tracking-widest">About EGU</p>
+            <ul class="space-y-2 text-slate-600">
+                <li>公式HP：<a href="https://enjoygameunion.github.io/" target="_blank" class="text-primary underline">https://enjoygameunion.github.io/</a></li>
+                <li>公式X：<a href="https://x.com/EnjoyGameUnion" target="_blank" class="text-primary underline">https://x.com/EnjoyGameUnion</a></li>
+            </ul>
+        </div>`,
+  },
+
     /* ===投稿テンプレ=== */
   // {
   //     id: ,
