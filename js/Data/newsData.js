@@ -1493,23 +1493,23 @@ const newsContent = [
             <div class="space-y-6 mb-12">
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
-                    <p class="font-bold text-slate-700 mb-3">Q1. 今回ゲストとして呼ばれたとき、最初どんな気持ちだった？「やったー！」それとも「え、大丈夫かな…」？</p>
+                    <p class="font-bold text-slate-700 mb-3">Q1. 今回ゲストとして呼ばれたとき、最初どんな気持ちだった？</p>
                     <p class="text-slate-400 leading-loose text-sm italic">
-                        ── 回答をここに入力してください ──
+                        不安！とにかく不安でした！<br>ちゃんと質問に答えられるかな、とか寸劇噛まずに読めるかな、皆見てくれるかなとか色々な不安要素しかなかったですね。
                     </p>
                 </div>
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q2. 収録が始まる前と、終わった後でテンションや気持ちに変化はあった？</p>
                     <p class="text-slate-400 leading-loose text-sm italic">
-                        ── 回答をここに入力してください ──
+                        収録前はもう凄い勢いで感情が変わってましたね「楽しみ」と「不安」が交互に出てくるもんですからほぼ情緒不安定みたいなもんでしたね<br>収録後はやりきったぞ〜！！って安堵感に包まれました！<br>ラジオを思い返してあそこはもっと上手く言えたかな？ってちょっとだけ考えましたけど、そんなことがどうでもいいぐらいラジオをとても楽しく終わらせられたと思います！
                     </p>
                 </div>
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q3. トッサノとAnriの二人と実際に絡んでみて、「こいつらこんな感じなんだ」ってなった瞬間はありました？（笑）</p>
                     <p class="text-slate-400 leading-loose text-sm italic">
-                        ── 回答をここに入力してください ──
+                        トッサノさんに関しては特に変わりなく面白くて､話しやすい良いクラゲという認識ですかね<br>Anriさんとは個人的に絡む回数が少なくて話す機会もなかったので沢山お喋りしたので変化しかありませんでした！<br>元々優しいお兄さんだな〜、って思ってただけなんですがそこに加えてその場を回すのが上手いって感じましたね､お喋りに間を空けないよう相槌を細かく打ってくれたり相手が話しやすく盛り上がるような質問を投げてくれて、もうね、流石Anriさんって感じです！
                     </p>
                 </div>
 
@@ -1525,21 +1525,21 @@ const newsContent = [
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q4. 収録中、一番盛り上がった・楽しかったと思うトピックってどこだった？</p>
                     <p class="text-slate-400 leading-loose text-sm italic">
-                        ── 回答をここに入力してください ──
+                        漫画紹介ですかね〜、私もオタクな一面をもっていますから漫画やらアニメの話はとても楽しかったし、盛り上がったんじゃないでしょうか！<br>ラジオで紹介した「真夜中ハートチューン」これはやはり見るべきです！漫画に手を出しずらいそんな人も居るかもしれません、だけどご安心を！<br>なんとアニメ化を果たしHuluやU-NEXTなどで見れますので是非入っている人は見てみてください！
                     </p>
                 </div>
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q5. 逆に「これ答えるの難しいな〜」ってなった質問はあった？</p>
                     <p class="text-slate-400 leading-loose text-sm italic">
-                        ── 回答をここに入力してください ──
+                        子供の頃の自分はどうだった？っていう質問はやっぱり困りましたねぇ、それこそ直近でその話を家族から聞いてなかったら「分からない」とか何か適当なことを言っていた可能性大ですよこれ
                     </p>
                 </div>
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q6. 自分でラジオを聴き返したとき、「あ、ここもっとこう言えばよかった」ってなった場面はある？</p>
                     <p class="text-slate-400 leading-loose text-sm italic">
-                        ── 回答をここに入力してください ──
+                        名前の由来についての質問でもうちょっとだけ深く話したりすれば良かったぁ！って見返して思ったり思わなかったりですね<br>それこそみやびについても少しだけ話して良かったかも？みたいなね
                     </p>
                 </div>
 
@@ -1555,14 +1555,14 @@ const newsContent = [
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q7. 改めて、EGUってsuraimiさんから見てどんなグループだと思う？一言で表すとしたら？</p>
                     <p class="text-slate-400 leading-loose text-sm italic">
-                        ── 回答をここに入力してください ──
+                        個性豊かで色んな人がいるけど皆均等に仲が良くて､雰囲気が良く､皆楽しんでいられる、そんな素晴らしいグループですね！<br>一言表すなら「楽」ですかね<br>元々「楽しいことをしよう」っていう名目で作られたのがEGUなので一年経った今でもそれは変わらずに楽しく過ごさせてもらっております。
                     </p>
                 </div>
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q8. 今回のラジオを通じて、EGUのメンバーや雰囲気について新たに気づいたことはあった？</p>
                     <p class="text-slate-400 leading-loose text-sm italic">
-                        ── 回答をここに入力してください ──
+                        今回のラジオを通して思ったのはですねえ、やはり居心地の良さですかね<br>お喋りが得意ではなくてもその場にいるだけで楽しい気持ちに、そして居心地が良いと感じさせてくれます！<br>まるで第二の家やね、ほんまに
                     </p>
                 </div>
 
@@ -1576,14 +1576,14 @@ const newsContent = [
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q9. 今回の出演、自分的に何点くらいの出来だった？採点とその理由も教えて！</p>
                     <p class="text-slate-400 leading-loose text-sm italic">
-                        ── 回答をここに入力してください ──
+                        10点満点中8点の出来だと思います！<br>理由ですか､そうですね<br>まずはAnriさんのトーク力に助けられたのが大きいですが自分が思っていたよりもお喋りが円滑に進んで楽しく話せたのが主な理由ですね<br>Anriさんは偉大ですホントに、感謝しかない！
                     </p>
                 </div>
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q10. 最後に、また出たいと思う？リスナーとEGUメンバーへひとことどうぞ！</p>
                     <p class="text-slate-400 leading-loose text-sm italic">
-                        ── 回答をここに入力してください ──
+                        機会があれば是非出たいですな！<br>次は満点目指しちゃいます！<br>リスナーさんとEGUの皆…<br>「大好きだー！！！！！！！」
                     </p>
                 </div>
 
