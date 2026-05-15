@@ -1411,7 +1411,7 @@ const newsContent = [
         <p class="mb-6 text-slate-600 leading-loose">
             トッサノとDr.Anriがお届けする「フレ＋隅っこラジオ」の第18回を公開しました！<br>
             今回のゲストは、若者枠としておなじみ――<strong>suraimi</strong>さんの登場です！<br>
-            最近はVALORANTの練習配信を精力的に続けているという彼女、いったいどんな話が飛び出すのか……<br>
+            最近はVALORANTの練習配信を精力的に続けているということで、いったいどんな話が飛び出すのか……<br>
             アーカイブでぜひお楽しみください！
         </p>
 
