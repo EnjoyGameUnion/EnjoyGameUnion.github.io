@@ -1411,7 +1411,7 @@ const newsContent = [
         <p class="mb-6 text-slate-600 leading-loose">
             トッサノとDr.Anriがお届けする「フレ＋隅っこラジオ」の第18回を公開しました！<br>
             今回のゲストは、若者枠としておなじみ――<strong>suraimi</strong>さんの登場です！<br>
-            最近はVALORANTの練習配信を精力的に続けているということで、いったいどんな話が飛び出すのか……<br>
+            最近はVALORANTの練習配信を精力的に続けているという彼女、いったいどんな話が飛び出すのか……<br>
             アーカイブでぜひお楽しみください！
         </p>
 
@@ -1493,23 +1493,23 @@ const newsContent = [
             <div class="space-y-6 mb-12">
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
-                    <p class="font-bold text-slate-700 mb-3">Q1. 今回ゲストとして呼ばれたとき、最初どんな気持ちだった？</p>
+                    <p class="font-bold text-slate-700 mb-3">Q1. 今回ゲストとして呼ばれたとき、最初どんな気持ちだった？「やったー！」それとも「え、大丈夫かな…」？</p>
                     <p class="text-slate-400 leading-loose text-sm italic">
-                        不安！とにかく不安でした！<br>ちゃんと質問に答えられるかな、とか寸劇噛まずに読めるかな、皆見てくれるかなとか色々な不安要素しかなかったですね。
+                        ── 回答をここに入力してください ──
                     </p>
                 </div>
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q2. 収録が始まる前と、終わった後でテンションや気持ちに変化はあった？</p>
                     <p class="text-slate-400 leading-loose text-sm italic">
-                        収録前はもう凄い勢いで感情が変わってましたね「楽しみ」と「不安」が交互に出てくるもんですからほぼ情緒不安定みたいなもんでしたね<br>収録後はやりきったぞ〜！！って安堵感に包まれました！<br>ラジオを思い返してあそこはもっと上手く言えたかな？ってちょっとだけ考えましたけど、そんなことがどうでもいいぐらいラジオをとても楽しく終わらせられたと思います！
+                        ── 回答をここに入力してください ──
                     </p>
                 </div>
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q3. トッサノとAnriの二人と実際に絡んでみて、「こいつらこんな感じなんだ」ってなった瞬間はありました？（笑）</p>
                     <p class="text-slate-400 leading-loose text-sm italic">
-                        トッサノさんに関しては特に変わりなく面白くて､話しやすい良いクラゲという認識ですかね<br>Anriさんとは個人的に絡む回数が少なくて話す機会もなかったので沢山お喋りしたので変化しかありませんでした！<br>元々優しいお兄さんだな〜、って思ってただけなんですがそこに加えてその場を回すのが上手いって感じましたね､お喋りに間を空けないよう相槌を細かく打ってくれたり相手が話しやすく盛り上がるような質問を投げてくれて、もうね、流石Anriさんって感じです！
+                        ── 回答をここに入力してください ──
                     </p>
                 </div>
 
@@ -1525,21 +1525,21 @@ const newsContent = [
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q4. 収録中、一番盛り上がった・楽しかったと思うトピックってどこだった？</p>
                     <p class="text-slate-400 leading-loose text-sm italic">
-                        漫画紹介ですかね〜、私もオタクな一面をもっていますから漫画やらアニメの話はとても楽しかったし、盛り上がったんじゃないでしょうか！<br>ラジオで紹介した「真夜中ハートチューン」これはやはり見るべきです！漫画に手を出しずらいそんな人も居るかもしれません、だけどご安心を！<br>なんとアニメ化を果たしHuluやU-NEXTなどで見れますので是非入っている人は見てみてください！
+                        ── 回答をここに入力してください ──
                     </p>
                 </div>
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q5. 逆に「これ答えるの難しいな〜」ってなった質問はあった？</p>
                     <p class="text-slate-400 leading-loose text-sm italic">
-                        子供の頃の自分はどうだった？っていう質問はやっぱり困りましたねぇ、それこそ直近でその話を家族から聞いてなかったら「分からない」とか何か適当なことを言っていた可能性大ですよこれ
+                        ── 回答をここに入力してください ──
                     </p>
                 </div>
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q6. 自分でラジオを聴き返したとき、「あ、ここもっとこう言えばよかった」ってなった場面はある？</p>
                     <p class="text-slate-400 leading-loose text-sm italic">
-                        名前の由来についての質問でもうちょっとだけ深く話したりすれば良かったぁ！って見返して思ったり思わなかったりですね<br>それこそみやびについても少しだけ話して良かったかも？みたいなね
+                        ── 回答をここに入力してください ──
                     </p>
                 </div>
 
@@ -1555,14 +1555,14 @@ const newsContent = [
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q7. 改めて、EGUってsuraimiさんから見てどんなグループだと思う？一言で表すとしたら？</p>
                     <p class="text-slate-400 leading-loose text-sm italic">
-                        個性豊かで色んな人がいるけど皆均等に仲が良くて､雰囲気が良く､皆楽しんでいられる、そんな素晴らしいグループですね！<br>一言表すなら「楽」ですかね<br>元々「楽しいことをしよう」っていう名目で作られたのがEGUなので一年経った今でもそれは変わらずに楽しく過ごさせてもらっております。
+                        ── 回答をここに入力してください ──
                     </p>
                 </div>
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q8. 今回のラジオを通じて、EGUのメンバーや雰囲気について新たに気づいたことはあった？</p>
                     <p class="text-slate-400 leading-loose text-sm italic">
-                        今回のラジオを通して思ったのはですねえ、やはり居心地の良さですかね<br>お喋りが得意ではなくてもその場にいるだけで楽しい気持ちに、そして居心地が良いと感じさせてくれます！<br>まるで第二の家やね、ほんまに
+                        ── 回答をここに入力してください ──
                     </p>
                 </div>
 
@@ -1576,17 +1576,209 @@ const newsContent = [
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q9. 今回の出演、自分的に何点くらいの出来だった？採点とその理由も教えて！</p>
                     <p class="text-slate-400 leading-loose text-sm italic">
-                        10点満点中8点の出来だと思います！<br>理由ですか､そうですね<br>まずはAnriさんのトーク力に助けられたのが大きいですが自分が思っていたよりもお喋りが円滑に進んで楽しく話せたのが主な理由ですね<br>Anriさんは偉大ですホントに、感謝しかない！
+                        ── 回答をここに入力してください ──
                     </p>
                 </div>
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q10. 最後に、また出たいと思う？リスナーとEGUメンバーへひとことどうぞ！</p>
                     <p class="text-slate-400 leading-loose text-sm italic">
-                        機会があれば是非出たいですな！<br>次は満点目指しちゃいます！<br>リスナーさんとEGUの皆…<br>「大好きだー！！！！！！！」
+                        ── 回答をここに入力してください ──
                     </p>
                 </div>
 
+            </div>
+
+        </div>
+
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+            <p class="text-sm font-bold text-slate-500 mb-2 uppercase tracking-widest">About EGU</p>
+            <ul class="space-y-2 text-slate-600">
+                <li>公式HP：<a href="https://enjoygameunion.github.io/" target="_blank" class="text-primary underline">https://enjoygameunion.github.io/</a></li>
+                <li>公式X：<a href="https://x.com/EnjoyGameUnion" target="_blank" class="text-primary underline">https://x.com/EnjoyGameUnion</a></li>
+            </ul>
+        </div>`,
+  },
+
+  {
+    id: 15,
+    title: "【コードネーム】ママの言うこと聞ける？母の日に疑似親子で心理戦！を公開！",
+    date: "2026.05.12",
+    tag: "Live配信",
+    thumb: "./img/news/NEWS-19-01.webp",
+    body: `<img src="./img/news/NEWS-19-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="コードネーム 母の日企画">
+
+        <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
+            母の日に贈る心理戦！疑似親子で挑む『コードネーム』配信
+        </h3>
+
+        <p class="mb-6 text-slate-600 leading-loose">
+            母の日スペシャル企画として、EGUのママたちと子供たち？が集結！<br>
+            言葉一つで勝負が決まる心理戦ゲーム「コードネーム」で、疑似親子の絆と策略が交錯する白熱のLive配信を行いました。<br>
+            果たして子供たちはママのヒントを正確に読み解けるのか——？ぜひアーカイブでご覧ください！
+        </p>
+
+        <!-- YouTube埋め込み -->
+        <div class="aspect-video w-full mb-8">
+            <iframe
+                class="w-full h-full rounded-3xl shadow-2xl"
+                src="https://www.youtube.com/embed/rGbbZSaPyxI?rel=0"
+                title="【コードネーム】ママの言うこと聞ける？母の日に疑似親子で心理戦！"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <h3 class="text-xl font-bold mb-4">◆出演者</h3>
+        <ul class="mb-8 text-slate-600 leading-loose list-none space-y-3">
+            <li>
+                <strong>エリリ・エリ</strong>　<span class="text-slate-400 text-sm">（人数合わせなのでママではない）</span><br>
+                <a href="https://x.com/nameSnow66" target="_blank" class="text-primary underline text-sm">https://x.com/nameSnow66</a>
+            </li>
+            <li>
+                <strong>こまつちま</strong>　<span class="text-slate-400 text-sm">（満場一致で認められているママ）</span><br>
+                <a href="https://x.com/komatsu_chiii" target="_blank" class="text-primary underline text-sm">https://x.com/komatsu_chiii</a>
+            </li>
+            <li>
+                <strong>Dr_Anri</strong>　<span class="text-slate-400 text-sm">（ツッコミに定評のあるママ）</span><br>
+                <a href="https://x.com/Es96L4ap" target="_blank" class="text-primary underline text-sm">https://x.com/Es96L4ap</a>
+            </li>
+            <li>
+                <strong>garavella</strong>　<span class="text-slate-400 text-sm">（主催曰くショタ担当のキッズ、わかりみ）</span><br>
+                <a href="https://x.com/garavella1010" target="_blank" class="text-primary underline text-sm">https://x.com/garavella1010</a>
+            </li>
+            <li>
+                <strong>haru</strong>　<span class="text-slate-400 text-sm">（可愛い担当のキッズ、でも長男なんだよね）</span><br>
+                <a href="https://x.com/shiranatsu_haru" target="_blank" class="text-primary underline text-sm">https://x.com/shiranatsu_haru</a>
+            </li>
+            <li>
+                <strong>suraimi</strong>　<span class="text-slate-400 text-sm">（最年少担当のキッズ、実質初めまして…？）</span><br>
+                <a href="https://x.com/siawase_suraimi" target="_blank" class="text-primary underline text-sm">https://x.com/siawase_suraimi</a>
+            </li>
+        </ul>
+
+        <!-- ライブ切り抜き画像 -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10">
+            <img src="./img/news/NEWS-19-02.webp" class="w-full h-auto rounded-2xl shadow-md" alt="配信の様子1">
+            <img src="./img/news/NEWS-19-03.webp" class="w-full h-auto rounded-2xl shadow-md" alt="配信の様子2">
+            <img src="./img/news/NEWS-19-04.webp" class="w-full h-auto rounded-2xl shadow-md" alt="配信の様子3">
+        </div>
+
+        <!-- インタビューセクション -->
+        <h3 class="text-2xl font-bold text-slate-900 mb-2 border-l-4 border-primary pl-4">
+            メンバーインタビュー
+        </h3>
+        <p class="text-slate-500 text-sm mb-8">配信の裏側や本音を、本イベントの企画者エリリ・エリと各メンバーに聞いてみました！</p>
+
+        <!-- 🎯 企画と準備について -->
+        <img src="./img/news/NEWS-19-05.webp" class="w-full h-auto rounded-2xl shadow-md mb-8" alt="インタビュー写真1">
+
+        <p class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6">🎯 企画と準備について</p>
+
+        <div class="space-y-6 mb-12">
+
+            <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
+                <p class="font-bold text-slate-700 mb-3">Q1. 今回の配信企画が決まったきっかけを教えてください。</p>
+                <p class="text-slate-600 leading-loose">
+                    何かゲーム配信の企画考えないとな、と思った際に、「５月といえば母の日だな、よし！EGUのママと子供を集めて何かしよう！」って天啓が降りてきました。これはトッサノノセイです。
+                </p>
+            </div>
+
+            <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
+                <p class="font-bold text-slate-700 mb-3">Q2. メンバーを選んだポイントを教えてください。</p>
+                <p class="text-slate-600 leading-loose">
+                    最初はママ枠に子持ち疑惑（？）のあるトッサノさんとAnriさんを挙げたのですが、トッサノさんには逃げられました。あとこまつママは全会一致で決まりました。子どもたちも速攻決まった気がします。ただ個人的にsuraimiくんとあんまり話したことなかったので、配信前にちょびっと緊張した。
+                </p>
+            </div>
+
+            <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
+                <p class="font-bold text-slate-700 mb-3">Q3. この企画はいつ頃決まりましたか？</p>
+                <p class="text-slate-600 leading-loose">
+                    ４月６日にDiscordの雑談チャットに書き込んでますね。そのあとのみんなのリアクションが地味に面白かったです。
+                </p>
+            </div>
+
+            <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
+                <p class="font-bold text-slate-700 mb-3">Q4. 今回遊ぶゲームを選んだ理由を教えてください。</p>
+                <p class="text-slate-600 leading-loose">
+                    親VS子や親子VS親子の構図を描きたかったのですが、対戦ゲームだと配信主視点になって他の親子が映らなくなるので、それは嫌だなーと思い、画面一つで纏まっていてトークバトルができるコードネームにしました。
+                </p>
+            </div>
+
+            <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
+                <p class="font-bold text-slate-700 mb-3">Q5. 制作したサムネイルのこだわりポイントを教えてください。</p>
+                <p class="text-slate-600 leading-loose">
+                    garaくんとharuくんの表情ですかね。特にharuくんには「怯えて！」って無茶ぶりをしながら撮影をしました。
+                </p>
+            </div>
+
+        </div>
+
+        <!-- 🎮 配信について -->
+        <img src="./img/news/NEWS-19-06.webp" class="w-full h-auto rounded-2xl shadow-md mb-8" alt="インタビュー写真2">
+
+        <p class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6">🎮 配信について</p>
+
+        <div class="space-y-6 mb-12">
+
+            <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
+                <p class="font-bold text-slate-700 mb-3">Q6. 実際にコードネームを遊んでみていかがでしたか？</p>
+                <div class="space-y-3 text-slate-600 leading-loose">
+                    <p><strong class="text-slate-700">エリリ・エリ：</strong>スパイマスターはもうやりたくない…。</p>
+                    <p><strong class="text-slate-700">こまつちま：</strong>微妙なニュアンスの違いで曲解しがち、されがちでとても難しいゲームでした。</p>
+                    <p><strong class="text-slate-700">Dr_Anri：</strong>ヒントを出す時は「ああ違いますわ！」ともどかしかったんですけれど、答える側になると意外と意図を汲むのが難しかったですわね。</p>
+                    <p><strong class="text-slate-700">garavella：</strong>ママがこう考えてるんじゃないかなぁって予想して、あたったり、外したりがあって楽しかったです！</p>
+                    <p><strong class="text-slate-700">白夏ハル：</strong>めっちゃ楽しかった！ヒントを深読みしすぎて、どんどん変な方向に行くのが面白かった〜！！</p>
+                    <p><strong class="text-slate-700">suraimi：</strong>普段使わない能力を使ったのでとても楽しかったですね。</p>
+                </div>
+            </div>
+
+            <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
+                <p class="font-bold text-slate-700 mb-3">Q7. 今回の配信、おすすめの見どころを教えてください。</p>
+                <div class="space-y-3 text-slate-600 leading-loose">
+                    <p><strong class="text-slate-700">エリリ・エリ：</strong>切り抜く予定ですが、ハルくんの「ひもはただのひもだよ…？」は最高でした！</p>
+                    <p><strong class="text-slate-700">こまつちま：</strong>最後の親子対決、親側の諜報員2人がヒントからの予測をすべて外してしまうところでしょうか。思い込みって怖い。</p>
+                    <p><strong class="text-slate-700">Dr_Anri：</strong>一人スパイマスターとしてあたふたしていた（であろう）エリリママですわ～！ワタクシもこの後見返しますわよ。</p>
+                    <p><strong class="text-slate-700">garavella：</strong>最後の、子供VSママ友会にて、えりりママが絶望案件に陥ってしまったのが見どころだと思います。</p>
+                    <p><strong class="text-slate-700">白夏ハル：</strong>suraimi×Anriママ vs gara×こまつママのときにgaraがずっと「頭エデン」とか言ってエデンに思考持ってかれてるところ！</p>
+                    <p><strong class="text-slate-700">suraimi：</strong>親子対決で出てきた「頭エデン」はインパクトが強く、見どころなんじゃないでしょうか！</p>
+                </div>
+            </div>
+
+            <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
+                <p class="font-bold text-slate-700 mb-3">Q8. 特に印象に残っているメンバーはいますか？</p>
+                <div class="space-y-3 text-slate-600 leading-loose">
+                    <p><strong class="text-slate-700">エリリ・エリ：</strong>そりゃわが子のharuくんですね！子供たちの中でもかわいい担当ぷりが輝いてました！</p>
+                    <p><strong class="text-slate-700">こまつちま：</strong>子役のgaraくんですかね。意図をかなり汲み取ってもらえて助かりました。</p>
+                    <p><strong class="text-slate-700">Dr_Anri：</strong>こどもたちですわね～！意外と慎重で驚きましたわ…配信の中でどんどん成長していましたわね。子は宝ですわ～！（ママ側は謎にリアルでしたわね）</p>
+                    <p><strong class="text-slate-700">garavella：</strong>こまつままですね。ままに、げーむちゅうはたくさんほめてもらえて、とてもうれしかったです！でもさいごにはむじょうにもすてられて、かなしかったです...なみだ...しくしく</p>
+                    <p><strong class="text-slate-700">白夏ハル：</strong>エリリママ！最初の試合のヒントのクセが強かったり、最後の試合は全然意思が伝わってなかったりしてかわいそ面白かった！！</p>
+                    <p><strong class="text-slate-700">suraimi：</strong>garaさん。配信の趣旨である親と子という配役で普段とは違う子供らしい話し方や、個人的に配信の中で一番「ママ」と言った回数が多いと感じました。</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- 🙌 振り返って -->
+        <img src="./img/news/NEWS-19-07.webp" class="w-full h-auto rounded-2xl shadow-md mb-8" alt="インタビュー写真3">
+
+        <p class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6">🙌 振り返って</p>
+
+        <div class="space-y-6 mb-12">
+
+            <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
+                <p class="font-bold text-slate-700 mb-3">Q9. 次回の配信予定があれば教えてください。</p>
+                <p class="text-slate-600 leading-loose">
+                    ６月にまたゲーム配信企画を予定してます。日付調整さえ上手くいけば、実現するはず……！ご期待ください！
+                </p>
+            </div>
+
+            <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
+                <p class="font-bold text-slate-700 mb-3">Q10. 最後に、視聴者のみなさんやEGUメンバーへひとことお願いします！</p>
+                <p class="text-slate-600 leading-loose">
+                    今回の配信のショート動画も作る予定なので、是非見てくださいね！おつユニオンーーー！！！
+                </p>
             </div>
 
         </div>
