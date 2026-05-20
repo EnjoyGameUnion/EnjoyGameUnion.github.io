@@ -1672,8 +1672,6 @@ const newsContent = [
         <p class="text-slate-500 text-sm mb-8">配信の裏側や本音を、本イベントの企画者エリリ・エリと各メンバーに聞いてみました！</p>
 
         <!-- 🎯 企画と準備について -->
-        <img src="./img/news/NEWS-19-05.webp" class="w-full h-auto rounded-2xl shadow-md mb-8" alt="インタビュー写真1">
-
         <p class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6">🎯 企画と準備について</p>
 
         <div class="space-y-6 mb-12">
@@ -1716,8 +1714,6 @@ const newsContent = [
         </div>
 
         <!-- 🎮 配信について -->
-        <img src="./img/news/NEWS-19-06.webp" class="w-full h-auto rounded-2xl shadow-md mb-8" alt="インタビュー写真2">
-
         <p class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6">🎮 配信について</p>
 
         <div class="space-y-6 mb-12">
@@ -1761,8 +1757,6 @@ const newsContent = [
         </div>
 
         <!-- 🙌 振り返って -->
-        <img src="./img/news/NEWS-19-07.webp" class="w-full h-auto rounded-2xl shadow-md mb-8" alt="インタビュー写真3">
-
         <p class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6">🙌 振り返って</p>
 
         <div class="space-y-6 mb-12">
