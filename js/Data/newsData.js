@@ -1802,6 +1802,102 @@ const newsContent = [
             </ul>
         </div>`,
   },
+  {
+    id: 16,
+    title: "【第3回】まじぇんて酒飲み相談室【ゲスト：NAOZEN】公開！",
+    date: "2026.05.13",
+    tag: "Live配信",
+    thumb: "./img/news/NEWS-16-01.webp",
+    body: `<img src="./img/news/NEWS-16-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="まじぇんて酒飲み相談室 第3回">
+
+        <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
+            【第3回】まじぇんて酒飲み相談室、ゲストにNAOZENを迎えてお届け！
+        </h3>
+
+        <p class="mb-6 text-slate-600 leading-loose">
+            お酒を片手にゆるく、そして時には鋭く（？）皆様からの相談に乗ったり乗らなかったりする大好評のLive配信企画「まじぇんて酒飲み相談室」！待望の第3回のアーカイブを公開いたしました。<br>
+            <br>
+            今回のゲストは、自称狂人の異名を持つイケボお兄さん・<strong>NAOZEN</strong>！<br>
+            今宵も酒が入って切れ味が増しているまじぇんてと、適度なお酒（？）で参戦するNAOZENの化学反応はいかに……！？予測不能なトークの行方をぜひアーカイブでお楽しみください。
+        </p>
+
+        <div class="bg-amber-50 border border-amber-200 rounded-2xl p-5 mb-8">
+            <p class="text-sm font-bold text-amber-700 mb-3 uppercase tracking-widest">⚠ ご視聴の前に</p>
+            <ul class="text-slate-600 leading-loose space-y-1 text-sm">
+                <li>※飲酒してるので発言に責任が取れたり取れなかったりしがちです</li>
+                <li>※急に大声を出す場合があるので音量注意</li>
+            </ul>
+        </div>
+
+        <div class="aspect-video w-full mb-8">
+            <iframe 
+                class="w-full h-full rounded-3xl shadow-2xl" 
+                src="https://www.youtube.com/embed/FDzc0OPad3c?rel=0"
+                title="【第3回】まじぇんて酒飲み相談室【ゲスト：NAOZEN】" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <h3 class="text-xl font-bold mb-4">◆出演者</h3>
+        <ul class="mb-8 text-slate-600 leading-loose list-disc list-inside space-y-4">
+            <li>
+                <strong>まじぇんて</strong><br>
+                <a href="https://x.com/majennte_vrc" target="_blank" class="text-primary underline text-sm">https://x.com/majennte_vrc</a><br>
+                <span class="text-slate-500">黒髪ロングの赤目ルルネ好きのお兄さん。<br>
+                今宵も酒が入って切れ味がいつもの数段上がっている。</span>
+            </li>
+            <li>
+                <strong>NAOZEN</strong><br>
+                <a href="https://x.com/NAOZENsub" target="_blank" class="text-primary underline text-sm">X (メイン)</a> / 
+                <a href="https://x.com/NAOZEN1110" target="_blank" class="text-primary underline text-sm">X (サブ)</a> / 
+                <a href="https://www.pixiv.net/users/25451053" target="_blank" class="text-primary underline text-sm">Pixiv</a><br>
+                <span class="text-slate-500">自称狂人のイケボお兄さん。<br>
+                本日は適度な酒でお願いしている……ハズ！？</span>
+            </li>
+        </ul>
+
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 mb-8">
+            <p class="text-sm font-bold text-slate-500 mb-4 uppercase tracking-widest">Related Content</p>
+            <ul class="space-y-4 text-slate-600">
+                <li>
+                    <span class="font-bold text-slate-700">★こまつちまシチュエーションボイス販売中</span><br>
+                    メスガキの耳かきで屈服させられる【メスガキに耳かきをされるシチュボ】<br>
+                    <a href="https://egu.booth.pm/items/8151321" target="_blank" class="text-primary underline text-sm">
+                        https://egu.booth.pm/items/8151321
+                    </a>
+                </li>
+                <li>
+                    <span class="font-bold text-slate-700">★EGUあにまるず 歌ってみた動画</span><br>
+                    「ようこそジャパリパークへ」公開中！<br>
+                    <a href="https://www.youtube.com/watch?v=gLAd9EQtDpc" target="_blank" class="text-primary underline text-sm">
+                        https://www.youtube.com/watch?v=gLAd9EQtDpc
+                    </a>
+                </li>
+                <li>
+                    <span class="font-bold text-slate-700">★Sava&こまつちま 歌ってみた動画</span><br>
+                    「革命デュアリズム」公開中！<br>
+                    <a href="https://www.youtube.com/watch?v=4qaMwhXaW2c" target="_blank" class="text-primary underline text-sm">
+                        https://www.youtube.com/watch?v=4qaMwhXaW2c
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <p class="mb-8 text-slate-600 leading-loose">
+            この配信はVRC内のグループ、Enjoy Game Union（略してEGU）所属である まじぇんて、NAOZENがお届けするラジオ(?)配信です。
+        </p>
+
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+            <p class="text-sm font-bold text-slate-500 mb-2 uppercase tracking-widest">About EGU</p>
+            <ul class="space-y-2 text-slate-600">
+                <li>◆EnjoyGameUnion!!公式ツイッター<br>
+                    <a href="https://x.com/EnjoyGameUnion" target="_blank" class="text-primary underline">https://x.com/EnjoyGameUnion</a>
+                </li>
+            </ul>
+        </div>`,
+  },
 
     /* ===投稿テンプレ=== */
   // {
