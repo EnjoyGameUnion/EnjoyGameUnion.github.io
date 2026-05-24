@@ -205,7 +205,7 @@ const membersData = [
       "./img/members/12-もっく-03.webp",
     ],
     x: "eiheihei_dk",
-    youtube: "",
+    youtube: "%E3%82%A8%E3%83%AB%E3%83%99%E3%83%BC%E3%83%89%E3%83%83%E3%83%88%E3%83%AF%E3%83%B3",
   },
   {
     id: 13,
