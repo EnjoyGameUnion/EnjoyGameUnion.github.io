@@ -1851,7 +1851,7 @@ const newsContent = [
         </div>
 
         <h3 class="text-xl font-bold mb-4">◆出演者</h3>
-        <ul class="mb-8 text-slate-600 leading-loose list-disc list-inside space-y-4">
+        <ul class="mb-10 text-slate-600 leading-loose list-disc list-inside space-y-4">
             <li>
                 <strong>まじぇんて</strong><br>
                 <a href="https://x.com/majennte_vrc" target="_blank" class="text-primary underline text-sm">https://x.com/majennte_vrc</a><br>
@@ -1866,7 +1866,161 @@ const newsContent = [
                 本日は適度な酒でお願いしている……ハズ！？</span>
             </li>
         </ul>
+        <div class="mb-12">
+            <h3 class="text-2xl font-bold text-slate-900 mb-6 border-l-4 border-primary pl-4">
+                🎤 ゲスト：NAOZENさん 特別アンケート
+            </h3>
+            <p class="mb-8 text-slate-600 leading-loose">
+                配信公開を記念して、ゲストのNAOZENさんに収録の裏話や感想を伺いました！ここでしか読めないエピソードが満載です。
+            </p>
 
+            <div class="mb-8">
+                <h4 class="text-lg font-bold text-slate-800 mb-4 bg-slate-100 p-3 rounded-lg flex items-center gap-2">
+                    <span class="text-xl">🎙️</span> 出演前・収録中について
+                </h4>
+                <div class="space-y-4">
+                    <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                        <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                            <span class="text-primary text-lg mr-1">Q.</span>まじぇんてさんから今回の雑談配信のゲストとしてオファーを受けた時、率直にどう思われましたか？
+                        </p>
+                        <div class="text-slate-600 leading-loose text-sm sm:text-base bg-slate-50 p-4 rounded-lg border-l-4 border-slate-300">
+                            正直、びっくりしました。僕でいいのかな？なんて思いながら、オファーを受け入れたのを覚えています。
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                        <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                            <span class="text-primary text-lg mr-1">Q.</span>今回は「飲酒配信」ということでしたが、お酒を交えての収録に対して「酔いすぎないか」などの不安はありましたか？また、ずばりお酒への自信はどのくらいですか？
+                        </p>
+                        <div class="text-slate-600 leading-loose text-sm sm:text-base bg-slate-50 p-4 rounded-lg border-l-4 border-slate-300">
+                            酔いに関して心配はなかったです<br>
+                            1時間でマリブ(700ｍl)1本イケます！！！
+                        </div>
+                    </div>
+
+                    <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                        <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                            <span class="text-primary text-lg mr-1">Q.</span>実際の収録中の雰囲気はいかがでしたか？普段はどんなお酒が好きか、また当日は何を飲まれていたのかも教えてください！
+                        </p>
+                        <div class="text-slate-600 leading-loose text-sm sm:text-base bg-slate-50 p-4 rounded-lg border-l-4 border-slate-300">
+                            収録、とても楽しかった！！！！！<br>
+                            マリブコーク、オレンジブロッサムが好きです(Marshallのジンで割るととてもおいしくて...)<br>
+                            当日は、なんとなんと...割り材をいっぱい買ってきましたので...マリブ＆マウンテンデュ～！！！
+                        </div>
+                    </div>
+
+                    <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                        <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                            <span class="text-primary text-lg mr-1">Q.</span>配信に出演するにあたって、事前に準備したことや「これを話そう！」と考えていたことなどはありましたか？
+                        </p>
+                        <div class="text-slate-600 leading-loose text-sm sm:text-base bg-slate-50 p-4 rounded-lg border-l-4 border-slate-300">
+                            ノープランです！（だって言われたんだもん）
+                        </div>
+                    </div>
+
+                    <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                        <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                            <span class="text-primary text-lg mr-1">Q.</span>実際の収録（配信）中の雰囲気はいかがでしたか？緊張されましたか、それとも普段通りリラックスしてお話しできましたか？
+                        </p>
+                        <div class="text-slate-600 leading-loose text-sm sm:text-base bg-slate-50 p-4 rounded-lg border-l-4 border-slate-300">
+                            とても、リラックスしてお話ができ有意義な時間でした！！！
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-8">
+                <h4 class="text-lg font-bold text-slate-800 mb-4 bg-slate-100 p-3 rounded-lg flex items-center gap-2">
+                    <span class="text-xl">📻</span> ラジオの内容について
+                </h4>
+                <div class="space-y-4">
+                    <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                        <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                            <span class="text-primary text-lg mr-1">Q.</span>配信が進むにつれてお酒も回ってきたと思いますが、お酒の力もあって一番盛り上がった、または印象に残っている話題は何ですか？
+                        </p>
+                        <div class="text-slate-600 leading-loose text-sm sm:text-base bg-slate-50 p-4 rounded-lg border-l-4 border-slate-300">
+                            全体として楽しかったですが、特に印象に残った話題は、好きな絵柄についてですかね。ある意味性癖の語り合いになりましたので...
+                        </div>
+                    </div>
+
+                    <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                        <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                            <span class="text-primary text-lg mr-1">Q.</span>お話ししている中で、まじぇんてさんの意外な一面や「そんなこと思ってたんだ！」と驚いた発言はありましたか？
+                        </p>
+                        <div class="text-slate-600 leading-loose text-sm sm:text-base bg-slate-50 p-4 rounded-lg border-l-4 border-slate-300">
+                            やりきるところをリスペクトしてくれているところに<br>
+                            正直そこまで見てくれているんだと驚きました。
+                        </div>
+                    </div>
+
+                    <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                        <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                            <span class="text-primary text-lg mr-1">Q.</span>配信の尺や流れの都合で「実はあの時、これも話したかった！」というような、語りきれなかったエピソードがあればぜひ教えてください。
+                        </p>
+                        <div class="text-slate-600 leading-loose text-sm sm:text-base bg-slate-50 p-4 rounded-lg border-l-4 border-slate-300">
+                            イラストの画風とか書き方について聞かれたとき、もう少し具体的なことまでお話しできていればなんて思ってました。（ぐぬぬ、もう少しちゃんとした回答ができていれば...）
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-8">
+                <h4 class="text-lg font-bold text-slate-800 mb-4 bg-slate-100 p-3 rounded-lg flex items-center gap-2">
+                    <span class="text-xl">🎮</span> EGUについて
+                </h4>
+                <div class="space-y-4">
+                    <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                        <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                            <span class="text-primary text-lg mr-1">Q.</span>ゲストであるNAOZENさんの目から見て、「Enjoy Game Union（EGU）」というコミュニティ・グループにはどのような印象を持っていますか？
+                        </p>
+                        <div class="text-slate-600 leading-loose text-sm sm:text-base bg-slate-50 p-4 rounded-lg border-l-4 border-slate-300">
+                            ゲーム好き、クリエイターが集まっている印象
+                        </div>
+                    </div>
+
+                    <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                        <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                            <span class="text-primary text-lg mr-1">Q.</span>もし今後、まじぇんてさんや他のEGUメンバーと一緒にゲームで遊んだり、何か企画をやるとしたら、どんなことをしてみたいですか？
+                        </p>
+                        <div class="text-slate-600 leading-loose text-sm sm:text-base bg-slate-50 p-4 rounded-lg border-l-4 border-slate-300">
+                            ゲームだと、GTAみたいなものをやっても面白そう！！！<br>
+                            絵描き配信とか面白そう！！！！
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-8">
+                <h4 class="text-lg font-bold text-slate-800 mb-4 bg-slate-100 p-3 rounded-lg flex items-center gap-2">
+                    <span class="text-xl">✨</span> 配信を振り返って
+                </h4>
+                <div class="space-y-4">
+                    <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                        <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                            <span class="text-primary text-lg mr-1">Q.</span>改めて今回のまじぇんてさんとの雑談配信全体を振り返ってみて、ご自身の満足度や感想をお聞かせください！
+                        </p>
+                        <div class="text-slate-600 leading-loose text-sm sm:text-base bg-slate-50 p-4 rounded-lg border-l-4 border-slate-300">
+                            普段とは違ったお話しができて楽しかった！！！！！<br>
+                            また、呼んでいただければ、出ます！！！出させてください！！！！
+                        </div>
+                    </div>
+
+                    <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                        <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                            <span class="text-primary text-lg mr-1">Q.</span>最後に、今回の配信を聴いてくれたリスナーの皆さん、そしてこの記事を読んでくれている読者の方へメッセージをお願いします！
+                        </p>
+                        <div class="text-slate-600 leading-loose text-sm sm:text-base bg-slate-50 p-4 rounded-lg border-l-4 border-slate-300">
+                            配信に来てくれた人、アーカイブ見てくれた人、<br>
+                            改めてみてくれてありがと～<br>
+                            今回の配信でみんなの印象に残ったらうれしいな～<br>
+                            <br>
+                            これからも、いろいろな形でEGUでの<br>
+                            活動をしていきますので、応援してね～
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="bg-indigo-50 border border-indigo-200 rounded-2xl p-6 mb-10 shadow-sm">
             <h4 class="text-lg font-bold text-indigo-800 mb-3 flex items-center gap-2">
                 <span class="text-2xl">🎨</span> ゲスト：NAOZENさんのイラスト活動
@@ -1885,7 +2039,8 @@ const newsContent = [
                 </a>
             </div>
         </div>
-                <p class="mb-8 text-slate-600 leading-loose">
+
+        <p class="mb-8 text-slate-600 leading-loose">
             この配信はVRC内のグループ、Enjoy Game Union（略してEGU）所属である まじぇんて、NAOZENがお届けするラジオ(?)配信です。<br>
             今後も様々な企画やコラボ配信を予定しておりますので、よろしければ各メンバーのチャンネル登録やX（旧Twitter）のフォローをよろしくお願いいたします！
         </p>
@@ -1983,8 +2138,6 @@ const newsContent = [
                 </li>
             </ul>
         </div>
-
-
         <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
             <p class="text-sm font-bold text-slate-500 mb-2 uppercase tracking-widest">About EGU</p>
             <ul class="space-y-2 text-slate-600">
@@ -1993,7 +2146,7 @@ const newsContent = [
                 </li>
             </ul>
         </div>`,
-  }
+}
     /* ===投稿テンプレ=== */
   // {
   //     id: ,
