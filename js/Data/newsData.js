@@ -2146,7 +2146,205 @@ const newsContent = [
                 </li>
             </ul>
         </div>`,
-}
+  },
+  {
+    id: 17,
+    title: "【第19回】フレ＋隅っこラジオ ゲスト：もっく 公開！",
+    date: "2026.06.04",
+    tag: "Live配信",
+    thumb: "./img/news/NEWS-17-01.webp",
+    body: `<img src="./img/news/NEWS-17-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="フレ＋隅っこラジオ 第19回 ゲスト：もっく">
+
+        <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
+            【第19回】フレ＋隅っこラジオ ゲスト：もっく 公開！
+        </h3>
+
+        <p class="mb-6 text-slate-600 leading-loose">
+            VRChat内グループ「Enjoy Game Union（EGU）」がお届けするラジオ番組、<strong>フレ＋隅っこラジオ</strong>の第19回が公開されました！<br><br>
+            今回のゲストは、トッサノに「主人公の業を背負わされた」歌うま人間・<strong>もっく</strong>さん！<br>
+            歌への情熱、主人公への道のり、そして新アカウント「LV.1 / エルベードットワン」についてたっぷりと語っていただきました。<br>
+            笑いあり、熱い語りあり、必聴のエピソードとなっています。ぜひご覧ください！
+        </p>
+
+        <!-- YouTube埋め込み -->
+        <div class="aspect-video w-full mb-8">
+            <iframe
+                class="w-full h-full rounded-3xl shadow-2xl"
+                src="https://www.youtube.com/embed/IF9xQCp3bzA?rel=0"
+                title="【第19回】フレ＋隅っこラジオ ゲスト：もっく"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <img src="./img/news/NEWS-17-02.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="放送中の様子1">
+
+        <h3 class="text-xl font-bold text-slate-900 mb-4">◆今回の見どころ</h3>
+        <p class="mb-6 text-slate-600 leading-loose">
+            今回のゲスト・もっくさんは、EGU内でも一際異彩を放つ「歌うま人間」。<br>
+            歌のXアカウント「LV.1 / エルベードットワン」を立ち上げ、これから本格的に活動をスタートさせようとしている注目の人物です。<br>
+            消極的と自称しながらも、内に秘めた強烈な自己表現への意欲と、主人公になりたいという熱い想いが今回のラジオで垣間見えます。<br>
+            トッサノ・Anriの両パーソナリティとの掛け合いも絶妙で、収録内容は盛りだくさんです！
+        </p>
+
+        <img src="./img/news/NEWS-17-03.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="放送中の様子2">
+
+        <h3 class="text-xl font-bold mb-4">◆出演者</h3>
+        <ul class="mb-8 text-slate-600 leading-loose list-disc list-inside">
+            <li><strong>トッサノ</strong>　EGUという謎グループの主催、最近作業さぼりフェイズ、明日から本気出す<br>
+                <a href="https://x.com/tossanovrc" target="_blank" class="text-primary underline">https://x.com/tossanovrc</a>
+            </li>
+            <li><strong>Dr.Anri</strong>　EGU所属の自称一般人、生ものでもなんでもござれの関係性オタク<br>
+                <a href="https://x.com/Es96L4ap" target="_blank" class="text-primary underline">https://x.com/Es96L4ap</a>
+            </li>
+            <li><strong>もっく（ゲスト）</strong>　トッサノに主人公の業を背負わされた歌うま人間、主人公ってなんだ？と思いながら今日も頑張ってる<br>
+                <a href="https://x.com/eiheihei_dk" target="_blank" class="text-primary underline">https://x.com/eiheihei_dk</a>
+            </li>
+        </ul>
+
+        <!-- インタビュー：出演前・収録中について -->
+        <h3 class="text-2xl font-bold text-slate-900 mb-6 border-l-4 border-primary pl-4">
+            🎙️ 出演前・収録中について
+        </h3>
+
+        <img src="./img/news/NEWS-17-04.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="インタビュー写真1">
+
+        <div class="mb-8 space-y-6">
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                <p class="font-bold text-slate-700 mb-2">Q1. 今回ゲストとして呼ばれたとき、最初どんな気持ちだった？</p>
+                <p class="text-slate-600 leading-loose">
+                    ついに来たかという感じ。どう爪痕残してやろうかとか、俺の後にラジオに出るゲストのメンバーに何かしら影響を残したいなって思ってた。
+                </p>
+            </div>
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                <p class="font-bold text-slate-700 mb-2">Q2. 収録が始まる前と、終わった後でテンションや気持ちに変化はあった？</p>
+                <p class="text-slate-600 leading-loose">
+                    上手く喋れるかなっていう不安と「主人公感」っていう漠然としたものをどう表現したものかって考えていた。でもいろいろな方がお便りをくれたり、パーソナリティ両名の進行サポートもあって楽しくしゃべることができた。「主人公感」に関してはいまだわからないけれど、俺にしたいことを全力で表現できたかなって思った。
+                </p>
+            </div>
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                <p class="font-bold text-slate-700 mb-2">Q3. 収録を終えて、「ラジオってこういうものなんだ」と感じた部分はありましたか？イメージとのギャップがあれば教えてください！</p>
+                <p class="text-slate-600 leading-loose">
+                    ラジオ自体にあんまり触れてこなかった人生だけど、ラジオって届くためにやるのではなくて必要な誰かが受け取るためにそこにあるものなのかなって思った。何言ってるかわからないけど。
+                </p>
+            </div>
+        </div>
+
+        <!-- インタビュー：歌・活動について -->
+        <h3 class="text-2xl font-bold text-slate-900 mb-6 border-l-4 border-primary pl-4">
+            🎤 歌・活動について
+        </h3>
+
+        <img src="./img/news/NEWS-17-05.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="インタビュー写真2">
+
+        <div class="mb-8 space-y-6">
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                <p class="font-bold text-slate-700 mb-2">Q4. ラジオでも歌の話が出たけど、改めて「歌」はもっくにとってどんな存在ですか？</p>
+                <p class="text-slate-600 leading-loose">
+                    歌は誇張なしに自分の人生で、すごい気取ってるけど唯一飽きずに同じだけ歩んできたもの。一番自分を表現できて、一番なりたいものになれる、そういうVRCみたいな。あとヒーローショーのステージ。そこに立っていたい。
+                </p>
+            </div>
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                <p class="font-bold text-slate-700 mb-2">Q5. 歌のXアカウント「LV.1 / エルベードットワン」を作ったきっかけや経緯を改めて教えてください！名前に込めた意味やこだわりも気になります！</p>
+                <p class="text-slate-600 leading-loose">
+                    端的に言うと歌ってみたをあげるにあたって、人の前に出る自分は「俺」じゃなくて「主人公そのもの」であってほしかった。だからアカウントを分けた。名前は以前の活動名である「.com症」の経験を引き継いで、また一から始めるという意味を込めて「LV『.1』」にした。あとはRPGに出てくるキャラって主人公以外にLV１からスタートするやつっていなくない？
+                </p>
+            </div>
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                <p class="font-bold text-slate-700 mb-2">Q6. 今後このアカウントでどんな活動をしていきたい？目標や夢があれば聞かせてください！</p>
+                <p class="text-slate-600 leading-loose">
+                    とりあえずは表現したいものを表現したい。本腰入れたいって思ったら流行に飛びつくんじゃないかな。目標は特にないけど「主人公」ってのに負けないくらいのなにかがほしい。のが目標。
+                </p>
+            </div>
+        </div>
+
+        <!-- インタビュー：主人公への道 -->
+        <h3 class="text-2xl font-bold text-slate-900 mb-6 border-l-4 border-primary pl-4">
+            👑 主人公への道
+        </h3>
+
+        <img src="./img/news/NEWS-17-06.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="インタビュー写真3">
+
+        <div class="mb-8 space-y-6">
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                <p class="font-bold text-slate-700 mb-2">Q7. 今の自分を一言で表すとしたら何ですか？また、どんな自分になりたいですか？</p>
+                <p class="text-slate-600 leading-loose">
+                    トッサノも言ってたけど未完成だと思う。主人公ですらなくて未完成、未完成一般人。まだ主人公ってステージに立てないし、道程がすごくあるって気がしてる。でも単純に自分以外が主人公でいい気はしないから、やっぱ主人公になりたいな。自他ともに。
+                </p>
+            </div>
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                <p class="font-bold text-slate-700 mb-2">Q8. 自分では消極的と感じているとのことだけど、それでも一歩踏み出すときに背中を押してくれるものって何ですか？</p>
+                <p class="text-slate-600 leading-loose">
+                    背中を押してくれるものは俺が知りたいよ🐶　しいて言えば認められることかね。一人でいるとか決まった仲間内でいると自分が必要とされてるのかわかんなくなる。今もそうだけど。だからなんかして、認められると一歩踏み出せる。なんかしてる時点で一歩踏み出してるし、必要とされたいっていう承認欲求が背中押してる気がする。希ガス。
+                </p>
+            </div>
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                <p class="font-bold text-slate-700 mb-2">Q9. これから「成り上がっていく」上で、自分に足りないと思うものと、自分の武器だと思うものを教えてください！</p>
+                <p class="text-slate-600 leading-loose">
+                    単純に歌の技術、話術、世界観の構成、ターゲットの設定とか。なんも足りてないと思う。武器でいえば自己顕示欲しかないかな。全員食って上にいくぞって妄想。満足って器が貯水タンクならたぶん止まらないし。承認欲求の塊だから、それを燃やし続けられることが最強の強み。
+                </p>
+            </div>
+        </div>
+
+        <!-- インタビュー：振り返って・これから -->
+        <h3 class="text-2xl font-bold text-slate-900 mb-6 border-l-4 border-primary pl-4">
+            🙌 振り返って・これから
+        </h3>
+
+        <div class="mb-8 space-y-6">
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                <p class="font-bold text-slate-700 mb-2">Q10. 今回の出演、自分的に何点くらいの出来だった？採点とその理由も教えて！</p>
+                <p class="text-slate-600 leading-loose">
+                    60点。トッサノ喋らせることかなわなかったし。会話に関してもAnriさんに依存している感じがした。だいぶおんぶにだっこだなって思いながらやってた。もっと暴れてもよかったのではって思うし、主人公であれたのかって不安もある。
+                </p>
+            </div>
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                <p class="font-bold text-slate-700 mb-2">Q11. 1年後・3年後のもっくはどんな姿になっていると思う？なっていたい？</p>
+                <p class="text-slate-600 leading-loose">
+                    1年後はとりあえず歌ってみた増やしてたいと思うし、必要とされたい。3年後に関してはまじわかんないけど、何に関しても自己満足で終わりたくないし、すべて妥協人間になってたくもない。一つでも誰かにとって主人公で、自分にとってその先を考えられる何かを持っていたい。って今は思う。
+                </p>
+            </div>
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                <p class="font-bold text-slate-700 mb-2">Q12. 最後に、リスナーとEGUメンバーへひとことどうぞ！</p>
+                <p class="text-slate-600 leading-loose">
+                    ●●研究会を適当に撮るな！！唯一事前に準備できて表現できる作品だぞ！！<br>
+                    あとおれをもっと必要としろ。
+                </p>
+            </div>
+        </div>
+
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 mb-8">
+            <p class="text-sm font-bold text-slate-500 mb-4 uppercase tracking-widest">Guest Links</p>
+            <ul class="space-y-3 text-slate-600">
+                <li>
+                    ◆もっく X<br>
+                    <a href="https://x.com/eiheihei_dk" target="_blank" class="text-primary underline break-all">
+                        https://x.com/eiheihei_dk
+                    </a>
+                </li>
+                <li>
+                    ◆LV.1 / エルベードットワン（歌アカウント）<br>
+                    <a href="https://x.com/lv1_dotone" target="_blank" class="text-primary underline break-all">
+                        歌活動はこちらをチェック！
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+            <p class="text-sm font-bold text-slate-500 mb-2 uppercase tracking-widest">About EGU</p>
+            <ul class="space-y-2 text-slate-600">
+                <li>◆EnjoyGameUnion!! 公式X<br>
+                    <a href="https://x.com/EnjoyGameUnion" target="_blank" class="text-primary underline break-all">https://x.com/EnjoyGameUnion</a>
+                </li>
+                <li>◆お便りはこちら<br>
+                    <a href="https://forms.gle/vLhpdfTYJyArNjtt5" target="_blank" class="text-primary underline break-all">https://forms.gle/vLhpdfTYJyArNjtt5</a>
+                </li>
+            </ul>
+        </div>`,
+  },
+
     /* ===投稿テンプレ=== */
   // {
   //     id: ,
