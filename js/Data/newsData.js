@@ -1401,8 +1401,8 @@ const newsContent = [
     title: "【第18回】フレ＋隅っこラジオ ゲスト：suraimi 公開！",
     date: "2026.05.07",
     tag: "Live配信",
-    thumb: "./img/news/NEWS-18-01.webp",
-    body: `<img src="./img/news/NEWS-18-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="フレ＋隅っこラジオ第18回 ゲスト：suraimi">
+    thumb: "./img/news/NEWS-14-01.webp",
+    body: `<img src="./img/news/NEWS-14-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="フレ＋隅っこラジオ第18回 ゲスト：suraimi">
 
         <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
             【第18回】フレ＋隅っこラジオ、ゲストにsuraimiを迎えてお届け！
@@ -1428,7 +1428,7 @@ const newsContent = [
         </div>
 
         <!-- 放送中の画像 -->
-        <img src="./img/news/NEWS-18-02.webp" class="w-full h-auto rounded-2xl shadow-md mb-10" alt="放送中のスクリーンショット">
+        <img src="./img/news/NEWS-14-02.webp" class="w-full h-auto rounded-2xl shadow-md mb-10" alt="放送中のスクリーンショット">
 
         <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
             フレ＋隅っこラジオとは？
@@ -1486,7 +1486,7 @@ const newsContent = [
             </p>
 
             <!-- 🎙️ 出演前・収録中について -->
-            <img src="./img/news/NEWS-18-03.webp" class="w-full h-auto rounded-2xl shadow-md mb-8" alt="インタビュー写真1">
+            <img src="./img/news/NEWS-14-03.webp" class="w-full h-auto rounded-2xl shadow-md mb-8" alt="インタビュー写真1">
 
             <p class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6">🎙️ 出演前・収録中について</p>
 
@@ -1520,7 +1520,7 @@ const newsContent = [
             </div>
 
             <!-- 😂 ラジオの内容について -->
-            <img src="./img/news/NEWS-18-04.webp" class="w-full h-auto rounded-2xl shadow-md mb-8" alt="インタビュー写真2">
+            <img src="./img/news/NEWS-14-04.webp" class="w-full h-auto rounded-2xl shadow-md mb-8" alt="インタビュー写真2">
 
             <p class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6">😂 ラジオの内容について</p>
 
@@ -1553,7 +1553,7 @@ const newsContent = [
             </div>
 
             <!-- 🌐 EGUについて -->
-            <img src="./img/news/NEWS-18-05.webp" class="w-full h-auto rounded-2xl shadow-md mb-8" alt="インタビュー写真3">
+            <img src="./img/news/NEWS-14-05.webp" class="w-full h-auto rounded-2xl shadow-md mb-8" alt="インタビュー写真3">
 
             <p class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6">🌐 EGUについて</p>
 
@@ -1622,8 +1622,8 @@ const newsContent = [
     title: "【コードネーム】ママの言うこと聞ける？母の日に疑似親子で心理戦！を公開！",
     date: "2026.05.12",
     tag: "Live配信",
-    thumb: "./img/news/NEWS-19-01.webp",
-    body: `<img src="./img/news/NEWS-19-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="コードネーム 母の日企画">
+    thumb: "./img/news/NEWS-15-01.webp",
+    body: `<img src="./img/news/NEWS-15-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="コードネーム 母の日企画">
 
         <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
             母の日に贈る心理戦！疑似親子で挑む『コードネーム』配信
@@ -1677,9 +1677,9 @@ const newsContent = [
 
         <!-- ライブ切り抜き画像 -->
         <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10">
-            <img src="./img/news/NEWS-19-02.webp" class="w-full h-auto rounded-2xl shadow-md" alt="配信の様子1">
-            <img src="./img/news/NEWS-19-03.webp" class="w-full h-auto rounded-2xl shadow-md" alt="配信の様子2">
-            <img src="./img/news/NEWS-19-04.webp" class="w-full h-auto rounded-2xl shadow-md" alt="配信の様子3">
+            <img src="./img/news/NEWS-15-02.webp" class="w-full h-auto rounded-2xl shadow-md" alt="配信の様子1">
+            <img src="./img/news/NEWS-15-03.webp" class="w-full h-auto rounded-2xl shadow-md" alt="配信の様子2">
+            <img src="./img/news/NEWS-15-04.webp" class="w-full h-auto rounded-2xl shadow-md" alt="配信の様子3">
         </div>
 
         <!-- インタビューセクション -->
