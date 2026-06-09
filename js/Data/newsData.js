@@ -2325,8 +2325,8 @@ const newsContent = [
                 </li>
                 <li>
                     ◆LV.1 / エルベードットワン（歌アカウント）<br>
-                    <a href="https://x.com/lv1_dotone" target="_blank" class="text-primary underline break-all">
-                        歌活動はこちらをチェック！
+                    <a href="https://x.com/elv1_syujinkooo" target="_blank" class="text-primary underline break-all">
+                        https://x.com/elv1_syujinkooo
                     </a>
                 </li>
             </ul>
@@ -2340,6 +2340,177 @@ const newsContent = [
                 </li>
                 <li>◆お便りはこちら<br>
                     <a href="https://forms.gle/vLhpdfTYJyArNjtt5" target="_blank" class="text-primary underline break-all">https://forms.gle/vLhpdfTYJyArNjtt5</a>
+                </li>
+            </ul>
+        </div>`,
+  },
+
+  {
+    id: 18,
+    title: "歌ってみた動画『敗北の少年』公開！",
+    date: "2026.06.09",
+    tag: "動画更新",
+    thumb: "./img/news/NEWS-18-01.webp",
+    body: `<img src="./img/news/NEWS-18-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="敗北の少年 cover【LV.1 / エルベードットワン】">
+
+        <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
+            歌ってみた動画『敗北の少年』公開！
+        </h3>
+
+        <p class="mb-6 text-slate-600 leading-loose">
+            EGUメンバー・もっくによる歌アカウント「<strong>LV.1 / エルベードットワン</strong>」から、待望の初投稿となる歌ってみた動画が公開されました！<br><br>
+            披露された楽曲は、<strong>「敗北の少年」</strong>。<br>
+            憧れに縛られた一人が、自分を認めていく物語を描いたこの楽曲に、もっく自身の「主人公への道程」を重ねた渾身のカバーです。<br>
+            2ヶ月にわたる制作期間を経て完成した、LV.1としての第一歩をぜひご覧ください！
+        </p>
+
+        <!-- YouTube埋め込み -->
+        <div class="aspect-video w-full mb-8">
+            <iframe
+                class="w-full h-full rounded-3xl shadow-2xl"
+                src="https://www.youtube.com/embed/ciwRMaYYddI?rel=0"
+                title="敗北の少年 cover【LV.1 / エルベードットワン】"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 mb-8">
+            <p class="text-sm font-bold text-slate-500 mb-3 uppercase tracking-widest">LV.1 / エルベードットワン</p>
+            <p class="text-slate-600 leading-loose text-sm">
+                もっくの歌活動専用アカウント。以前の活動名「.com症」の経験を引き継ぎ、また一から始めるという意志を込めて「LV.1」と命名。<br>
+                RPGの主人公だけがLV.1からスタートするように、主人公そのものとして歌い、成り上がっていくことを目指している。
+            </p>
+        </div>
+
+        <!-- インタビュー：投稿・制作について -->
+        <h3 class="text-2xl font-bold text-slate-900 mb-6 border-l-4 border-primary pl-4">
+            🎬 投稿・制作について
+        </h3>
+
+        <img src="./img/news/NEWS-18-02.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="インタビュー写真1">
+
+        <div class="mb-10 space-y-6">
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                <p class="font-bold text-slate-700 mb-2">Q1. 「敗北の少年」をカバーしようと思ったきっかけや理由を教えてください！</p>
+                <p class="text-slate-600 leading-loose">
+                    すっごい端的に言えば、「歌ってみたあげたいなー」ってなってた時期に狂ったように聞いてた曲だから。<br>
+                    理由を後付けするなら、敗北の少年って「憧れに縛られていた一人が、自分を認めていく曲」だと思っていて、主人公っていう肩書きに縛られている自分に重なるところがあった。そんな自分を「いーや、主人公だね」って突き抜けるんじゃなくて、これから成っていく。その過程を届けたい。って思ったから。
+                </p>
+            </div>
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                <p class="font-bold text-slate-700 mb-2">Q2. 実際に動画を制作・投稿するにあたって、大変だったことや苦労した部分はありましたか？</p>
+                <p class="text-slate-600 leading-loose">
+                    自分のしたい歌い方と聞いてくださる相手の求めているもののギャップを埋め合わせていく作業。Aサビは視聴を維持するために鳥肌を立たせなければならなくて、ラスサビはそれを超えていかなければならない。そのためにあえてBサビの入りを抜いてみたり、サビ終わりに余韻を残して他サビとの違和感を生む。そういう小手先の何某をごちゃごちゃやったのが大変というか、新鮮だった。
+                </p>
+            </div>
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                <p class="font-bold text-slate-700 mb-2">Q3. 収録や編集など、どのくらいの期間・時間をかけて完成させましたか？</p>
+                <p class="text-slate-600 leading-loose">
+                    MIXが上がってきたのが3月後半らしいので、制作期間で言えば2ヶ月くらい？思ったよりかかってる。色々なことに挑戦しつつ制作したんで、良い経験だったなって。
+                </p>
+            </div>
+        </div>
+
+        <!-- インタビュー：歌・楽曲について -->
+        <h3 class="text-2xl font-bold text-slate-900 mb-6 border-l-4 border-primary pl-4">
+            🎵 歌・楽曲について
+        </h3>
+
+        <img src="./img/news/NEWS-18-03.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="インタビュー写真2">
+
+        <div class="mb-10 space-y-6">
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                <p class="font-bold text-slate-700 mb-2">Q4. 「敗北の少年」という楽曲、もっく自身はどんなところが好きですか？聴いてほしいポイントも教えてください！</p>
+                <p class="text-slate-600 leading-loose">
+                    歌ってみたのことで言えば、やっぱ「がなり」かね。がなりって言うと烏滸がましいんだけど、色々使い分けてるところを注目してみてほしい。特にAサビの「僕らは地を這う」の「ら」はハオ。
+                </p>
+            </div>
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                <p class="font-bold text-slate-700 mb-2">Q5. 歌う上で特にこだわった部分や、「ここは頑張った！」と思えるポイントはどこですか？</p>
+                <p class="text-slate-600 leading-loose">
+                    必死感を演出すること。迷いを振り払うような歌い方と、決意を固めた歌い方とかを使い分けたり。とにかく物語みたいにしたかった。
+                </p>
+            </div>
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                <p class="font-bold text-slate-700 mb-2">Q6. 自分の歌声やカバーを聴き返して、率直にどう思いましたか？</p>
+                <p class="text-slate-600 leading-loose">
+                    まだ色々できたなーとか、環境整えたいなーとか反省点が大半。だけど、もっと自分を表現したいとか、歌ってみたやりたいなっていう決意はみなぎってきた。まだ上手いって言う舞台にすら立ててないけど、全員食って行きたいなって思った。
+                </p>
+            </div>
+        </div>
+
+        <!-- インタビュー：投稿後の反応・気持ちについて -->
+        <h3 class="text-2xl font-bold text-slate-900 mb-6 border-l-4 border-primary pl-4">
+            📣 投稿後の反応・気持ちについて
+        </h3>
+
+        <img src="./img/news/NEWS-18-04.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="インタビュー写真3">
+
+        <div class="mb-10 space-y-6">
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                <p class="font-bold text-slate-700 mb-2">Q7. 動画を投稿した瞬間の気持ちを教えてください！</p>
+                <p class="text-slate-600 leading-loose">
+                    限定公開とか色々初めてだから、ちゃんと投稿できててくれよ！とかしかなかった。否定的な意見は、みんな人ができてるから来ないだろうなって思ったけど、コメントに真意がこもってるかとか心配だった。
+                </p>
+            </div>
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                <p class="font-bold text-slate-700 mb-2">Q8. 投稿後、周りの反応を見てどう感じましたか？嬉しかったコメントや反応があれば教えてください！</p>
+                <p class="text-slate-600 leading-loose">
+                    色々褒めてくれてね、単純に嬉しかった。100%で言ってないとしても、投稿して良かったなって。イブくんとかね。嬉しそうで良かった。
+                </p>
+            </div>
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                <p class="font-bold text-slate-700 mb-2">Q9. 今回の投稿を経て、次はどんな曲に挑戦してみたいですか？</p>
+                <p class="text-slate-600 leading-loose">
+                    いずれはエモめの曲やりたいなっては思ってるけど、しばらくははっちゃけたいなって思ってる。色々リクエストくれたりしてるんで、そんな中から自身のあるものを。今んとこエゴロックとか、グルとかなんかその辺。
+                </p>
+            </div>
+        </div>
+
+        <!-- インタビュー：これからについて -->
+        <h3 class="text-2xl font-bold text-slate-900 mb-6 border-l-4 border-primary pl-4">
+            🌱 これからについて
+        </h3>
+
+        <img src="./img/news/NEWS-18-05.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="インタビュー写真4">
+
+        <div class="mb-10 space-y-6">
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                <p class="font-bold text-slate-700 mb-2">Q10. LV.1というアカウント名の通り、今はまだ始まったばかり。この投稿が自分にとってどんな一歩だったと感じていますか？</p>
+                <p class="text-slate-600 leading-loose">
+                    まだ一歩ですらないなって感じてる。旗掲げたくらい。こっからだよ一歩めは。
+                </p>
+            </div>
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                <p class="font-bold text-slate-700 mb-2">Q11. 将来的にはどんな歌い手・活動者になっていきたいですか？</p>
+                <p class="text-slate-600 leading-loose">
+                    歌い手とか活動者って言うと烏滸がましいから、少なからず自分の活動を恥じないくらいの何かになりたいって考えてる。活動してってどうマネタイズするの？とか最近思ったし。だから、やって良かったとか、誰かにとって主人公だったよってなればいいかな。今は。
+                </p>
+            </div>
+        </div>
+
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+            <p class="text-sm font-bold text-slate-500 mb-4 uppercase tracking-widest">Links</p>
+            <ul class="space-y-3 text-slate-600 text-sm">
+                <li>
+                    ◆歌ってみた動画「敗北の少年」<br>
+                    <a href="https://youtu.be/ciwRMaYYddI" target="_blank" class="text-primary underline break-all">
+                        https://youtu.be/ciwRMaYYddI
+                    </a>
+                </li>
+                <li>
+                    ◆もっく X（VRC用）<br>
+                    <a href="https://x.com/eiheihei_dk" target="_blank" class="text-primary underline break-all">
+                        https://x.com/eiheihei_dk
+                    </a>
+                </li>
+                <li>
+                    ◆LV.1 / エルベードットワン（歌アカウント）<br>
+                    <a href="https://x.com/elv1_syujinkooo" target="_blank" class="text-primary underline break-all">
+                        https://x.com/elv1_syujinkooo
+                    </a>
                 </li>
             </ul>
         </div>`,
