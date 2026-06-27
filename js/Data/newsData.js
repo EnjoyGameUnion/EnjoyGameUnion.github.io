@@ -2344,7 +2344,6 @@ const newsContent = [
             </ul>
         </div>`,
   },
-
   {
     id: 18,
     title: "歌ってみた動画『敗北の少年』公開！",
@@ -2510,6 +2509,129 @@ const newsContent = [
                     ◆LV.1 / エルベードットワン（歌アカウント）<br>
                     <a href="https://x.com/elv1_syujinkooo" target="_blank" class="text-primary underline break-all">
                         https://x.com/elv1_syujinkooo
+                    </a>
+                </li>
+            </ul>
+        </div>`,
+    },
+    {
+    id: 19,
+    title: "【ボイスドラマ】「音のない世界で勇者は声を使う」を公開しました。",
+    date: "2026.06.28",
+    tag: "動画更新",
+    thumb: "./img/news/NEWS-19-01.webp",
+    body: `<img src="./img/news/NEWS-19-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="音のない世界で勇者は声を使う">
+
+        <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
+            ボイスドラマ「音のない世界で勇者は声を使う」を公開しました
+        </h3>
+
+        <p class="mb-6 text-slate-600 leading-loose">
+            音が消えても、想いは消えない。<br>
+            沈黙の世界で、一つの声が世界を変えようとしていた――。<br><br>
+            EGUより新作ボイスドラマ「音のない世界で勇者は声を使う」を公開しました。<br>
+            CV・イラストをもっくが、脚本・編集をsabointが手掛けた完全オリジナル作品です。<br>
+            ぜひ最後までご視聴ください！
+        </p>
+
+        <!-- YouTube埋め込み -->
+        <div class="aspect-video w-full mb-8">
+            <iframe
+                class="w-full h-full rounded-3xl shadow-2xl"
+                src="https://www.youtube.com/embed/AvFNykFClnc?rel=0"
+                title="【ボイスドラマ】音のない世界で勇者は声を使う"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <p class="mb-8 text-slate-600 leading-loose">
+            📺 YouTube：<br>
+            <a href="https://youtu.be/AvFNykFClnc" class="text-primary underline break-all" target="_blank">
+                https://youtu.be/AvFNykFClnc
+            </a>
+        </p>
+
+        <h3 class="text-xl font-bold mb-4">◆作品について</h3>
+        <p class="mb-8 text-slate-600 leading-loose">
+            本作は「音が存在しない世界」を舞台にした完全オリジナルのボイスドラマです。<br>
+            声を失った世界で、たった一人の勇者が声の力を武器に立ち向かう姿を描いています。<br>
+            CV・イラストから脚本・編集まで、EGUメンバーが一丸となって制作した渾身の一作。<br>
+            重厚なBGMと緊迫感あふれる演技が織りなす世界観を、ぜひ体感してください。
+        </p>
+
+        <h3 class="text-xl font-bold mb-4">◆製作</h3>
+        <ul class="mb-8 text-slate-600 leading-loose list-disc list-inside">
+            <li><strong>CV / イラスト：</strong>もっく</li>
+            <li><strong>脚本 / 編集：</strong>saboint</li>
+        </ul>
+
+        <h3 class="text-xl font-bold mb-4">◆使用素材</h3>
+        <div class="mb-8 text-slate-600 leading-loose">
+            <p class="font-semibold mb-2">効果音</p>
+            <ul class="mb-4 list-disc list-inside space-y-1">
+                <li>
+                    効果音ラボ：<a href="https://soundeffect-lab.info" target="_blank" class="text-primary underline break-all">https://soundeffect-lab.info</a>
+                </li>
+                <li>
+                    OtoLogic：<a href="https://otologic.jp" target="_blank" class="text-primary underline break-all">https://otologic.jp</a>
+                </li>
+            </ul>
+            <p class="font-semibold mb-2">BGM</p>
+            <ul class="list-disc list-inside space-y-1">
+                <li>
+                    子猫のお昼寝 / のる：<a href="https://dova-s.jp/bgm/detail/23117" target="_blank" class="text-primary underline break-all">https://dova-s.jp/bgm/detail/23117</a>
+                </li>
+                <li>
+                    旅支度 / のる：<a href="https://dova-s.jp/bgm/detail/23227" target="_blank" class="text-primary underline break-all">https://dova-s.jp/bgm/detail/23227</a>
+                </li>
+                <li>
+                    儚きは花なれど / のる：<a href="https://dova-s.jp/bgm/detail/23238" target="_blank" class="text-primary underline break-all">https://dova-s.jp/bgm/detail/23238</a>
+                </li>
+                <li>
+                    悲しみに暮れながら / ゆうり(Yuli Audio Craft)：<a href="https://dova-s.jp/bgm/detail/23137" target="_blank" class="text-primary underline break-all">https://dova-s.jp/bgm/detail/23137</a>
+                </li>
+                <li>
+                    北風のワルツ / のる：<a href="https://dova-s.jp/bgm/detail/15483" target="_blank" class="text-primary underline break-all">https://dova-s.jp/bgm/detail/15483</a>
+                </li>
+                <li>
+                    雪風 / のる：<a href="https://dova-s.jp/bgm/detail/15674" target="_blank" class="text-primary underline break-all">https://dova-s.jp/bgm/detail/15674</a>
+                </li>
+                <li>
+                    弔い合戦 / Next Arco Recordings：<a href="https://dova-s.jp/bgm/detail/2406" target="_blank" class="text-primary underline break-all">https://dova-s.jp/bgm/detail/2406</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 mb-8">
+            <p class="text-sm font-bold text-slate-500 mb-4 uppercase tracking-widest">About EnjoyGameUnion!!</p>
+            <p class="text-slate-600 leading-loose text-sm">
+                VRChatで楽しく遊ぶことを目的に集まったグループ『EnjoyGameUnion!!』（通称：EGU）が、VRChat内外で様々な楽しいことを見つけ出していくYouTubeチャンネルです！<br>
+                VRChatでの活動はもちろん、ゲーム実況・大会運営・ショート動画など、様々なことに挑戦していきます。<br><br>
+                主催：トッサノ　<a href="https://x.com/tossanovrc" target="_blank" class="text-primary underline">https://x.com/tossanovrc</a>
+            </p>
+        </div>
+
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+            <p class="text-sm font-bold text-slate-500 mb-4 uppercase tracking-widest">Links</p>
+            <ul class="space-y-3 text-slate-600 text-sm">
+                <li>
+                    🐦 公式X<br>
+                    <a href="https://x.com/EnjoyGameUnion" target="_blank" class="text-primary underline break-all">
+                        https://x.com/EnjoyGameUnion
+                    </a>
+                </li>
+                <li>
+                    👥 公式ファングループ<br>
+                    <a href="https://vrc.group/EGP.2004" target="_blank" class="text-primary underline break-all">
+                        https://vrc.group/EGP.2004
+                    </a>
+                </li>
+                <li>
+                    🌐 公式HP<br>
+                    <a href="https://enjoygameunion.github.io" target="_blank" class="text-primary underline break-all">
+                        https://enjoygameunion.github.io
                     </a>
                 </li>
             </ul>
