@@ -54,7 +54,7 @@ const VOICE_CATEGORIES = [
   {
     id: "Tooka",
     en: "Tooka",
-    jp: "トーカ",
+    jp: "とーか",
     icon: "fa-solid fa-microphone",
     voices: [
       { id: "Tooka-01", label: "お嬢様、本日もお疲れ様でございました", src: "/audio/Tooka/Tooka_01_お嬢様、本日もお疲れ様でございました.mp3" },
@@ -70,15 +70,13 @@ const VOICE_CATEGORIES = [
     ]
   },
   {
-    id: "tukkydanibuta",
-    en: "？？？",
-    jp: "Coming soon...",
+    id: "tukudani",
+    en: "佃煮ブラスター",
+    jp: "佃煮ブラスター",
     icon: "fa-solid fa-microphone",
     voices: [
-      { id: "tukkydanibuta-01", label: "？？？", src: "/audio/tukkydanibuta/Tukkydanibuta_01_???.mp3" },
-      { id: "tukkydanibuta-02", label: "？？？", src: "/audio/tukkydanibuta/Tukkydanibuta_02_???.mp3" },
-      { id: "tukkydanibuta-03", label: "？？？", src: "/audio/tukkydanibuta/Tukkydanibuta_03_???.mp3" },
-      { id: "tukkydanibuta-04", label: "？？？", src: "/audio/tukkydanibuta/Tukkydanibuta_04_???.mp3" },
+      { id: "tukudani-01", label: "ねむねむだにゃーん", src: "/audio/tukudani/tukudani_01_nemui.mp3" },
+      { id: "tukudani-02", label: "ぴょんぴょん！", src: "/audio/tukudani/tukudani_02_pyonpyon.mp3" },
     ]
   },
 ];
