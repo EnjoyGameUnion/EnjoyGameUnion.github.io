@@ -2643,7 +2643,7 @@ const newsContent = [
     date: "2026.07.11",
     tag: "動画更新",
     thumb: "./img/news/NEWS-20-01.webp",
-    body: `<img src="./img/news/NEWS-13-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="動画タイトルをここに記入">
+    body: `<img src="./img/news/NEWS-20-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="動画タイトルをここに記入">
 
         <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
             UTAN×こまつちま 歌ってみた動画公開！
@@ -2683,7 +2683,7 @@ const newsContent = [
         <h3 class="text-xl font-bold mb-4">◆イラスト</h3>
         <ul class="mb-8 text-slate-600 leading-loose list-disc list-inside">
             <li>SDイラスト：よく寝るかれん　<a href="https://x.com/yokuneru_x" target="_blank" class="text-primary underline">https://x.com/yokuneru_x</a></li>
-            <li>ロゴ / 映像素材：吉森いさ　<a href="https://x.com/yoshimori_isa" target="_blank" class="text-primary underline">https://x.com/yoshimori_isa</a></li>
+            <li>タイトルロゴ / 一部映像素材：吉森いさ　<a href="https://x.com/yoshimori_isa" target="_blank" class="text-primary underline">https://x.com/yoshimori_isa</a></li>
         </ul>
 
         <!-- インタビューセクション -->
@@ -2698,7 +2698,7 @@ const newsContent = [
             </p>
 
             <!--🎤 共通質問（UTAN・こまつちま 両名へ）-->
-            <img src="./img/news/NEWS-13-11.webp" class="w-full h-auto rounded-2xl shadow-md mb-8" alt="インタビュー写真1">
+            <img src="./img/news/NEWS-20-02.webp" class="w-full h-auto rounded-2xl shadow-md mb-8" alt="インタビュー写真1">
 
             <p class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6">🎤 UTAN・こまつちま 両名へ</p>
 
@@ -2706,82 +2706,85 @@ const newsContent = [
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q1. 今回「だいしきゅーだいしゅき」を歌うことになったきっかけや経緯を教えてください！</p>
-                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">UTAN：</strong>（ここに回答が入ります）</p>
-                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">こまつちま：</strong>（ここに回答が入ります）</p>
+                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">UTAN：</strong>トッサノさんが「EGUの立場、誰が上か、わかりますよね？」って言われて脅されて半ば強制です...あの時のトッサノさんは今でも夢にも出てきます。（ここから先書こうと思ったけど、きっかけ忘れたので、トッサノさんに脅されたってことにしておきます。）</p>
+                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">こまつちま：</strong>以前カラオケで「だいしきゅーだいしゅき」の投稿をしたことがあり、EGUでの歌みた動画を考えた時、これしかないだろうと言われました。</p>
                 </div>
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q2. この曲を初めて聴いたときの第一印象はどうでしたか？</p>
-                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">UTAN：</strong>（ここに回答が入ります）</p>
-                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">こまつちま：</strong>（ここに回答が入ります）</p>
+                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">UTAN：</strong>元々この曲出た当時SNSですごく話題になっていたので、この歌みたが決まる前にめちゃくちゃ聞いてました！第一印象...古い記憶すぎるな...
+でも、「電波ソングみあるイントロ」「femme fataleの可愛い声」を浴びるだけじゃ物足りなくて、目を血眼にして色んな人の歌ってみたを検索かけていた記憶があります！今もまだまだこの曲歌う人がいっぱいいて、お耳がｼｱﾜｾｪって感じです。</p>
+                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">こまつちま：</strong>元々歌ってほしいと友人に言われてから聴いたので、かわいい曲すぎて「これを…？私が…？歌うのか…？？？」となりました。</p>
                 </div>
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q3. 歌ってみて、特にこだわったポイントや意識したことはありますか？</p>
-                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">UTAN：</strong>（ここに回答が入ります）</p>
-                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">こまつちま：</strong>（ここに回答が入ります）</p>
+                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">UTAN：</strong>こだわりポイントは、２箇所！<br>１つ目は、1番のサビラストの「終わってんね！」が、本家は普通に歌っているところを、歌詞分けをしてくれた方の希望で「メロディー準拠しつつも半笑い的に言って欲しい」との事だったので、そうなるように歌ったぞ！お前ら！どっちにも蔑まれてよかったね！<br><br>2つ目は、ラスサビ前の「あたしじゃないなんて！」の「なんて！」の所！1番サビでも同じ箇所があるのですが、ラスサビの方は「も～～！」って、口をむぅ！ってしてる感じを意識して歌ったかも！例えこういうのは伝わらなくても、そうと意識して歌ったほうが100倍楽しいじゃ～</p>
+                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">こまつちま：</strong>「ぶりっこして歌って」と言われていたので最初めちゃくちゃにぶりっこして歌ったんです。「やりすぎ」と言われました。</p>
                 </div>
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q4. 女性2人での歌みたということで、ハーモニーや掛け合いで工夫した部分はありましたか？</p>
-                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">UTAN：</strong>（ここに回答が入ります）</p>
-                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">こまつちま：</strong>（ここに回答が入ります）</p>
+                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">UTAN：</strong>自分が結構歌の最後語尾伸ばしがちで！絵文字で表すと「⤴️」これ！これが自分で思うより長めにつくのが癖で...これがあるとkomatsuの歌うターンが来た時被ってしまうので、あまり伸ばしすぎないように！
+あと、個人的にkomatsuがお姉さん可愛いなので、私はガキ可愛い感じで歌いました！</p>
+                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">こまつちま：</strong>収録は私が先に行ったのですが、掛け合いで伸ばしすぎてうたんに「ちょっと入りにくい」と言われて、2人で歌ってる意識がまったくなかったことに気が付きました。以降歌う時には心にうたんを宿して歌いました。</p>
                 </div>
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q5. レコーディング中、一番大変だった・苦労したところはどこですか？</p>
-                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">UTAN：</strong>（ここに回答が入ります）</p>
-                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">こまつちま：</strong>（ここに回答が入ります）</p>
+                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">UTAN：</strong>大変な部分とか、苦労した部分は特にないかも！そもそもこの楽曲を歌うってなって「いやこれ私似合いすぎないか？」となり、そこから録音終了時も「いやこれ上手く撮れたな...MIX楽しみだなふふふ...」そこからMIX音源届いた時も「ほーーれ見たことかーーー！やっぱりなーーーーー！？！？！？！？MIXの方のエフェクトも最高ーーー！！FOOOOOOO」終始自信家？みたいな感じだった！komatsuと合わさって、無事最強になった！</p>
+                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">こまつちま：</strong>ぶりっこ度合いがブレブレだったので、撮り直したらまったく違う雰囲気になってしまったことです。修正しようとするとあっちもこっちもになってしまっていました。</p>
                 </div>
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q6. 逆に、一番楽しかった瞬間はどこでしたか？</p>
-                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">UTAN：</strong>（ここに回答が入ります）</p>
-                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">こまつちま：</strong>（ここに回答が入ります）</p>
+                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">UTAN：</strong>komatsuと「この箇所はUTANはこうして歌って、komatsuはこうして歌う！」っていうのを練ったり、トッサノさんとも交えて「どの服がこの曲のMVに合うか」とか、「MIX音源こうしたらいいんじゃないか！」って試行錯誤してる時間が「一つの作品をみんなで作ってる」って感じでいいよね！文化祭の出し物も準備してる時が一番楽しいんだからね。まぁ私は隣のクラスウロウロしてたり、サボっていたので怒られていました。</p>
+                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">こまつちま：</strong>2回目の「終わってんね」、正直うきうきで言ってます。</p>
                 </div>
 
             </div>
 
-            <!-- 💡 UTANへの質問 -->
-            <img src="./img/news/NEWS-13-12.webp" class="w-full h-auto rounded-2xl shadow-md mb-8" alt="インタビュー写真2">
+            <!-- 🐱 UTANへの質問 -->
+            <img src="./img/news/NEWS-20-03.webp" class="w-full h-auto rounded-2xl shadow-md mb-8" alt="インタビュー写真2">
 
-            <p class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6">💡 UTANへの質問</p>
+            <p class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6">🐱 UTANへの質問</p>
 
             <div class="space-y-6 mb-12">
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q7. UTANさんはEGU企画の歌みたとして「ようこそジャパリパークへ」にも参加されていましたが、あのときと比べて今回はどんな違いや成長を感じましたか？</p>
-                    <p class="text-slate-500 leading-loose text-sm"></p>
+                    <p class="text-slate-500 leading-loose text-sm">ジャパリパークは「元気で可愛い！無邪気！」っていうのを意識して歌っていましたが、今回先述のとおり「全力で可愛さを遂行する！」って感じだったので、そこが違いかな！ありえない程に媚びボイスをお見舞いさせていただいたぞ！</p>
                 </div>
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q8. こまつちまさんと一緒に歌ってみて、どうでしたか？意外だったことや発見はありましたか？</p>
-                    <p class="text-slate-500 leading-loose text-sm"></p>
+                    <p class="text-slate-500 leading-loose text-sm">komatsuに個人的に修正して貰いたい箇所があって、それを伝えるのを最初「嫌な気持ちにさせちゃうかな」と思いつつ伝えた所、素直に「わかった！」って言ってくれて！私はチョロ女なので、「素直に聞いてくれるの嬉し....私のこと好きなの？」頭の中それで埋め尽くされました。<br><br>はい！ここで！個人的！komatsu好きな発表～～～～～！
+「Bメロのだって今日はグッドメンタル🎶ってちょっと音符ついてそうな語尾の付け方」「終わってんねの蔑みボイス（かかせない）」「サビの手と手が触れての"れ"のふんわりした言い方」←わかるくない？わかれ</p>
                 </div>
 
             </div>
 
-            <!-- 💡 こまつちまへの質問 -->
-            <img src="./img/news/NEWS-13-12.webp" class="w-full h-auto rounded-2xl shadow-md mb-8" alt="インタビュー写真2">
+            <!-- 🐰 こまつちまへの質問 -->
+            <img src="./img/news/NEWS-20-04.webp" class="w-full h-auto rounded-2xl shadow-md mb-8" alt="インタビュー写真3">
 
-            <p class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6">💡 こまつちまへの質問</p>
+            <p class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6">🐰 こまつちまへの質問</p>
 
             <div class="space-y-6 mb-12">
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q9. こまつちまさんはEGU歌みた企画への参加は今回が初めてですが、参加が決まったときはどんな気持ちでしたか？</p>
-                    <p class="text-slate-500 leading-loose text-sm"></p>
+                    <p class="text-slate-500 leading-loose text-sm">私も大好きなジャパリパーク歌みたに続く2本目の歌みた企画に呼んでいただいて、とても光栄でしたし、同時に少しプレッシャーでした。</p>
                 </div>
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q10. UTANさんとのコンビで歌ってみて、合わせるうえで意識したことや感じたことはありましたか？</p>
-                    <p class="text-slate-500 leading-loose text-sm"></p>
+                    <p class="text-slate-500 leading-loose text-sm">うたんは「どうしたらもっと良く聴こえるか」をちゃんと考えて歌ってる人だなと感じました。「良くしたい」気持ちに私も引っ張ってもらった気がしています。</p>
                 </div>
 
             </div>
 
             <!--🎶 締めの共通質問-->
-            <img src="./img/news/NEWS-13-11.webp" class="w-full h-auto rounded-2xl shadow-md mb-8" alt="インタビュー写真1">
+            <img src="./img/news/NEWS-20-05.webp" class="w-full h-auto rounded-2xl shadow-md mb-8" alt="インタビュー写真4">
 
             <p class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-6">🎶 締めの共通質問</p>
 
@@ -2789,14 +2792,14 @@ const newsContent = [
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q11. 完成したPVと歌を見て・聴いて、率直にどんな感想を持ちましたか？</p>
-                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">UTAN：</strong>（ここに回答が入ります）</p>
-                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">こまつちま：</strong>（ここに回答が入ります）</p>
+                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">UTAN：</strong>いや、トッサノさんってMV作るの3回目だけど、どんどん進化していくのがすごく見ていて！向上心の塊で素晴らしい！全部可愛い！<br>もっと上手くなって、有償依頼とか始めて、俺等EGUを養っていってください。ありがとう！お疲れ様！</p>
+                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">こまつちま：</strong>一人での収録だったのでMIXされて出てきた時は感激しました。PVはたくさん小ネタが詰め込まれてて思い出が詰まったような作品でした。すばらしい歌と動画を作ってくださって本当に感謝しています。</p>
                 </div>
 
                 <div class="bg-slate-50 rounded-2xl border border-slate-100 p-6">
                     <p class="font-bold text-slate-700 mb-3">Q12. 最後に、この動画を見てくれる視聴者の方々へひとことどうぞ！</p>
-                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">UTAN：</strong>（ここに回答が入ります）</p>
-                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">こまつちま：</strong>（ここに回答が入ります）</p>
+                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">UTAN：</strong>全米が待望した2人の歌ってみた、いっぱい聞いてくれよな🫵<br>ぜひコメントと高評価忘れずに～</p>
+                    <p class="text-slate-500 leading-loose text-sm"><strong class="text-slate-700">こまつちま：</strong>みんなで頑張って作ったのでぜひぜひたくさん観てください！！</p>
                 </div>
 
             </div>
@@ -2825,6 +2828,12 @@ const newsContent = [
                         ★EGUあにまるず 歌ってみた「ようこそジャパリパークへ」<br>
                         <a href="https://www.youtube.com/watch?v=gLAd9EQtDpc" target="_blank" class="text-primary underline">
                             https://www.youtube.com/watch?v=gLAd9EQtDpc
+                        </a>
+                    </li>
+                    <li>
+                        ★敗北の少年　cover【LV.1 / エルべードットワン】<br>
+                        <a href="https://youtu.be/ciwRMaYYddI" target="_blank" class="text-primary underline break-all">
+                        https://youtu.be/ciwRMaYYddI
                         </a>
                     </li>
                 </ul>
