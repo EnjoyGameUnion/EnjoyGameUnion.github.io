@@ -2640,10 +2640,10 @@ const newsContent = [
   {
     id: 20,
     title: "歌ってみた動画『だいしきゅーだいしゅき』公開！",
-    date: "2026.07.11",
+    date: "2026.07.12",
     tag: "動画更新",
     thumb: "./img/news/NEWS-20-01.webp",
-    body: `<img src="./img/news/NEWS-20-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="動画タイトルをここに記入">
+    body: `<img src="./img/news/NEWS-20-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="【歌ってみた】だいしきゅーだいしゅき / うーこま【UTAN×こまつちま】">
 
         <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
             UTAN×こまつちま 歌ってみた動画公開！
@@ -2652,7 +2652,7 @@ const newsContent = [
         <p class="mb-6 text-slate-600 leading-loose">
             EGUメンバーのUTANとこまつちまによる歌ってみた「だいしきゅーだいしゅき」を公開しました！<br>
             女性2人の息の合ったハーモニーと掛け合いをぜひお楽しみください。<br>
-            今回の記事では、公開を記念してお二人とPV制作を担当したトッサノにインタビューを実施しました。<br>
+            今回の記事では、公開を記念してお二人にインタビューを実施しました。<br>
             制作の裏側や見どころを語っていただきましたので、動画とあわせてぜひご覧ください。
         </p>
 
@@ -2660,8 +2660,8 @@ const newsContent = [
         <div class="aspect-video w-full mb-8">
             <iframe
                 class="w-full h-full rounded-3xl shadow-2xl"
-                src="https://www.youtube.com/embed/kaTd-SR4yp4?rel=0"
-                title="【EnjoyGameUnion!!】企画&メンバー紹介PV"
+                src="https://www.youtube.com/embed/cJRmxXPRFqo?rel=0"
+                title="【歌ってみた】だいしきゅーだいしゅき / うーこま【UTAN×こまつちま】"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen>
@@ -2682,6 +2682,7 @@ const newsContent = [
 
         <h3 class="text-xl font-bold mb-4">◆イラスト</h3>
         <ul class="mb-8 text-slate-600 leading-loose list-disc list-inside">
+            <li>サムネイラスト：こまつちま　<a href="https://x.com/komatsu_chiii" target="_blank" class="text-primary underline">https://x.com/komatsu_chiii</a></li>
             <li>SDイラスト：よく寝るかれん　<a href="https://x.com/yokuneru_x" target="_blank" class="text-primary underline">https://x.com/yokuneru_x</a></li>
             <li>タイトルロゴ / 一部映像素材：吉森いさ　<a href="https://x.com/yoshimori_isa" target="_blank" class="text-primary underline">https://x.com/yoshimori_isa</a></li>
         </ul>
