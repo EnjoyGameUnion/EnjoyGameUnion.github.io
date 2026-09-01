@@ -2855,7 +2855,7 @@ const newsContent = [
                 </ul>
             </div>
         </div>`,
-    },
+  },
   
   {
     id: 21, 
