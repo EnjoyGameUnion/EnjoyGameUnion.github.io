@@ -2855,7 +2855,168 @@ const newsContent = [
                 </ul>
             </div>
         </div>`,
-  },
+    },
+  
+  {
+    id: 21, 
+    title: "【特別インタビュー】すふれさんに聞く「踊ってみた」ショート動画の裏側！",
+    date: "2026.09.02",
+    tag: "活動報告",
+    thumb: "a", // ※適切な画像のパスに変更
+    body: `<img src="./img/news/NEWS-21-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="アイキャッチ">
+        
+        <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
+            すふれさんにインタビュー！VRChatでの「踊ってみた」の裏側を大公開！
+        </h3>
+        
+        <p class="mb-6 text-slate-600 leading-loose">
+            EGUのYouTubeチャンネルで大好評の「踊ってみた」ショート動画シリーズ。キュートなアバターとキレのあるダンスで視聴者を魅了するパフォーマーの<strong>すふれさん</strong>に、特別インタビューを実施しました！<br>
+            ダンスを始めたきっかけから、VR（フルトラッキング）ならではの苦労、そして撮影の裏話まで、たっぷりとお話を伺いました。
+        </p>
+
+        <!-- インタビューセクション1 -->
+        <h3 class="text-xl font-bold text-slate-800 mb-4 bg-slate-100 p-3 rounded-lg flex items-center gap-2 mt-10">
+            <span class="text-2xl">✨</span> ダンスを始めたきっかけ
+        </h3>
+        <div class="space-y-4 mb-8">
+            <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                    <span class="text-primary text-lg mr-1">Q1.</span>これまでたくさんの「踊ってみた」ショート動画を投稿されていますが、そもそもVRChat内でダンス動画を撮り始めたきっかけは何でしたか？
+                </p>
+                <div class="text-slate-600 leading-loose text-sm sm:text-base bg-pink-50 p-4 rounded-lg border-l-4 border-pink-300">
+                    EGUの他のみんなが動画とかあげてたから、私もなにかしてみたい！って思って踊ってみたを初めて見たの！
+                </div>
+            </div>
+
+            <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                    <span class="text-primary text-lg mr-1">Q2.</span>そもそも、すふれさんはVRChatを始める前からダンス経験があったのでしょうか？それともVR空間に来てからダンスの楽しさに目覚めたのでしょうか？
+                </p>
+                <div class="text-slate-600 leading-loose text-sm sm:text-base bg-pink-50 p-4 rounded-lg border-l-4 border-pink-300">
+                    んー、そうね！ダンスの経験自体はないけど、元々体動かしたりは好きだったからやり始めたーって言うのと、咄嗟のさんから良かったらダンスとかどうですかーってお声かけしてもらったからかなー？
+                </div>
+            </div>
+        </div>
+
+        <!-- インタビューセクション2 -->
+        <h3 class="text-xl font-bold text-slate-800 mb-4 bg-slate-100 p-3 rounded-lg flex items-center gap-2 mt-10">
+            <span class="text-2xl">💃</span> VRChatダンスの裏側
+        </h3>
+        <div class="space-y-4 mb-8">
+            <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                    <span class="text-primary text-lg mr-1">Q3.</span>現実のダンスとは違う、VRChatのフルトラならではの難しさはありますか？
+                </p>
+                <div class="text-slate-600 leading-loose text-sm sm:text-base bg-pink-50 p-4 rounded-lg border-l-4 border-pink-300">
+                    そうねーまずは、やっぱり、フルトラをつけてる数が少ないから、こう、腕とか、足とか、曲げた時に、思ったように動かないところとかが難しいかなー？
+                </div>
+            </div>
+
+            <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                    <span class="text-primary text-lg mr-1">Q4.</span>動画を見ると、ダンスのキレはもちろんですが、表情もコロコロ変わってとても可愛いです！踊りながら意識していることはありますか？
+                </p>
+                <div class="text-slate-600 leading-loose text-sm sm:text-base bg-pink-50 p-4 rounded-lg border-l-4 border-pink-300">
+                    そーなの！ひょうじょーはね、頑張っていじってたり、ダンス中にコロコロ変えるとこで「変えるならここだー！！」って感じ！でやってるよー
+                </div>
+            </div>
+
+            <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                    <span class="text-primary text-lg mr-1">Q5.</span>動画ごとにアバターの衣装や雰囲気が少しずつ違いますが、ダンス動画を撮る際のアバター改変でこだわっているポイントはありますか？
+                </p>
+                <div class="text-slate-600 leading-loose text-sm sm:text-base bg-pink-50 p-4 rounded-lg border-l-4 border-pink-300">
+                    うんうん、やっぱり、その動画とか元のものに合いそうな、私なりの「これっぽい！」みたいなのとかを、咄嗟のさんとかと相談して決めてるのがポイントになるのかな？
+                </div>
+            </div>
+        </div>
+
+        <!-- インタビューセクション3 -->
+        <h3 class="text-xl font-bold text-slate-800 mb-4 bg-slate-100 p-3 rounded-lg flex items-center gap-2 mt-10">
+            <span class="text-2xl">🎬</span> 一番苦労した動画は？
+        </h3>
+        <div class="space-y-4 mb-8">
+            <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                    <span class="text-primary text-lg mr-1">Q6.</span>これまで撮影した中で、一番テイクを重ね、苦労した動画や、撮影中の面白かったハプニングがあれば教えてください！
+                </p>
+                <div class="text-slate-600 leading-loose text-sm sm:text-base bg-pink-50 p-4 rounded-lg border-l-4 border-pink-300">
+                    ジャパリパークだよ！ほかのダンスは、咄嗟のさんの編集で無理やりやれてる感？あるけど、ジャパリパークの時は繋げる動きが多くて、そこまでを通しでやらなきゃなのがホント大変だったー！
+                </div>
+            </div>
+
+            <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                    <span class="text-primary text-lg mr-1">Q7.</span>これまで踊ってきた中で、「この選曲、ダンスは鬼畜すぎる！」と一番苦戦したダンスはどれですか？
+                </p>
+                <div class="text-slate-600 leading-loose text-sm sm:text-base bg-pink-50 p-4 rounded-lg border-l-4 border-pink-300">
+                    そうねーやっぱり、さっきの質問の時にしちゃったのに似ちゃうけど、少し長めの通しで踊る系は、今の私にはまだ難しいかなーって感じ！なんせ、お外にも出ないから、体が弱すぎて笑
+                </div>
+            </div>
+        </div>
+
+        <p class="mb-4 text-slate-600 font-bold">▼ すふれさんが大苦戦したという「ジャパリパーク」の動画はこちら！</p>
+        <div class="aspect-video w-full mb-10">
+            <iframe 
+                class="w-full h-full rounded-3xl shadow-2xl" 
+                src="https://www.youtube.com/embed/i_FqvaglHiY?rel=0"
+                title="すふれがジャパリパーク踊ってみた！" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <!-- インタビューセクション4 -->
+        <h3 class="text-xl font-bold text-slate-800 mb-4 bg-slate-100 p-3 rounded-lg flex items-center gap-2 mt-10">
+            <span class="text-2xl">🌟</span> これからの目標とメッセージ
+        </h3>
+        <div class="space-y-4 mb-8">
+            <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                    <span class="text-primary text-lg mr-1">Q8.</span>今後、「こんな曲に挑戦してみたい！」という野望、希望はありますか？
+                </p>
+                <div class="text-slate-600 leading-loose text-sm sm:text-base bg-pink-50 p-4 rounded-lg border-l-4 border-pink-300">
+                    あるにはあるけど、ダンスかって言われると、どうなんだろって感じ！笑<br>
+                    （あのいっとき流行ったラビットホールね！Xに上がってるような、絵のタイプのやつ！）
+                </div>
+            </div>
+
+            <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                    <span class="text-primary text-lg mr-1">Q9.</span>今後、一緒に踊りたい人とかはいますか？
+                </p>
+                <div class="text-slate-600 leading-loose text-sm sm:text-base bg-pink-50 p-4 rounded-lg border-l-4 border-pink-300">
+                    えー誰だろ、笑<br>
+                    ←この質問は、どうだろ、私には答えにくいかも、あんまりぶいちゃで人に絡みに行ってないから、、笑<br>
+                    ごめんね！
+                </div>
+            </div>
+
+            <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                    <span class="text-primary text-lg mr-1">Q10.</span>最後に、いつもショート動画を見てくれている視聴者の皆さんにメッセージをお願いします！
+                </p>
+                <div class="text-slate-600 leading-loose text-sm sm:text-base bg-pink-50 p-4 rounded-lg border-l-4 border-pink-300">
+                    そ、そうね…みんなに、、んー、笑<br>
+                    ココ最近あげれてないけど、ちょこちょこストレッチなんかもやって、続けていけたらなーって……<br>
+                    これからも、応援してくれると！うれしい！よ！
+                </div>
+            </div>
+        </div>
+        
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+            <p class="text-sm font-bold text-slate-500 mb-2 uppercase tracking-widest">YouTube Channel Info</p>
+            <p class="mb-4 text-slate-600">
+                すふれさんの今後の活躍をお見逃しなく！過去の動画や新作ショート動画は、EGU公式YouTubeチャンネルからご覧いただけます。
+            </p>
+            <ul class="space-y-2 text-slate-600">
+                <li>◆EnjoyGameUnion!! YouTubeチャンネル<br>
+                    <a href="https://www.youtube.com/@EnjoyGameUnion" target="_blank" class="text-primary underline break-all">https://www.youtube.com/@EnjoyGameUnion</a>
+                </li>
+            </ul>
+        </div>`,
+},
 
   /* ===投稿テンプレ=== */
   // {
