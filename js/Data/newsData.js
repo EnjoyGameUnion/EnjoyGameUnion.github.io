@@ -2856,14 +2856,13 @@ const newsContent = [
             </div>
         </div>`,
   },
-  
   {
     id: 21, 
-    title: "【特別インタビュー】すふれさんに聞く「踊ってみた」ショート動画の裏側！",
+    title: "【インタビュー】すふれさんに聞く「踊ってみた」ショート動画の裏側！",
     date: "2026.09.02",
     tag: "活動報告",
-    thumb: "a", // ※適切な画像のパスに変更
-    body: `<img src="./img/news/NEWS-21-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg" alt="アイキャッチ">
+    thumb: "./img/news/NEWS-21-01.webp",
+    body: `<img src="./img/news/NEWS-21-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg object-cover" alt="アイキャッチ：すふれ">
         
         <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
             すふれさんにインタビュー！VRChatでの「踊ってみた」の裏側を大公開！
@@ -2930,7 +2929,9 @@ const newsContent = [
                 </div>
             </div>
         </div>
-
+        <div class="mb-10 rounded-3xl overflow-hidden shadow-lg">
+            <img src="./img/news/NEWS-21-02.webp" class="w-full h-auto object-cover max-h-[500px]" alt="すふれさんスナップ1">
+        </div>
         <!-- インタビューセクション3 -->
         <h3 class="text-xl font-bold text-slate-800 mb-4 bg-slate-100 p-3 rounded-lg flex items-center gap-2 mt-10">
             <span class="text-2xl">🎬</span> 一番苦労した動画は？
@@ -2954,6 +2955,9 @@ const newsContent = [
                 </div>
             </div>
         </div>
+        <div class="mb-8 rounded-3xl overflow-hidden shadow-lg">
+            <img src="./img/news/NEWS-21-03.webp" class="w-full h-auto object-cover max-h-[500px]" alt="すふれさんスナップ2">
+        </div>
 
         <p class="mb-4 text-slate-600 font-bold">▼ すふれさんが大苦戦したという「ジャパリパーク」の動画はこちら！</p>
         <div class="aspect-video w-full mb-10">
@@ -2966,7 +2970,6 @@ const newsContent = [
                 allowfullscreen>
             </iframe>
         </div>
-
         <!-- インタビューセクション4 -->
         <h3 class="text-xl font-bold text-slate-800 mb-4 bg-slate-100 p-3 rounded-lg flex items-center gap-2 mt-10">
             <span class="text-2xl">🌟</span> これからの目標とメッセージ
@@ -3004,7 +3007,10 @@ const newsContent = [
                 </div>
             </div>
         </div>
-        
+        <div class="mb-10 flex justify-center">
+            <img src="./img/news/NEWS-21-04.webp" class="w-full max-w-md h-auto rounded-3xl shadow-lg" alt="すふれさんスナップ4">
+        </div>
+
         <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
             <p class="text-sm font-bold text-slate-500 mb-2 uppercase tracking-widest">YouTube Channel Info</p>
             <p class="mb-4 text-slate-600">
@@ -3016,8 +3022,7 @@ const newsContent = [
                 </li>
             </ul>
         </div>`,
-},
-
+  }
   /* ===投稿テンプレ=== */
   // {
   //     id: ,
