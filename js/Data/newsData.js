@@ -2859,7 +2859,7 @@ const newsContent = [
   {
     id: 21, 
     title: "【インタビュー】すふれさんに聞く「踊ってみた」ショート動画の裏側！",
-    date: "2026.09.02",
+    date: "2026.09.09",
     tag: "活動報告",
     thumb: "./img/news/NEWS-21-01.webp",
     body: `<img src="./img/news/NEWS-21-01.webp" class="w-full h-auto aspect-square rounded-3xl mb-8 shadow-lg object-cover" alt="アイキャッチ：すふれ">
