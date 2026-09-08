@@ -2862,7 +2862,7 @@ const newsContent = [
     date: "2026.09.02",
     tag: "活動報告",
     thumb: "./img/news/NEWS-21-01.webp",
-    body: `<img src="./img/news/NEWS-21-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg object-cover" alt="アイキャッチ：すふれ">
+    body: `<img src="./img/news/NEWS-21-01.webp" class="w-full h-auto aspect-square rounded-3xl mb-8 shadow-lg object-cover" alt="アイキャッチ：すふれ">
         
         <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
             すふれさんにインタビュー！VRChatでの「踊ってみた」の裏側を大公開！
