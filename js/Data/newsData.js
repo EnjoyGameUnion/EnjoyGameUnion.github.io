@@ -3022,7 +3022,182 @@ const newsContent = [
                 </li>
             </ul>
         </div>`,
-  }
+  },
+  {
+    id: 22,
+    title: "【新企画】お絵描き雑談配信「こまつの自由帳」スタート！こまつさん特別インタビュー",
+    date: "2026.10.14",
+    tag: "活動報告",
+    thumb: "./img/news/NEWS-22-01.webp",
+    body: `<img src="./img/news/NEWS-22-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg object-cover" alt="アイキャッチ：こまつの自由帳">
+        
+        <h3 class="text-2xl font-bold text-slate-900 mb-4 border-l-4 border-primary pl-4">
+            新番組「こまつの自由帳」が始動！パーソナリティのこまつさんに突撃インタビュー！
+        </h3>
+        
+        <p class="mb-6 text-slate-600 leading-loose">
+            EGUのYouTubeチャンネルにて、新企画<strong>「こまつの自由帳」</strong>の配信がスタートしました！<br>
+            パーソナリティのこまつさんが、ゲストと共にお絵描きチャットをしながら雑談を繰り広げるこの番組。企画誕生の裏話やイラストへのこだわり、そして新番組への意気込みをこまつさんにたっぷりと伺いました！<br>
+            <span class="text-sm text-slate-500 font-bold">※本インタビューは第1回配信前に回答していただいたものです。</span>
+        </p>
+
+        <!-- インタビューセクション1 -->
+        <h3 class="text-xl font-bold text-slate-800 mb-4 bg-slate-100 p-3 rounded-lg flex items-center gap-2 mt-10">
+            <span class="text-2xl">📖</span> 新企画スタートのきっかけと意気込み
+        </h3>
+        <div class="space-y-4 mb-8">
+            <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                    <span class="text-primary text-lg mr-1">Q1.</span>新企画の配信「こまつの自由帳」がスタートするとのことですが、そもそもこの企画をやろうとなったきっかけは何でしたか？
+                </p>
+                <div class="text-slate-600 leading-loose text-sm sm:text-base bg-emerald-50 p-4 rounded-lg border-l-4 border-emerald-400">
+                    フレ＋ラジオを終えたトッサノさんからいきなり「レギュラー番組やりませんか？」との無茶ぶり！！そうﾄｯｻﾉﾉｾｲです！！<br>
+                    自分にできることを考えた結果、やっぱり絵かなと思ってこの企画になりました。
+                </div>
+            </div>
+
+            <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                    <span class="text-primary text-lg mr-1">Q2.</span>こまつさんは元々個人でもお絵描き配信をされていますが、今回のゲストと一緒にお絵描きチャットをするという形式は、いままでの配信と比べてどんなところが一番違いそうですか？
+                </p>
+                <div class="text-slate-600 leading-loose text-sm sm:text-base bg-emerald-50 p-4 rounded-lg border-l-4 border-emerald-400">
+                    話し相手がコメントだけじゃないことですかね。もちろんいつも使うソフトじゃないことがツールとしては一番違いますが、こと雑談に関してはやっぱりリアルタイムでの会話の方がスムーズかなと！<br>
+                    普段はコメントを読み上げるスタイルなので、かなり新鮮です！
+                </div>
+            </div>
+
+            <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                    <span class="text-primary text-lg mr-1">Q3.</span>ゲストと雑談しながら、絵を描くのって「手と口を両方動かす」ということなので結構大変そうに思われるのですが、自信のほどはいかがですか？
+                </p>
+                <div class="text-slate-600 leading-loose text-sm sm:text-base bg-emerald-50 p-4 rounded-lg border-l-4 border-emerald-400">
+                    これ実はちょっと自信あったんですが、私のおえかき雑談配信を観てくれたフレンドさん達からよく「手が止まってる」って言われてたんですよね。気付かなかった…頑張ります！
+                </div>
+            </div>
+        </div>
+
+        <!-- 途中の差し込み画像1（キャンバスに向かう姿） -->
+        <div class="mb-10 rounded-3xl overflow-hidden shadow-lg">
+            <img src="./img/news/NEWS-22-03.webp" class="w-full h-auto object-cover max-h-[500px]" alt="こまつさん アトリエ風景1">
+        </div>
+
+        <!-- インタビューセクション2 -->
+        <h3 class="text-xl font-bold text-slate-800 mb-4 bg-slate-100 p-3 rounded-lg flex items-center gap-2 mt-10">
+            <span class="text-2xl">🎨</span> アバターとイラストへのこだわり
+        </h3>
+        <div class="space-y-4 mb-8">
+            <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                    <span class="text-primary text-lg mr-1">Q4.</span>ご自身のアバターを改変する際と、キャンバスにイラストとしてアバターを描き起こす際で、楽しさの違いやこだわり方の違いはありますか？
+                </p>
+                <div class="text-slate-600 leading-loose text-sm sm:text-base bg-emerald-50 p-4 rounded-lg border-l-4 border-emerald-400">
+                    アバター改変がそもそも苦手…というかUnityが苦手なので、おえかきツールになるとすごく安心している自分がいます。改変は模倣の域を出ないですね。<br>
+                    もちろん絵もまだまだそうなんですけど、自分がやりたいようにやってる感じがあります。
+                </div>
+            </div>
+
+            <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                    <span class="text-primary text-lg mr-1">Q5.</span>こまつさんが普段絵を描く時に「ここだけはこだわっている！」というポイントがあれば教えてください。
+                </p>
+                <div class="text-slate-600 leading-loose text-sm sm:text-base bg-emerald-50 p-4 rounded-lg border-l-4 border-emerald-400">
+                    雰囲気作りです。「その空間にいたら」を想像して描こうと思ってます。いつも苦戦してます。
+                </div>
+            </div>
+        </div>
+
+        <!-- 途中の差し込み画像2（雰囲気のある風景と色鉛筆） -->
+        <div class="mb-10 rounded-3xl overflow-hidden shadow-lg">
+            <img src="./img/news/NEWS-22-02.webp" class="w-full h-auto object-cover max-h-[500px]" alt="こまつさん アトリエ風景2">
+        </div>
+
+        <!-- インタビューセクション3 -->
+        <h3 class="text-xl font-bold text-slate-800 mb-4 bg-slate-100 p-3 rounded-lg flex items-center gap-2 mt-10">
+            <span class="text-2xl">🦊</span> 第1回のテーマ「マヌカ」ちゃんについて
+        </h3>
+        <div class="space-y-4 mb-8">
+            <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                    <span class="text-primary text-lg mr-1">Q6.</span>記念すべき第1回のテーマは人気アバターの「マヌカ」ちゃんになる予定と伺いました！こまつさんから見たマヌカちゃんの魅力のポイントはどこでしょうか？
+                </p>
+                <div class="text-slate-600 leading-loose text-sm sm:text-base bg-emerald-50 p-4 rounded-lg border-l-4 border-emerald-400">
+                    目がぱっちりキラキラで、でも若干目尻が下がっていたりして。<br>
+                    おっとりしているように見えて自分らしさを貫く元気っ子なイメージがあります。ギャップ大好き人間なので、そういう所に魅力を感じます。
+                </div>
+            </div>
+
+            <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                    <span class="text-primary text-lg mr-1">Q7.</span>今回描いていくにあたって、「ここを描くのが楽しみ！」というポイントはありますか？
+                </p>
+                <div class="text-slate-600 leading-loose text-sm sm:text-base bg-emerald-50 p-4 rounded-lg border-l-4 border-emerald-400">
+                    やっぱりお顔ですね、特に目。マヌカちゃんらしさを出せれば嬉しいです！
+                </div>
+            </div>
+        </div>
+
+        <!-- インタビューセクション4 -->
+        <h3 class="text-xl font-bold text-slate-800 mb-4 bg-slate-100 p-3 rounded-lg flex items-center gap-2 mt-10">
+            <span class="text-2xl">🌟</span> これからの野望と視聴者へのメッセージ
+        </h3>
+        <div class="space-y-4 mb-10">
+            <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                    <span class="text-primary text-lg mr-1">Q8.</span>今後、「このアバターを描いてみたい！」「こんなゲストを呼んでみたい！」という希望や野望はありますか？
+                </p>
+                <div class="text-slate-600 leading-loose text-sm sm:text-base bg-emerald-50 p-4 rounded-lg border-l-4 border-emerald-400">
+                    アバターはまだ決まってないのですが、EGUのクリエイターのメンバーは全員お呼びしてお話したいと思ってます。1対1で話せる機会もあまりないのでとても楽しみです。
+                </div>
+            </div>
+
+            <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                    <span class="text-primary text-lg mr-1">Q9.</span>配信を見てくれる視聴者さんには、この「こまつの自由帳」をどんな風に楽しんでほしいですか？
+                </p>
+                <div class="text-slate-600 leading-loose text-sm sm:text-base bg-emerald-50 p-4 rounded-lg border-l-4 border-emerald-400">
+                    配信内で絵を完成させなければいけないので雑談しながらもかなり切羽詰まったような配信になるような気がしています。どうか成長を見守るような暖かい目で観ていただければなと思います。
+                </div>
+            </div>
+
+            <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
+                <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
+                    <span class="text-primary text-lg mr-1">Q10.</span>最後に、配信を楽しみにしているリスナーの皆さんへメッセージをお願いします！
+                </p>
+                <div class="text-slate-600 leading-loose text-sm sm:text-base bg-emerald-50 p-4 rounded-lg border-l-4 border-emerald-400">
+                    手か口かどっちか動いてなくても許してくれよな！自由帳1ページ目！頑張ります！
+                </div>
+            </div>
+        </div>
+
+        <p class="mb-4 text-slate-600 font-bold">▼ 「こまつの自由帳」第1回のアーカイブ動画はこちら！</p>
+        <div class="aspect-video w-full mb-10">
+            <iframe 
+                class="w-full h-full rounded-3xl shadow-2xl" 
+                src="https://www.youtube.com/embed/QFHYp6CE1Xo?rel=0"
+                title="こまつの自由帳 第1回" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+            <p class="text-sm font-bold text-slate-500 mb-2 uppercase tracking-widest">Creator & Channel Info</p>
+            <p class="mb-4 text-slate-600">
+                新企画「こまつの自由帳」第1回はEGU公式YouTubeチャンネルにて配信されました！こまつさんとゲストが織りなすトークと、リアルタイムで出来上がっていくイラストの様子をアーカイブでぜひお楽しみください！
+            </p>
+            <ul class="space-y-4 text-slate-600">
+                <li>
+                    <span class="font-bold text-slate-700">◆こまつ X (Twitter)</span><br>
+                    <a href="https://x.com/komatsu_chiii" target="_blank" class="text-primary underline break-all">https://x.com/komatsu_chiii</a>
+                </li>
+                <li>
+                    <span class="font-bold text-slate-700">◆EnjoyGameUnion!! YouTubeチャンネル</span><br>
+                    <a href="https://www.youtube.com/@EnjoyGameUnion" target="_blank" class="text-primary underline break-all">https://www.youtube.com/@EnjoyGameUnion</a>
+                </li>
+            </ul>
+        </div>`,
+  },
   /* ===投稿テンプレ=== */
   // {
   //     id: ,
