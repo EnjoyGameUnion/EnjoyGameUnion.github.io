@@ -3026,7 +3026,7 @@ const newsContent = [
   {
     id: 22,
     title: "【新企画】お絵描き雑談配信「こまつの自由帳」スタート！こまつさん特別インタビュー",
-    date: "2026.10.10",
+    date: "2026.10.14",
     tag: "活動報告",
     thumb: "./img/news/NEWS-22-01.webp",
     body: `<img src="./img/news/NEWS-22-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg object-cover" alt="アイキャッチ：こまつの自由帳">
