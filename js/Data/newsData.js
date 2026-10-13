@@ -3022,11 +3022,11 @@ const newsContent = [
                 </li>
             </ul>
         </div>`,
-   },
-   {
+  },
+  {
     id: 22,
     title: "【新企画】お絵描き雑談配信「こまつの自由帳」スタート！こまつさん特別インタビュー",
-    date: "2026.10.13",
+    date: "2026.10.10",
     tag: "活動報告",
     thumb: "./img/news/NEWS-22-01.webp",
     body: `<img src="./img/news/NEWS-22-01.webp" class="w-full h-auto rounded-3xl mb-8 shadow-lg object-cover" alt="アイキャッチ：こまつの自由帳">
@@ -3036,8 +3036,9 @@ const newsContent = [
         </h3>
         
         <p class="mb-6 text-slate-600 leading-loose">
-            EGUのYouTubeチャンネルにて、新企画<strong>「こまつの自由帳」</strong>の配信がスタートします！<br>
-            パーソナリティのこまつさんが、ゲストと共にお絵描きチャットをしながら雑談を行うこの番組。記念すべき第1回の配信に際して、企画誕生の裏話やイラストへのこだわり、そして新番組への意気込みをこまつさんにたっぷりと伺いました！
+            EGUのYouTubeチャンネルにて、新企画<strong>「こまつの自由帳」</strong>の配信がスタートしました！<br>
+            パーソナリティのこまつさんが、ゲストと共にお絵描きチャットをしながら雑談を繰り広げるこの番組。企画誕生の裏話やイラストへのこだわり、そして新番組への意気込みをこまつさんにたっぷりと伺いました！<br>
+            <span class="text-sm text-slate-500 font-bold">※本インタビューは第1回配信前に回答していただいたものです。</span>
         </p>
 
         <!-- インタビューセクション1 -->
@@ -3139,7 +3140,7 @@ const newsContent = [
         <h3 class="text-xl font-bold text-slate-800 mb-4 bg-slate-100 p-3 rounded-lg flex items-center gap-2 mt-10">
             <span class="text-2xl">🌟</span> これからの野望と視聴者へのメッセージ
         </h3>
-        <div class="space-y-4 mb-8">
+        <div class="space-y-4 mb-10">
             <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-sm">
                 <p class="font-bold text-slate-700 mb-3 text-sm sm:text-base leading-relaxed">
                     <span class="text-primary text-lg mr-1">Q8.</span>今後、「このアバターを描いてみたい！」「こんなゲストを呼んでみたい！」という希望や野望はありますか？
@@ -3168,18 +3169,35 @@ const newsContent = [
             </div>
         </div>
 
+        <p class="mb-4 text-slate-600 font-bold">▼ 「こまつの自由帳」第1回のアーカイブ動画はこちら！</p>
+        <div class="aspect-video w-full mb-10">
+            <iframe 
+                class="w-full h-full rounded-3xl shadow-2xl" 
+                src="https://www.youtube.com/embed/QFHYp6CE1Xo?rel=0"
+                title="こまつの自由帳 第1回" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe>
+        </div>
+
         <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
-            <p class="text-sm font-bold text-slate-500 mb-2 uppercase tracking-widest">YouTube Channel Info</p>
+            <p class="text-sm font-bold text-slate-500 mb-2 uppercase tracking-widest">Creator & Channel Info</p>
             <p class="mb-4 text-slate-600">
-                新企画「こまつの自由帳」はEGU公式YouTubeチャンネルにて配信されます。こまつさんとゲストが織りなすトークと、リアルタイムで出来上がっていくイラストをぜひお楽しみに！
+                新企画「こまつの自由帳」第1回はEGU公式YouTubeチャンネルにて配信されました！こまつさんとゲストが織りなすトークと、リアルタイムで出来上がっていくイラストの様子をアーカイブでぜひお楽しみください！
             </p>
-            <ul class="space-y-2 text-slate-600">
-                <li>◆EnjoyGameUnion!! YouTubeチャンネル<br>
+            <ul class="space-y-4 text-slate-600">
+                <li>
+                    <span class="font-bold text-slate-700">◆こまつ X (Twitter)</span><br>
+                    <a href="https://x.com/komatsu_chiii" target="_blank" class="text-primary underline break-all">https://x.com/komatsu_chiii</a>
+                </li>
+                <li>
+                    <span class="font-bold text-slate-700">◆EnjoyGameUnion!! YouTubeチャンネル</span><br>
                     <a href="https://www.youtube.com/@EnjoyGameUnion" target="_blank" class="text-primary underline break-all">https://www.youtube.com/@EnjoyGameUnion</a>
                 </li>
             </ul>
         </div>`,
-   }
+  },
   /* ===投稿テンプレ=== */
   // {
   //     id: ,
